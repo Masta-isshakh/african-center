@@ -1,0 +1,1388 @@
+{
+  "meta": {
+    "home": {
+      "title": "E-Tendering Platform in Qatar — Construction Tenders",
+      "description": "A Qatari e-tendering platform run by a licensed engineering office in Al Rayyan. We design your villa, tender it and supervise the build. Free for owners."
+    },
+    "owners": {
+      "title": "Build a Villa in Qatar with Your Housing Loan",
+      "description": "Build a villa in Qatar with your approved Housing or QDB loan: design, permit, a tender between registered contractors and supervision to handover. Free."
+    },
+    "contractors": {
+      "title": "Contractor Registration & Construction Bids",
+      "description": "Contractor registration in Qatar: receive designed, permitted construction tenders with clear BOQs, bid online and be evaluated on published criteria."
+    },
+    "suppliers": {
+      "title": "Building Material Suppliers & Supply Tenders",
+      "description": "Register as a building material supplier in Qatar and receive supply tenders from live projects: steel, cement, gabbro, blocks, ready-mix and finishes."
+    },
+    "consultants": {
+      "title": "Site Supervision Consultants in Qatar",
+      "description": "Register your office as a site supervision consultant in Qatar and supervise projects that start with complete documents and clear procedures."
+    },
+    "start": {
+      "title": "Start Your Project — Free",
+      "description": "Send your project brief in three steps: project, plot and loan; requirements; contact details. An engineer calls to arrange the first meeting."
+    },
+    "designs": {
+      "title": "Villa Designs in Qatar — Modern & Classic",
+      "description": "Villa designs in Qatar from a licensed engineering office: modern and classic villa facade designs and practical plans. Request a similar design."
+    },
+    "projects": {
+      "title": "Projects on the Platform",
+      "description": "Follow projects on the ACEC e-tendering platform across Qatar's municipalities, from design and tender to construction and completion."
+    },
+    "materials": {
+      "title": "Building Material Prices in Qatar",
+      "description": "Building material prices in Qatar: rebar, cement, gabbro, washed sand, blocks and ready-mix concrete. An indicative bulletin from the local market."
+    },
+    "faq": {
+      "title": "FAQ — How E-Tendering Works",
+      "description": "How does e-tendering work? What are the tender fees in Qatar? Who obtains the building permit? Clear answers on tendering, design and supervision."
+    },
+    "about": {
+      "title": "About the African Center for Engineering Consultancy",
+      "description": "African Center for Engineering Consultancy: a Qatar-registered engineering office, Reg. {reg}, in architecture and civil, running an e-tendering platform."
+    },
+    "contact": {
+      "title": "Contact Us — Al Rayyan, Doha",
+      "description": "Visit us on Al Shafi Street, Al Rayyan, opposite Dukhan Bank, or call and write. Ask an engineer about your project before you sign with any contractor."
+    },
+    "signIn": {
+      "title": "Sign In",
+      "description": "Sign in to the e-tendering platform as an owner, contractor, supplier or consultant to follow your projects and bids."
+    },
+    "signUp": {
+      "title": "Create an Account",
+      "description": "Create your platform account: contractor, supplier, consultant or project owner registration in Qatar in three steps."
+    },
+    "privacy": {
+      "title": "Privacy Policy",
+      "description": "How the African Center for Engineering Consultancy collects, uses and protects your data when you use the platform."
+    },
+    "terms": {
+      "title": "Terms of Use",
+      "description": "Terms of use of the ACEC e-tendering platform for owners, contractors, suppliers and consultants."
+    },
+    "notFound": {
+      "title": "Page Not Found"
+    }
+  },
+  "common": {
+    "skipToContent": "Skip to content",
+    "currency": "QAR",
+    "ctaStart": "Start your project — free",
+    "ctaStartShort": "Start your project",
+    "ctaRegisterContractor": "Register as a contractor",
+    "signIn": "Sign in",
+    "signUp": "Sign up",
+    "back": "Back",
+    "next": "Next",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "backToTop": "Back to top",
+    "call": "Call",
+    "callUs": "Call us",
+    "home": "Home",
+    "breadcrumb": "Breadcrumb",
+    "loading": "Loading",
+    "sampleBadge": "Sample content",
+    "sampleNote": "Design preview with illustrative data, not real records.",
+    "registrationLine": "Engineering Reg. No. {reg} – {disciplines} – {grade}",
+    "trust": {
+      "label": "Our guarantees",
+      "free": "No fees for owners",
+      "licensed": "Licensed engineering office – Reg. {reg}",
+      "transparent": "Transparent bid opening"
+    },
+    "personas": {
+      "owner": "Owner",
+      "contractor": "Contractor",
+      "supplier": "Supplier",
+      "consultant": "Consultant"
+    },
+    "personasPlural": {
+      "owner": "For owners",
+      "contractor": "For contractors",
+      "supplier": "For suppliers",
+      "consultant": "For consultants"
+    },
+    "municipalities": {
+      "alRayyan": "Al Rayyan",
+      "doha": "Doha",
+      "alWakrah": "Al Wakrah",
+      "ummSalal": "Umm Salal",
+      "alKhor": "Al Khor",
+      "alDaayen": "Al Daayen",
+      "alShamal": "Al Shamal",
+      "alShahaniya": "Al Shahaniya"
+    },
+    "social": {
+      "instagram": "Instagram",
+      "linkedin": "LinkedIn",
+      "x": "X",
+      "youtube": "YouTube",
+      "facebook": "Facebook"
+    },
+    "media": {
+      "logo": "African Center for Engineering Consultancy logo"
+    }
+  },
+  "nav": {
+    "label": "Main navigation",
+    "home": "Home",
+    "how": "How it works",
+    "owners": "Owners",
+    "contractors": "Contractors",
+    "designs": "Designs",
+    "materials": "Material prices",
+    "projects": "Projects",
+    "faq": "FAQ",
+    "contact": "Contact",
+    "languageLabel": "التبديل إلى العربية",
+    "mobileContact": "Talk to us directly"
+  },
+  "whatsapp": {
+    "label": "WhatsApp",
+    "chat": "Chat with us on WhatsApp",
+    "prefill": "Hello, I would like to ask about tendering my project on the African Center for Engineering Consultancy platform.",
+    "prefillBrief": "Hello, I submitted a project brief on the website with reference {reference} and would like to follow it up."
+  },
+  "hero": {
+    "eyebrow": "A Qatari e-tendering platform run by a licensed engineering office",
+    "title": "Design your villa. Tender it. Build it with confidence.",
+    "subtitle": "From your plot and approved housing loan to handover — we design, tender, evaluate contractors and supervise. Free for the owner.",
+    "ctaWatch": "See how it works",
+    "scroll": "Scroll to explore",
+    "posterAlt": "Modern villa in Qatar designed by the African Center for Engineering Consultancy",
+    "videoTitle": "How the tendering platform works"
+  },
+  "trust": {
+    "title": "What we commit to",
+    "launch": {
+      "free": {
+        "title": "Free for owners",
+        "body": "Design, tender and contract at no cost to you; the winning contractor pays the commission."
+      },
+      "licensed": {
+        "title": "Licensed engineering office — Reg. {reg}",
+        "body": "A Qatar-registered engineering consultancy: {disciplines}, {grade}."
+      },
+      "transparent": {
+        "title": "Transparent bid opening",
+        "body": "Bids open at an announced time and are analysed line by line in front of you."
+      },
+      "supervision": {
+        "title": "Supervision until handover",
+        "body": "Our engineers follow the build and report to you until the keys are handed over."
+      }
+    },
+    "stats": {
+      "projects": "Projects tendered",
+      "designs": "Designs delivered",
+      "contractors": "Registered contractors",
+      "totalValue": "Project value ({currency})"
+    }
+  },
+  "partners": {
+    "title": "Organisations we work with",
+    "logoAlt": "Partner {n} logo"
+  },
+  "personasSection": {
+    "eyebrow": "Who it's for",
+    "title": "Four parties, one platform, the same clear rules for everyone",
+    "lead": "Pick your role to see what you get and how to start.",
+    "owner": {
+      "title": "Project owner",
+      "body": "Have a plot and an approved loan? We handle the rest until handover.",
+      "b1": "Full design at no cost",
+      "b2": "Competing bids from registered contractors",
+      "b3": "A contract we draft and supervise",
+      "cta": "For owners",
+      "imageAlt": "Project owner reviewing villa drawings with an engineer"
+    },
+    "contractor": {
+      "title": "Contractor",
+      "body": "Designed, permitted projects, ready to price.",
+      "b1": "Complete drawings, specifications and BOQ",
+      "b2": "The same documents for every bidder",
+      "b3": "Awards on published criteria",
+      "cta": "For contractors",
+      "imageAlt": "Contractor overseeing works on a villa site"
+    },
+    "supplier": {
+      "title": "Supplier",
+      "body": "Supply requests from live projects in Qatar.",
+      "b1": "Requests that match your product categories",
+      "b2": "Compete on price, quality and delivery",
+      "b3": "Deal directly with the contracting party",
+      "cta": "For suppliers",
+      "imageAlt": "Building materials ready for delivery to a project site"
+    },
+    "consultant": {
+      "title": "Consultant",
+      "body": "Site supervision on projects organised from day one.",
+      "b1": "Complete documents before construction starts",
+      "b2": "Clear procedures for approving works",
+      "b3": "Standard reports on one platform",
+      "cta": "For consultants",
+      "imageAlt": "Consulting engineer inspecting concrete works on site"
+    }
+  },
+  "about": {
+    "eyebrow": "About us",
+    "title": "A licensed engineering office on your side, from plot plan to handover",
+    "body1": "The African Center for Engineering Consultancy is an engineering consultancy registered in Qatar under Engineering Registration No. {reg}, in {disciplines}, {grade}.",
+    "body2": "Too many owners sign with a contractor blind: no complete drawings, no BOQ, no fair comparison. So we built a platform that makes every step clear and documented: we design, tender, open the bids in front of you, draft the contract and supervise until handover.",
+    "africaStory": "[AFRICA_STORY]",
+    "imageAlt": "The African Center for Engineering Consultancy office in Al Rayyan",
+    "milestones": {
+      "m1": {
+        "title": "A licensed engineering office in Qatar",
+        "body": "Engineering Reg. No. {reg} – {grade}"
+      },
+      "m2": {
+        "title": "{year} — The Center is founded",
+        "body": "A design, supervision and consultancy office in Al Rayyan"
+      },
+      "m3": {
+        "title": "An online platform for tenders and bid evaluation",
+        "body": "Design, tender, award and supervision in one track"
+      }
+    },
+    "cta": "About the Center"
+  },
+  "fields": {
+    "eyebrow": "Fields of work",
+    "title": "What we design, tender and supervise",
+    "lead": "From a family villa to a small commercial building, from design to handover.",
+    "items": {
+      "villas": {
+        "title": "Residential villas",
+        "body": "Private villas designed and built to the owner's brief."
+      },
+      "loanVillas": {
+        "title": "Housing-loan villas",
+        "body": "Projects funded by a Housing or QDB loan."
+      },
+      "commercial": {
+        "title": "Commercial buildings",
+        "body": "Small and mid-size commercial and mixed-use buildings."
+      },
+      "renovation": {
+        "title": "Renovations & extensions",
+        "body": "Extending existing villas, adding floors and annexes."
+      },
+      "interiors": {
+        "title": "Interior finishes",
+        "body": "Finishing specifications tendered to specialist contractors."
+      },
+      "supervision": {
+        "title": "Construction supervision",
+        "body": "Site follow-up and checking works before payments."
+      },
+      "supplyTenders": {
+        "title": "Supply tenders",
+        "body": "Material needs tendered to registered suppliers."
+      },
+      "consulting": {
+        "title": "Engineering consultancy",
+        "body": "An independent engineering view on drawings, contracts and costs."
+      }
+    }
+  },
+  "process": {
+    "eyebrow": "How it works",
+    "title": "Nine clear steps from plot to keys",
+    "lead": "At every stage you know who is working, what we need from you and what you have received.",
+    "stepLabel": "Step {n}",
+    "progressLabel": "Process progress",
+    "steps": {
+      "s1": {
+        "title": "We take your brief",
+        "body": "You send the plot plan, title deed and loan approval, and we listen to what you want in your home.",
+        "alt": "Owner handing the plot plan and title deed to the engineer"
+      },
+      "s2": {
+        "title": "We review the project and set the budget",
+        "body": "We match your brief to the plot size and loan amount to set a realistic budget before drawing anything.",
+        "alt": "Engineer reviewing the project budget with the owner"
+      },
+      "s3": {
+        "title": "Design and cost study",
+        "body": "We design the architectural and structural drawings and prepare the specifications, BOQ and cost estimate.",
+        "alt": "Architectural villa drawings on the design table"
+      },
+      "s4": {
+        "title": "Authority approvals (Municipality, Kahramaa, Civil Defence)",
+        "body": "We follow the drawings through the Municipality, Kahramaa and Civil Defence until the building permit is issued.",
+        "alt": "Building permit documents approved by the Municipality"
+      },
+      "s5": {
+        "title": "Online tender",
+        "body": "We publish the project to registered contractors with the same documents and an announced closing date.",
+        "alt": "Tender page published on the online platform"
+      },
+      "s6": {
+        "title": "Contractors submit their bids",
+        "body": "Every contractor prices the same BOQ, so the comparison is fair from the start.",
+        "alt": "Contractor submitting a bid online"
+      },
+      "s7": {
+        "title": "Transparent bid opening and analysis",
+        "body": "We open bids on time, analyse them line by line and flag unrealistic prices.",
+        "alt": "Line-by-line bid comparison table"
+      },
+      "s8": {
+        "title": "Company evaluation with you present",
+        "body": "We review the shortlist with you on price, experience and capacity. The decision is yours.",
+        "alt": "Contractor evaluation meeting with the owner present"
+      },
+      "s9": {
+        "title": "Contract signing and supervision to handover",
+        "body": "We draft the contract and supervise the build stage by stage until handover.",
+        "alt": "Villa keys handed to the owner after completion"
+      }
+    },
+    "cta": "Take the first step"
+  },
+  "designs": {
+    "eyebrow": "Our designs",
+    "title": "Villa designs drawn for your plot and your budget",
+    "lead": "Classic and modern facades with practical plans that respect the majlis, privacy and Municipality rules.",
+    "filtersLabel": "Filter designs",
+    "filters": {
+      "all": "All",
+      "classic": "Classic",
+      "modern": "Modern",
+      "villa": "Villas",
+      "commercial": "Commercial"
+    },
+    "styles": {
+      "classic": "classic style",
+      "modern": "modern style"
+    },
+    "types": {
+      "villa": "Residential villa",
+      "commercial": "Commercial building"
+    },
+    "chips": {
+      "area": "{value} m²",
+      "bedrooms": "{count, plural, one {# bedroom} other {# bedrooms}}"
+    },
+    "alt": "{type} design in {style} – no. {n}",
+    "open": "View design {n} larger",
+    "showMore": "Show more designs",
+    "requestSimilar": "Request a similar design",
+    "empty": "No designs in this category yet.",
+    "lightbox": {
+      "label": "Design viewer",
+      "prev": "Previous design",
+      "next": "Next design",
+      "close": "Close viewer",
+      "counter": "{current} of {total}"
+    },
+    "titles": {
+      "design01": "Classic villa facade with mashrabiya",
+      "design02": "Modern villa, from drawings to build",
+      "design03": "Classic-style majlis",
+      "design04": "Modern open-plan kitchen",
+      "design05": "Limestone staircase in the villa hall",
+      "design06": "Contemporary living area",
+      "design07": "Shaded inner courtyard",
+      "design08": "Master bedroom suite"
+    }
+  },
+  "designs360": {
+    "eyebrow": "360° designs",
+    "title": "Walk through your villa before it is built",
+    "lead": "Full-angle 3D views help you decide before the drawings are approved.",
+    "badge": "360°",
+    "alt": "360° view — {name}",
+    "prev": "Previous view",
+    "next": "Next view",
+    "hint": "Drag to browse",
+    "regionLabel": "360° design gallery",
+    "views": {
+      "v1": "Majlis",
+      "v2": "Hall and staircase",
+      "v3": "Master bedroom",
+      "v4": "Kitchen",
+      "v5": "Inner courtyard",
+      "v6": "Living area"
+    }
+  },
+  "services": {
+    "eyebrow": "Free services for owners",
+    "title": "Everything you need before you sign, at no cost to you",
+    "lead": "Complete engineering and contractual services, paid for by the commission model — not by you.",
+    "items": {
+      "design": {
+        "title": "Complete project design",
+        "body": "Architectural, structural and services coordination."
+      },
+      "contracts": {
+        "title": "Contract drafting",
+        "body": "A balanced contract with clear durations, payments and penalties."
+      },
+      "specs": {
+        "title": "Specifications & BOQ",
+        "body": "One set of documents every contractor prices."
+      },
+      "consulting": {
+        "title": "Engineering & contract advice throughout the tender",
+        "body": "Every technical or contractual question answered before you decide."
+      },
+      "budget": {
+        "title": "Budget estimate, kept up to date",
+        "body": "A cost estimate refreshed at every design stage."
+      },
+      "permit": {
+        "title": "Municipality file & building permit",
+        "body": "We follow approvals until the permit is issued."
+      },
+      "sme": {
+        "title": "Support for national SMEs",
+        "body": "A level field for local contractors and suppliers."
+      },
+      "mediation": {
+        "title": "Dispute mediation",
+        "body": "Neutral engineering mediation to settle disputes amicably."
+      }
+    },
+    "footnote": "These services are free for the owner; a commission is charged to the winning contractor on award."
+  },
+  "materials": {
+    "eyebrow": "Material prices",
+    "title": "Know material prices before you compare bids",
+    "lead": "An indicative bulletin for key building materials in the Qatari market, so you can read bids with confidence.",
+    "tabLabel": "Material prices",
+    "panelTitle": "Building material prices",
+    "openPanel": "Open material prices panel",
+    "closePanel": "Close material prices panel",
+    "live": "Updated this week",
+    "updatedOn": "Updated on {date}",
+    "pendingTitle": "First price bulletin in preparation",
+    "pendingBody": "We are collecting prices from local suppliers; they will appear here once verified.",
+    "pending": "Soon",
+    "viewAll": "Full price table",
+    "source": "Indicative prices from the local market",
+    "disclaimer": "Prices are indicative and may vary with quantity, supplier and delivery location.",
+    "perUnit": "per {unit}",
+    "items": {
+      "steel8": "Rebar 8 mm",
+      "steel10_40": "Rebar 10–40 mm",
+      "gabbro": "Gabbro aggregate",
+      "opc": "Ordinary Portland cement (OPC)",
+      "src": "Sulphate-resisting cement (SRC)",
+      "washedSand": "Washed sand",
+      "blocks": "Concrete block 20 cm",
+      "readyMix": "Ready-mix concrete"
+    },
+    "units": {
+      "ton": "ton",
+      "bag50": "50 kg bag",
+      "cubicMeter": "m³",
+      "piece": "piece"
+    },
+    "change": {
+      "up": "Up",
+      "down": "Down",
+      "flat": "Unchanged"
+    },
+    "table": {
+      "caption": "Building material prices in Qatar, in Qatari riyals",
+      "material": "Material",
+      "unit": "Unit",
+      "price": "Price ({currency})",
+      "change": "Change"
+    }
+  },
+  "map": {
+    "eyebrow": "Across Qatar",
+    "title": "Wherever your plot is, we tender your project",
+    "lead": "We serve owners in every municipality of Qatar, from Al Rayyan and Doha to Al Wakrah, Lusail and Al Khor.",
+    "cta": "Explore projects",
+    "mapLabel": "Map of Qatar showing the cities we serve",
+    "cities": {
+      "alRayyan": "Al Rayyan",
+      "doha": "Doha",
+      "alWakrah": "Al Wakrah",
+      "lusail": "Lusail",
+      "alKhor": "Al Khor"
+    }
+  },
+  "testimonials": {
+    "eyebrow": "Owner stories",
+    "title": "What people who built with us say",
+    "emptyTitle": "Our first projects are being tendered",
+    "emptyBody": "Owner and contractor stories will appear here once their projects are delivered — not before.",
+    "followInstagram": "Follow every stage on Instagram",
+    "pause": "Pause autoplay",
+    "play": "Resume autoplay",
+    "prev": "Previous story",
+    "next": "Next story",
+    "goTo": "Go to story {n}",
+    "regionLabel": "Client stories"
+  },
+  "app": {
+    "eyebrow": "The platform app",
+    "title": "Follow your tender from your phone",
+    "body": "A notification for every bid, side-by-side price comparison and photo supervision reports — one app for owners and contractors.",
+    "comingSoon": "Coming soon",
+    "phoneAlt": "The tendering platform app on a phone screen",
+    "appStore": "App Store",
+    "googlePlay": "Google Play",
+    "appStoreLabel": "Download on the App Store",
+    "googlePlayLabel": "Get it on Google Play",
+    "downloadOn": "Download on the",
+    "getItOn": "Get it on"
+  },
+  "contact": {
+    "eyebrow": "Contact",
+    "title": "Ask an engineer before you sign",
+    "lead": "Visit our office in Al Rayyan or leave a message, and one of our engineers will get in touch.",
+    "cards": {
+      "address": "Address",
+      "phones": "Phone",
+      "email": "Email",
+      "hours": "Office hours"
+    },
+    "formTitle": "Send a message",
+    "mapTitle": "Office location map",
+    "mapAlt": "Map showing the ACEC office location in Al Rayyan",
+    "openInMaps": "Open in Google Maps",
+    "subjects": {
+      "newProject": "New project",
+      "contractor": "Contractor registration",
+      "supplier": "Supplier registration",
+      "consultant": "Consultant registration",
+      "other": "Other enquiry"
+    }
+  },
+  "forms": {
+    "fields": {
+      "name": "Full name",
+      "subject": "Subject",
+      "email": "Email",
+      "phone": "Mobile number",
+      "message": "Your message",
+      "selectPlaceholder": "Choose from the list",
+      "honeypot": "Leave this field empty"
+    },
+    "hints": {
+      "phone": "8-digit Qatar number, e.g. 7019 0099"
+    },
+    "errors": {
+      "required": "This field is required.",
+      "email": "Enter a valid email address.",
+      "phone": "Enter a valid 8-digit Qatar number.",
+      "tooShort": "Too short — please add a little more detail.",
+      "tooLong": "The value is longer or larger than allowed.",
+      "number": "Enter a valid number.",
+      "positive": "Enter a value greater than zero.",
+      "consent": "Your consent is required to continue.",
+      "select": "Choose one of the options.",
+      "password": "At least 8 characters, including a letter and a number.",
+      "passwordMatch": "The passwords do not match.",
+      "date": "Enter a valid date."
+    },
+    "submit": "Send",
+    "sending": "Sending",
+    "sent": "Sent"
+  },
+  "toasts": {
+    "contactSuccess": "Message received. One of our engineers will get in touch.",
+    "newsletterSuccess": "You're subscribed to the platform bulletin.",
+    "interestSuccess": "Details received — we'll call you shortly.",
+    "genericError": "We couldn't send that. Check your connection and try again.",
+    "invalidForm": "Check the highlighted fields and try again.",
+    "linkCopied": "Question link copied."
+  },
+  "footer": {
+    "columns": {
+      "platform": "Platform",
+      "personas": "Who it's for",
+      "company": "Company",
+      "legal": "Legal"
+    },
+    "links": {
+      "how": "How it works",
+      "start": "Start your project",
+      "designs": "Designs",
+      "materials": "Material prices",
+      "projects": "Projects",
+      "owners": "Owners",
+      "contractors": "Contractors",
+      "suppliers": "Suppliers",
+      "consultants": "Consultants",
+      "about": "About us",
+      "faq": "FAQ",
+      "contact": "Contact",
+      "privacy": "Privacy policy",
+      "terms": "Terms of use"
+    },
+    "newsletter": {
+      "title": "Platform bulletin",
+      "body": "Material prices and new tenders, once a month.",
+      "placeholder": "Your email",
+      "cta": "Subscribe"
+    },
+    "follow": "Follow us",
+    "socialSoon": "{network} account coming soon",
+    "apps": "The app",
+    "rights": "© {year} {name}. All rights reserved."
+  },
+  "start": {
+    "eyebrow": "Start your project",
+    "title": "Tell us about your project in three steps",
+    "lead": "It takes two minutes. Your answers save automatically, and an engineer will call to arrange the first meeting.",
+    "progress": "Step {current} of {total}",
+    "steps": {
+      "project": "Project",
+      "requirements": "Requirements",
+      "contact": "Contact"
+    },
+    "stepTitles": {
+      "project": "What is your project?",
+      "requirements": "What do you want to build?",
+      "contact": "How should we reach you?"
+    },
+    "fields": {
+      "projectType": "Project type",
+      "plotArea": "Plot area (m²)",
+      "municipality": "Municipality / area",
+      "loanStatus": "Funding status",
+      "floors": "Number of floors",
+      "bedrooms": "Number of bedrooms",
+      "majlis": "Do you want a majlis?",
+      "style": "Architectural style",
+      "budget": "Target budget",
+      "startDate": "Preferred start date",
+      "notes": "Anything else we should know",
+      "notesPlaceholder": "For example: staff annex, pool, separate majlis entrance…",
+      "fullName": "Full name",
+      "phone": "Mobile number",
+      "email": "Email",
+      "contactChannel": "Preferred contact",
+      "consent": "I agree that ACEC may contact me about my project under the privacy policy."
+    },
+    "projectTypes": {
+      "villa": "Residential villa",
+      "loanVilla": "Housing-loan villa",
+      "commercial": "Commercial building",
+      "renovation": "Renovation or extension",
+      "supply": "Material supply"
+    },
+    "loanStatuses": {
+      "housing": "Approved Housing loan",
+      "qdb": "Approved QDB loan",
+      "self": "Self-funded",
+      "other": "Other"
+    },
+    "loanNote": "We work with your approved loan; we do not process loan applications.",
+    "yesNo": {
+      "yes": "Yes",
+      "no": "No"
+    },
+    "styles": {
+      "classic": "Classic",
+      "modern": "Modern",
+      "mixed": "A mix of both"
+    },
+    "budgets": {
+      "upTo1m": "Up to QAR 1M",
+      "1to1_5m": "QAR 1M – 1.5M",
+      "1_5to2m": "QAR 1.5M – 2M",
+      "2to3m": "QAR 2M – 3M",
+      "above3m": "Above QAR 3M",
+      "undecided": "Not decided yet"
+    },
+    "channels": {
+      "call": "Phone call",
+      "whatsapp": "WhatsApp"
+    },
+    "autosaved": "Your answers are saved on this device",
+    "submit": "Send project brief",
+    "submitting": "Sending your brief",
+    "success": {
+      "eyebrow": "Received",
+      "title": "We've received your project brief",
+      "reference": "Your reference: {reference}",
+      "next": "What happens next",
+      "n1": "An engineer reviews your brief and contacts you by your chosen channel.",
+      "n2": "We agree a time to collect the plot plan, title deed and loan approval.",
+      "n3": "We start the budget study and design — at no cost to you.",
+      "whatsapp": "Follow up on WhatsApp",
+      "call": "Call us now",
+      "home": "Back to home"
+    },
+    "asideTitle": "Why we ask",
+    "asideBody": "Your answers let us estimate budget and timeline before the first meeting, so we don't waste your time.",
+    "asideList": {
+      "l1": "No fees and no commitment for sending a brief.",
+      "l2": "Your details are never shared with a contractor without your consent.",
+      "l3": "You can change anything later with your engineer."
+    }
+  },
+  "faqPage": {
+    "eyebrow": "FAQ",
+    "title": "How does e-tendering work? And other questions",
+    "lead": "Straight answers on online tenders, fees, building permits and supervision.",
+    "searchLabel": "Search the questions",
+    "searchPlaceholder": "Type a word, e.g. permit or commission",
+    "categoriesLabel": "Question categories",
+    "categories": {
+      "all": "All",
+      "owners": "For owners",
+      "contractors": "For contractors",
+      "fees": "Fees",
+      "design": "Design & permits",
+      "supervision": "Supervision"
+    },
+    "resultsCount": "{count, plural, =0 {No results} one {# question} other {# questions}}",
+    "empty": "No question matches your search. Ask us directly and we'll answer.",
+    "copyLink": "Copy link to question",
+    "stillTitle": "Didn't find your answer?",
+    "stillBody": "Ask an engineer directly — no commitment.",
+    "stillCta": "Contact us",
+    "commissionKnown": "The rate is {percent}%.",
+    "commissionTbd": "The rate is agreed on award."
+  },
+  "faqItems": {
+    "q1": {
+      "q": "How does e-tendering work?",
+      "a": "Once the design is approved and the building permit issued, we publish your project on the platform with drawings, specifications and the BOQ. Registered contractors submit bids online until the announced closing date. We then open the bids, analyse them line by line, show you a clear comparison and evaluate the qualified companies with you present before the award."
+    },
+    "q2": {
+      "q": "Is the service really free for the owner?",
+      "a": "Yes. The owner pays the platform nothing for design, tendering, bid evaluation, contract drafting or supervision. These services are covered by a commission paid by the winning contractor on award."
+    },
+    "q3": {
+      "q": "How does the platform make money?",
+      "a": "The platform charges a commission to the winning contractor on award only; the owner pays nothing. {commission} Contractors know about the commission before they submit a bid."
+    },
+    "q4": {
+      "q": "What do I need to start?",
+      "a": "Your plot plan, the title deed and, if your project is loan-funded, your approved Housing or QDB loan. If your documents aren't complete yet, start with the project brief and we'll tell you what's missing."
+    },
+    "q5": {
+      "q": "Do you help me get a housing loan?",
+      "a": "No, we do not process loan applications. We work with the loan already approved by the Housing Department or QDB, and we prepare your design and technical documents to match the loan amount."
+    },
+    "q6": {
+      "q": "How long does the design stage take?",
+      "a": "It depends on the size of the project, how quickly you approve drawings and how long the authorities take to respond. We give you a written timeline after the first meeting and tell you immediately if it changes."
+    },
+    "q7": {
+      "q": "Who obtains the building permit from the Municipality?",
+      "a": "We do. We handle the building permit with the Municipality and the related approvals from Kahramaa and Civil Defence as part of our free owner services. We only need your documents and signatures."
+    },
+    "q8": {
+      "q": "How is the contractor selected?",
+      "a": "After opening the bids we analyse prices line by line, then evaluate the qualified companies on price, experience, capacity and schedule commitment, and review the results with you present. We recommend on published criteria; the final decision is yours."
+    },
+    "q9": {
+      "q": "Can I invite a contractor I know to bid?",
+      "a": "Yes, provided they register on the platform and bid on the same documents and by the same deadline as everyone else, so the competition stays fair."
+    },
+    "q10": {
+      "q": "What if the contractor breaches the contract?",
+      "a": "The contract we draft sets fixed durations, payments tied to progress and delay penalties. The supervising engineer records and documents any breach and notifies the contractor formally. We mediate to settle it amicably; if that fails, your rights remain protected under the contract."
+    },
+    "q11": {
+      "q": "How do contractors and suppliers register?",
+      "a": "On the sign-up page, choose \"Contractor\" or \"Supplier\", enter your company and commercial registration details, then your contact details, then create a password. Once your details are reviewed, you'll receive tenders that match your classification or product categories."
+    },
+    "q12": {
+      "q": "Do you supervise construction until handover?",
+      "a": "Yes. Our engineers follow the site through every stage of construction, check completed works before payments are approved and send you regular reports until handover."
+    }
+  },
+  "personaPage": {
+    "benefitsEyebrow": "What you get",
+    "processEyebrow": "How it runs",
+    "requirementsEyebrow": "Requirements",
+    "faqEyebrow": "Common questions",
+    "allFaq": "All FAQs",
+    "watchVideo": "Watch the video",
+    "interest": {
+      "title": "Not ready to register?",
+      "body": "Leave your name and number and one of our engineers will call to walk you through the steps.",
+      "submit": "Request a call"
+    }
+  },
+  "personaPages": {
+    "owner": {
+      "eyebrow": "For owners",
+      "title": "Build your villa with your housing loan — without signing blind",
+      "lead": "Bring your plot and approved loan. We handle design, permit, tender, contractor evaluation and supervision until handover — free for you. You'll know what your villa will cost to build in Qatar before you sign.",
+      "imageAlt": "Villa owner in Qatar reviewing drawings with an ACEC engineer",
+      "cta": "Start your project — free",
+      "benefitsTitle": "Everything it takes to build a villa in Qatar, from one licensed office",
+      "benefits": {
+        "b1": {
+          "title": "Full design at no cost",
+          "body": "Architectural, structural and services coordination, designed for your plot and budget."
+        },
+        "b2": {
+          "title": "A realistic budget from day one",
+          "body": "We estimate cost before tendering and update it as the design develops — no surprises at bid opening."
+        },
+        "b3": {
+          "title": "We get the building permit",
+          "body": "We follow the Municipality, Kahramaa and Civil Defence approvals until the permit is issued."
+        },
+        "b4": {
+          "title": "Competing bids",
+          "body": "Registered contractors price the same BOQ, so you choose on a clear basis."
+        },
+        "b5": {
+          "title": "A contract that protects you",
+          "body": "Durations, progress-linked payments and delay penalties, written plainly."
+        },
+        "b6": {
+          "title": "Supervision to the keys",
+          "body": "A supervising engineer follows the site and checks works before every payment."
+        }
+      },
+      "processTitle": "Five stops between you and your villa keys",
+      "process": {
+        "s1": {
+          "title": "Send your brief",
+          "body": "Fill in the project brief and prepare the plot plan, title deed and loan approval."
+        },
+        "s2": {
+          "title": "We design and get the permit",
+          "body": "Design, budget and drawing approvals until the building permit is issued."
+        },
+        "s3": {
+          "title": "We run the tender",
+          "body": "Registered contractors price the same documents until the closing date."
+        },
+        "s4": {
+          "title": "You choose, with us beside you",
+          "body": "We analyse the bids and evaluate the companies with you. The decision is yours."
+        },
+        "s5": {
+          "title": "We supervise to handover",
+          "body": "A contract we draft and follow through stage by stage."
+        }
+      },
+      "requirementsTitle": "What you need to start",
+      "requirements": {
+        "r1": "Plot plan (site sketch)",
+        "r2": "Title deed for the plot",
+        "r3": "Approved Housing or QDB loan, or proof of self-funding",
+        "r4": "Your first idea: floors, bedrooms and majlis"
+      },
+      "faqTitle": "Questions owners ask",
+      "faq": {
+        "f1": {
+          "q": "Can I build with a QDB loan?",
+          "a": "Yes. We work with loans approved by the Housing Department or QDB, and with self-funded projects. We do not handle the loan application itself."
+        },
+        "f2": {
+          "q": "How much does it cost to build a villa in Qatar?",
+          "a": "Cost depends on area, floors, specifications and finishes. We prepare an estimate based on your design and BOQ before tendering, and the bids then reveal the real market price."
+        },
+        "f3": {
+          "q": "Do I have to accept the lowest bid?",
+          "a": "No. We evaluate bids on price, experience, capacity and schedule, and the lowest price can be unrealistic. We show you why with numbers; the decision is yours."
+        }
+      },
+      "ctaTitle": "Plot and loan ready? Let's start the design",
+      "ctaBody": "Three short steps, then an engineer calls to arrange the first meeting.",
+      "serviceName": "Villa design, tendering and supervision for owners"
+    },
+    "contractor": {
+      "eyebrow": "For contractors",
+      "title": "Real projects, transparent bids, awards on merit",
+      "lead": "Register your company as a contractor in Qatar and receive designed, permitted construction tenders with clear BOQs. Bid online and be evaluated on published criteria.",
+      "imageAlt": "Contractor reviewing a BOQ on a villa construction site in Qatar",
+      "cta": "Register as a contractor",
+      "benefitsTitle": "Construction tenders ready to price, not drafts",
+      "benefits": {
+        "b1": {
+          "title": "Projects ready to price",
+          "body": "Approved drawings, specifications and a complete BOQ in every tender."
+        },
+        "b2": {
+          "title": "A level field",
+          "body": "The same documents and the same deadline for every bidder."
+        },
+        "b3": {
+          "title": "Online submission",
+          "body": "Submit your bid from your office — no paper rounds."
+        },
+        "b4": {
+          "title": "Awards on merit",
+          "body": "Price, experience, capacity and schedule, on published criteria."
+        },
+        "b5": {
+          "title": "Funded projects",
+          "body": "Projects reach you after design, permit and funding are settled, so you never price a project that isn't ready."
+        },
+        "b6": {
+          "title": "Clear supervision",
+          "body": "One supervising engineer as the reference, and payments tied to progress."
+        }
+      },
+      "processTitle": "From registration to award",
+      "process": {
+        "s1": {
+          "title": "Register your company",
+          "body": "Company details, commercial registration, classification and contact person."
+        },
+        "s2": {
+          "title": "Receive tender invitations",
+          "body": "Tenders matching your classification arrive on the platform."
+        },
+        "s3": {
+          "title": "Download the documents and price",
+          "body": "Drawings, specifications and BOQ in one package."
+        },
+        "s4": {
+          "title": "Bid before closing",
+          "body": "All bids are opened together at the announced time."
+        },
+        "s5": {
+          "title": "Award, contract and construction",
+          "body": "A clear contract and a supervised build until handover."
+        }
+      },
+      "requirementsTitle": "Registration requirements",
+      "requirements": {
+        "r1": "Valid commercial registration",
+        "r2": "Contractor classification certificate, if any",
+        "r3": "List of completed projects",
+        "r4": "Details of an authorised contact person"
+      },
+      "faqTitle": "Questions contractors ask",
+      "faq": {
+        "f1": {
+          "q": "When is the platform commission paid?",
+          "a": "Only on award, by the winning contractor. {commission} There is no commission on unsuccessful bids."
+        },
+        "f2": {
+          "q": "Can I see the drawings before pricing?",
+          "a": "Yes. Every tender includes the approved drawings, specifications and BOQ, so you price on a complete basis."
+        },
+        "f3": {
+          "q": "How are bids evaluated?",
+          "a": "We analyse prices line by line, then evaluate the qualified companies on price, experience, capacity and schedule, with the owner present."
+        }
+      },
+      "ctaTitle": "Register your company and receive upcoming tenders",
+      "ctaBody": "Three steps: company, contact, login details.",
+      "serviceName": "Online construction tenders for contractors"
+    },
+    "supplier": {
+      "eyebrow": "For suppliers",
+      "title": "Become the supplier for the projects we tender",
+      "lead": "Register as a building material supplier in Qatar and receive supply tenders from live projects: steel, cement, gabbro, blocks, ready-mix concrete, MEP and finishes.",
+      "imageAlt": "Building material warehouse ready for delivery in Qatar",
+      "cta": "Register as a supplier",
+      "benefitsTitle": "Supply requests from live projects, not waiting lists",
+      "benefits": {
+        "b1": {
+          "title": "Requests that match your products",
+          "body": "Supply tenders reach you by the product categories you register."
+        },
+        "b2": {
+          "title": "Defined quantities",
+          "body": "Requests are built from project BOQs, so you know what you're pricing."
+        },
+        "b3": {
+          "title": "Compete on value",
+          "body": "Offers are evaluated on price, quality and delivery date."
+        },
+        "b4": {
+          "title": "Direct dealings",
+          "body": "Each tender names the contracting party: the owner or the appointed contractor."
+        },
+        "b5": {
+          "title": "Support for national companies",
+          "body": "A level field for small and mid-size local suppliers."
+        },
+        "b6": {
+          "title": "Visibility in the price bulletin",
+          "body": "Your prices feed the material bulletin that owners read."
+        }
+      },
+      "processTitle": "How you reach supply requests",
+      "process": {
+        "s1": {
+          "title": "Register your company",
+          "body": "Commercial registration, product categories and delivery area."
+        },
+        "s2": {
+          "title": "Receive supply requests",
+          "body": "Requests from live projects that match your categories."
+        },
+        "s3": {
+          "title": "Submit your offer",
+          "body": "Price, specifications and delivery date in one offer."
+        },
+        "s4": {
+          "title": "Award and delivery",
+          "body": "Order confirmation and delivery scheduling with the contracting party."
+        },
+        "s5": {
+          "title": "Post-delivery rating",
+          "body": "Quality and on-time delivery improve your chances on future requests."
+        }
+      },
+      "requirementsTitle": "What we need from you",
+      "requirements": {
+        "r1": "Valid commercial registration",
+        "r2": "The product categories you supply",
+        "r3": "A recent catalogue or price list",
+        "r4": "Your delivery area within Qatar"
+      },
+      "faqTitle": "Questions suppliers ask",
+      "faq": {
+        "f1": {
+          "q": "Which materials can I supply?",
+          "a": "Core building materials such as steel, cement, gabbro, sand, blocks and ready-mix concrete, as well as MEP materials and finishes."
+        },
+        "f2": {
+          "q": "How do supply requests reach me?",
+          "a": "Through your platform account, based on the product categories you chose at registration."
+        },
+        "f3": {
+          "q": "Who do I contract with?",
+          "a": "Each supply tender names the contracting party: either the project owner or the appointed contractor."
+        }
+      },
+      "ctaTitle": "Register your product categories and receive supply requests",
+      "ctaBody": "Three steps: company, contact, login details.",
+      "serviceName": "Building material supply tenders"
+    },
+    "consultant": {
+      "eyebrow": "For consultants",
+      "title": "Supervise our projects as an accredited consultant",
+      "lead": "Register your office as a site supervision consultant in Qatar and supervise projects that run on complete documents and clear procedures from day one.",
+      "imageAlt": "Consulting engineer supervising works on a construction site",
+      "cta": "Register as a consultant",
+      "benefitsTitle": "Engineering supervision on organised projects",
+      "benefits": {
+        "b1": {
+          "title": "Complete documents",
+          "body": "Approved drawings, specifications and BOQ before construction starts."
+        },
+        "b2": {
+          "title": "Clear approval procedures",
+          "body": "Defined stages for checking works and approving payments."
+        },
+        "b3": {
+          "title": "Reports on one platform",
+          "body": "Photo site reports reach owner and contractor in one place."
+        },
+        "b4": {
+          "title": "Contracts drafted up front",
+          "body": "Owner, contractor and consultant roles are written into the contract."
+        },
+        "b5": {
+          "title": "Projects across Qatar",
+          "body": "Supervision opportunities matched to your discipline and location."
+        },
+        "b6": {
+          "title": "Engineering coordination",
+          "body": "Work coordinated with the Center's design team throughout construction."
+        }
+      },
+      "processTitle": "How to join platform projects",
+      "process": {
+        "s1": {
+          "title": "Register your office",
+          "body": "Engineering registration, disciplines and contact details."
+        },
+        "s2": {
+          "title": "We review qualifications",
+          "body": "Disciplines, supervision experience and engineering team."
+        },
+        "s3": {
+          "title": "Receive supervision nominations",
+          "body": "Projects that match your discipline and location."
+        },
+        "s4": {
+          "title": "Supervise and document",
+          "body": "Site visits, reports and work approvals on the platform."
+        },
+        "s5": {
+          "title": "Handover",
+          "body": "Project acceptance and snag documentation until the keys are handed over."
+        }
+      },
+      "requirementsTitle": "Joining requirements",
+      "requirements": {
+        "r1": "Valid engineering registration in Qatar",
+        "r2": "Your office's engineering disciplines",
+        "r3": "Documented construction supervision experience",
+        "r4": "CVs of the supervising engineers"
+      },
+      "faqTitle": "Questions consultants ask",
+      "faq": {
+        "f1": {
+          "q": "Who can register as a consultant?",
+          "a": "Engineering consultancy offices registered in Qatar with a valid engineering registration."
+        },
+        "f2": {
+          "q": "What does the work involve?",
+          "a": "Supervising construction of platform projects: site visits, checking works, approving stages and reporting."
+        },
+        "f3": {
+          "q": "How are projects assigned?",
+          "a": "By discipline, location and availability, in coordination with the Center's team."
+        }
+      },
+      "ctaTitle": "Register your consultancy office",
+      "ctaBody": "Three steps: office, contact, login details.",
+      "serviceName": "Construction supervision consultant"
+    }
+  },
+  "aboutPage": {
+    "eyebrow": "About us",
+    "title": "African Center for Engineering Consultancy",
+    "lead": "A licensed engineering office in Qatar running an e-tendering platform, so owners build with confidence and contractors compete fairly.",
+    "storyTitle": "Why we built the platform",
+    "registrationTitle": "Professional registration",
+    "registration": {
+      "number": "Engineering registration no.",
+      "disciplines": "Disciplines",
+      "grade": "Grade",
+      "founded": "Founded"
+    },
+    "teamTitle": "Who you'll work with",
+    "teamLead": "An engineering team that covers every stage of your project.",
+    "teamAlt": "The African Center for Engineering Consultancy team at the office",
+    "team": {
+      "architecture": {
+        "title": "Architecture",
+        "body": "Design, facades and construction drawings."
+      },
+      "civil": {
+        "title": "Civil & structural engineering",
+        "body": "Structural design, calculations and specifications."
+      },
+      "tendering": {
+        "title": "Tendering & contracts",
+        "body": "BOQs, tendering, bid analysis and contracts."
+      },
+      "supervision": {
+        "title": "Construction supervision",
+        "body": "Site follow-up and work approvals until handover."
+      }
+    },
+    "valuesTitle": "What we commit to",
+    "values": {
+      "transparency": {
+        "title": "Transparency",
+        "body": "Every bid opened on time and analysed in front of the owner."
+      },
+      "owner": {
+        "title": "Owner protection",
+        "body": "We work for the project owner, not for any particular contractor."
+      },
+      "precision": {
+        "title": "Engineering precision",
+        "body": "Complete documents before the tender, not after."
+      },
+      "fairness": {
+        "title": "Fair competition",
+        "body": "The same documents and deadline for every bidder."
+      }
+    },
+    "africaTitle": "The story behind the name",
+    "officeTitle": "Visit our office"
+  },
+  "projectsPage": {
+    "eyebrow": "Projects",
+    "title": "Projects on the platform",
+    "lead": "Follow projects through their stages: design, tender, construction and completion.",
+    "filtersLabel": "Filter by status",
+    "all": "All",
+    "statuses": {
+      "design": "Design",
+      "tender": "Open for tender",
+      "construction": "Under construction",
+      "completed": "Completed"
+    },
+    "area": "{value} m²",
+    "emptyTitle": "Our first projects are being tendered",
+    "emptyBody": "Projects on the platform will appear here with their stage as soon as their owners agree to publication.",
+    "emptyCta": "Be one of the first owners",
+    "noMatch": "No projects in this status right now.",
+    "listLabel": "Project list",
+    "mapLabel": "Map of projects in Qatar"
+  },
+  "materialsPage": {
+    "eyebrow": "Material prices",
+    "title": "Building material prices in Qatar",
+    "lead": "Today's rebar price in Qatar, plus cement, gabbro, sand, blocks and ready-mix concrete, in one indicative bulletin.",
+    "whyTitle": "How to use these prices",
+    "why": {
+      "w1": "Compare material items in bids against market prices.",
+      "w2": "Watch the price trend before your tender date.",
+      "w3": "Ask your engineer how any change affects your budget."
+    },
+    "supplierCta": "A material supplier? Register your company"
+  },
+  "designsPage": {
+    "eyebrow": "Our designs",
+    "title": "Modern and classic villa designs in Qatar",
+    "lead": "Modern villa plans and considered facade designs that respect the majlis, privacy and Municipality rules. Pick the style closest to you and we'll design it for your plot."
+  },
+  "contactPage": {
+    "eyebrow": "Contact",
+    "title": "Talk to an engineer in Al Rayyan",
+    "lead": "Our office is on Al Shafi Street, opposite Dukhan Bank. Call, write or visit during office hours."
+  },
+  "auth": {
+    "personaLabel": "I'm joining as",
+    "personaHint": {
+      "owner": "Follow your project's design and tender",
+      "contractor": "Receive tenders and submit bids",
+      "supplier": "Receive supply requests",
+      "consultant": "Take on supervision projects"
+    },
+    "email": "Email",
+    "password": "Password",
+    "showPassword": "Show password",
+    "hidePassword": "Hide password",
+    "signIn": {
+      "eyebrow": "Sign in",
+      "title": "Welcome back",
+      "lead": "Choose your account type and sign in to follow your projects and bids.",
+      "submit": "Sign in",
+      "submitting": "Checking",
+      "noAccount": "No account yet?",
+      "createAccount": "Create one",
+      "help": "Trouble signing in? Contact us",
+      "error": "Incorrect email or password.",
+      "successTitle": "You're signed in",
+      "successBody": "Your dashboard is launching soon; we'll let you know as soon as it's ready.",
+      "signOut": "Sign out",
+      "signedOut": "You've been signed out."
+    },
+    "signUp": {
+      "eyebrow": "Create an account",
+      "title": "Join the platform",
+      "lead": "Choose your role, then three short steps.",
+      "steps": {
+        "company": "Company",
+        "profile": "Profile",
+        "contact": "Contact",
+        "credentials": "Login details"
+      },
+      "ownerNote": "A project owner? The fastest route is to send your project brief directly.",
+      "ownerNoteCta": "Send a project brief",
+      "fields": {
+        "companyName": "Company or office name",
+        "crNumber": "Commercial registration no.",
+        "classification": "Contractor classification",
+        "categories": "Product categories",
+        "engineeringReg": "Engineering registration no.",
+        "municipality": "Plot municipality",
+        "loanStatus": "Funding status",
+        "fullName": "Contact person",
+        "ownerFullName": "Full name",
+        "phone": "Mobile number",
+        "city": "City",
+        "confirmPassword": "Confirm password",
+        "consent": "I agree to the terms of use and the privacy policy."
+      },
+      "classes": {
+        "first": "First grade",
+        "second": "Second grade",
+        "third": "Third grade",
+        "fourth": "Fourth grade",
+        "unclassified": "Unclassified"
+      },
+      "categoryOptions": {
+        "steel": "Steel",
+        "cement": "Cement",
+        "aggregates": "Aggregates & sand",
+        "blocks": "Blocks",
+        "readyMix": "Ready-mix",
+        "mep": "MEP",
+        "finishes": "Finishes",
+        "other": "Other"
+      },
+      "passwordHint": "At least 8 characters, including a letter and a number.",
+      "submit": "Create account",
+      "submitting": "Creating your account",
+      "haveAccount": "Already have an account?",
+      "error": "This email is already registered. Sign in or use another email.",
+      "successTitle": "Your account has been created",
+      "successBody": "We've sent a verification code to {email}. Verify your account, then sign in.",
+      "toSignIn": "Go to sign in"
+    }
+  },
+  "legal": {
+    "reviewNote": "A short draft pending legal review [LEGAL_REVIEW]. The final text will be published once approved.",
+    "privacy": {
+      "eyebrow": "Legal",
+      "title": "Privacy policy",
+      "sections": {
+        "s1": {
+          "title": "What we collect",
+          "body": "What you enter in the site's forms: name, mobile number, email and project or company details, plus anonymous usage data to improve the site."
+        },
+        "s2": {
+          "title": "How we use it",
+          "body": "To contact you about your request, prepare your design and tender, and manage your platform account. We do not sell your data."
+        },
+        "s3": {
+          "title": "When we share it",
+          "body": "We share the project documents needed for pricing with registered contractors when tendering, with your consent, and with government authorities to obtain permits."
+        },
+        "s4": {
+          "title": "Your rights",
+          "body": "You can ask to access, correct or delete your data by writing to {email}."
+        }
+      }
+    },
+    "terms": {
+      "eyebrow": "Legal",
+      "title": "Terms of use",
+      "sections": {
+        "s1": {
+          "title": "The service",
+          "body": "The platform is run by the African Center for Engineering Consultancy to design projects, tender them online and supervise their construction."
+        },
+        "s2": {
+          "title": "Fees",
+          "body": "Owners pay the platform no fees. The winning contractor pays a commission on award, as disclosed before bidding."
+        },
+        "s3": {
+          "title": "User obligations",
+          "body": "Every user is responsible for the accuracy of the data and documents they provide and for the confidentiality of tender documents they access."
+        },
+        "s4": {
+          "title": "Indicative prices",
+          "body": "Published material prices are indicative and are not a binding quotation."
+        }
+      }
+    }
+  },
+  "errors": {
+    "notFound": {
+      "code": "404",
+      "title": "This page doesn't exist",
+      "body": "It may have moved, or the link may be wrong. Here are a few ways back.",
+      "home": "Back to home",
+      "contact": "Contact us"
+    },
+    "error": {
+      "title": "Something went wrong",
+      "body": "This page didn't finish loading. Try again, and let us know if it keeps happening.",
+      "retry": "Try again",
+      "home": "Back to home"
+    }
+  },
+  "video": {
+    "close": "Close video"
+  }
+}

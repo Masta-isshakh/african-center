@@ -39,3 +39,10 @@ next-env.d.ts
 .amplify
 amplify_outputs*
 amplifyconfiguration*
+# local build logs
+build*.log
+start.log
+
+# raw renders (optimised copies live in public/media — see scripts/prepare-media.mjs)
+media-source/
+.next-prod/
