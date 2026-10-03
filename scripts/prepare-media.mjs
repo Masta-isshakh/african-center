@@ -70,3 +70,51 @@ for (const [out, src, w, h] of jobs) {
     .toFile(dest);
   console.log(`${out.padEnd(40)} ${tw}×${th}  ${(info.size / 1024).toFixed(0)} KB`);
 }
+
+/* ── Logo ─────────────────────────────────────────────────────────────────────
+ * media-source/logo.png is a square lockup: emblem (rows ~80–870) over the bilingual name.
+ * Outputs: the emblem alone (square mark), the full lockup, and a version whose navy lettering
+ * is lightened for dark backgrounds (gold untouched).
+ */
+const LOGO = join(SRC, 'logo.png');
+if (existsSync(LOGO)) {
+  mkdirSync(join(OUT, 'logo'), { recursive: true });
+  const EMBLEM_BOTTOM = 875;
+
+  // Emblem → trimmed → padded to a square → 512 px
+  // crop first, then trim in a second pass (sharp applies trim before extract within one pipeline)
+  const emblemCrop = await sharp(LOGO).extract({ left: 0, top: 0, width: 1254, height: EMBLEM_BOTTOM }).png().toBuffer();
+  const emblem = await sharp(emblemCrop).trim({ threshold: 10 }).toBuffer();
+  const em = await sharp(emblem).metadata();
+  const side = Math.max(em.width, em.height);
+  const squared = await sharp({ create: { width: side, height: side, channels: 4, background: { r: 0, g: 0, b: 0, alpha: 0 } } })
+    .composite([{ input: emblem, left: Math.round((side - em.width) / 2), top: Math.round((side - em.height) / 2) }])
+    .png()
+    .toBuffer();
+  await sharp(squared).resize(512, 512).png({ compressionLevel: 9, palette: true, quality: 92, effort: 10 }).toFile(join(OUT, 'logo/mark.png'));
+
+  // Full lockup, trimmed
+  const full = await sharp(LOGO).trim({ threshold: 10 }).resize(720, 720, { fit: 'inside' }).png().toBuffer();
+  await sharp(full).png({ compressionLevel: 9, palette: true, quality: 92, effort: 10 }).toFile(join(OUT, 'logo/logo-full.png'));
+
+  // Light-lettering variant: in the text band, navy pixels become sand, keeping their shading and alpha
+  const { data, info } = await sharp(full).raw().toBuffer({ resolveWithObject: true });
+  const textTop = Math.round(info.height * 0.66);
+  for (let y = textTop; y < info.height; y++) {
+    for (let x = 0; x < info.width; x++) {
+      const i = (y * info.width + x) * info.channels;
+      const [r, g, b, a] = [data[i], data[i + 1], data[i + 2], data[i + 3]];
+      if (a < 10) continue;
+      const navy = b > r + 12 && Math.max(r, g, b) < 170;
+      const nearBlack = Math.max(r, g, b) < 45;
+      if (navy || nearBlack) {
+        const shade = 0.82 + 0.18 * (Math.max(r, g, b) / 170);
+        data[i] = Math.round(247 * shade);
+        data[i + 1] = Math.round(244 * shade);
+        data[i + 2] = Math.round(238 * shade);
+      }
+    }
+  }
+  await sharp(data, { raw: info }).png({ compressionLevel: 9, palette: true, quality: 92, effort: 10 }).toFile(join(OUT, 'logo/logo-white.png'));
+  console.log('logo/mark.png, logo/logo-full.png, logo/logo-white.png');
+}

@@ -36,6 +36,16 @@ async function backdrop(): Promise<string | null> {
   return `data:image/${ext};base64,${file.toString('base64')}`;
 }
 
+/** A public/ image (media manifest path) resized for satori and inlined as a data URI. */
+async function publicImage(src: string | null, box: { width?: number; height?: number }) {
+  if (!src) return null;
+  const { data, info } = await sharp(path.join(process.cwd(), 'public', src))
+    .resize({ ...box, fit: 'inside' })
+    .png()
+    .toBuffer({ resolveWithObject: true });
+  return { src: `data:image/png;base64,${data.toString('base64')}`, width: info.width, height: info.height };
+}
+
 const fontPath = (file: string) => path.join(process.cwd(), 'src/assets/fonts', file);
 
 const escapeMarkup = (t: string) => t.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
@@ -64,17 +74,19 @@ async function arabicRun(text: string, sizePx: number, maxWidth: number, color =
   return { src: `data:image/png;base64,${data.toString('base64')}`, width: info.width, height: info.height };
 }
 
-/** Navy card, gold rule, localized page title, wordmark at the bottom-start corner. */
+/** Navy card, gold rule, localized page title, company logo at the bottom-start corner. */
 export async function renderOg(locale: Locale, page: MetaPage) {
   const t = await getTranslations({ locale, namespace: 'meta' });
   const title = t(`${page}.title`, { reg: brand.registration.number });
   const ar = locale === 'ar';
-  const [tinosBold, tinos, bg, arTitle, arName] = await Promise.all([
+  const [tinosBold, tinos, bg, arTitle, logo, arName] = await Promise.all([
     font('tinos-700.ttf'),
     font('tinos-400.ttf'),
     backdrop(),
     ar ? arabicRun(title, 72, 1000) : null,
-    arabicRun(brand.name.ar, 30, 900),
+    // light-lettering lockup for the dark card; the typeset name is only the fallback
+    publicImage(media.logoWhite, { height: 230 }),
+    media.logoWhite ? null : arabicRun(brand.name.ar, 30, 900),
   ]);
   const align = ar ? 'flex-end' : 'flex-start';
 
@@ -106,12 +118,19 @@ export async function renderOg(locale: Locale, page: MetaPage) {
           )}
           <div style={{ marginTop: 36, width: 120, height: 3, background: 'linear-gradient(90deg, #C99A2E, #DFB95C)' }} />
         </div>
-        <div style={{ display: 'flex', flexDirection: 'column', alignItems: align }}>
-          {/* eslint-disable-next-line @next/next/no-img-element -- rendered by satori, not the browser */}
-          <img src={arName.src} width={arName.width} height={arName.height} alt="" />
-          <div style={{ marginTop: 6, fontFamily: 'Tinos', fontWeight: 700, fontSize: 34, color: '#fff' }}>{brand.wordmark.line1}</div>
-          <div style={{ marginTop: 4, fontFamily: 'Tinos', fontSize: 14, letterSpacing: 4, color: '#DFB95C' }}>{brand.wordmark.line2}</div>
-        </div>
+        {logo ? (
+          /* eslint-disable-next-line @next/next/no-img-element -- rendered by satori, not the browser */
+          <img src={logo.src} width={logo.width} height={logo.height} alt="" />
+        ) : (
+          <div style={{ display: 'flex', flexDirection: 'column', alignItems: align }}>
+            {arName && (
+              /* eslint-disable-next-line @next/next/no-img-element -- rendered by satori, not the browser */
+              <img src={arName.src} width={arName.width} height={arName.height} alt="" />
+            )}
+            <div style={{ marginTop: 6, fontFamily: 'Tinos', fontWeight: 700, fontSize: 34, color: '#fff' }}>{brand.wordmark.line1}</div>
+            <div style={{ marginTop: 4, fontFamily: 'Tinos', fontSize: 14, letterSpacing: 4, color: '#DFB95C' }}>{brand.wordmark.line2}</div>
+          </div>
+        )}
       </div>
     ),
     ogSize.width,
@@ -123,9 +142,10 @@ export async function renderOg(locale: Locale, page: MetaPage) {
   );
 }
 
-/** Monogram used for the favicon / touch icon until `media.logoMark` exists. */
+/** Favicon / touch / install icon: the logo emblem on a navy tile (monogram until `media.logoMark` exists). */
 export async function renderIcon(size: number) {
   const tinosBold = await font('tinos-700.ttf');
+  const mark = await publicImage(media.logoMark, { width: Math.round(size * 0.84), height: Math.round(size * 0.84) });
   return png(
     (
       <div
@@ -144,7 +164,12 @@ export async function renderIcon(size: number) {
           lineHeight: 1,
         }}
       >
-        A
+        {mark ? (
+          /* eslint-disable-next-line @next/next/no-img-element -- rendered by satori, not the browser */
+          <img src={mark.src} width={mark.width} height={mark.height} alt="" />
+        ) : (
+          'A'
+        )}
       </div>
     ),
     size,

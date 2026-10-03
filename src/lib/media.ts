@@ -35,9 +35,9 @@ export type PartnerSlot = (typeof partnerSlots)[number];
 export { designSlots, design360Slots, stepSlots, partnerSlots };
 
 export const media: Record<MediaSlot, string | null> = {
-  logoFull: null,
-  logoMark: null,
-  logoWhite: null,
+  logoFull: '/media/logo/logo-full.png',
+  logoMark: '/media/logo/mark.png',
+  logoWhite: '/media/logo/logo-white.png',
   heroPoster: '/media/hero/poster.jpg',
   heroVideo: '/media/hero/hero.mp4',
   aboutOffice: '/media/about/office.jpg',
@@ -125,9 +125,9 @@ const designAspects: Record<DesignSlot, [number, number]> = {
 };
 
 export const mediaSpecs: Record<MediaSlot, MediaSpec> = {
-  logoFull: spec('logo', 1200, 360, 'SVG (or PNG @2x, transparent)'),
-  logoMark: spec('logo', 512, 512, 'SVG or PNG, transparent'),
-  logoWhite: spec('logo', 1200, 360, 'SVG (white artwork, transparent)'),
+  logoFull: spec('logo', 720, 665, 'PNG, transparent — full lockup, navy lettering (light backgrounds)'),
+  logoMark: spec('logo', 512, 512, 'PNG, transparent — emblem only'),
+  logoWhite: spec('logo', 720, 665, 'PNG, transparent — full lockup, light lettering (dark backgrounds)'),
   heroPoster: spec('image', 2560, 1440, 'JPG/AVIF, < 400 KB'),
   heroVideo: spec('video', 1920, 1080, 'MP4 H.264, muted, 10–20 s loop, < 6 MB'),
   aboutOffice: spec('image', 1200, 1500, 'JPG'),
