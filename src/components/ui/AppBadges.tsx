@@ -39,8 +39,8 @@ export function AppBadges({ className }: { className?: string }) {
               <path d={glyph[s.key]} />
             </svg>
             <span className="leading-none">
-              <span className="block text-[10px] text-white/80">{s.pre}</span>
-              <span className="mt-0.5 block font-wordmark-sans text-sm font-semibold" dir="ltr">
+              <span className="block text-[calc(10px*var(--fs))] text-white/80">{s.pre}</span>
+              <span className="mt-0.5 block font-display text-sm font-semibold" dir="ltr">
                 {s.name}
               </span>
             </span>

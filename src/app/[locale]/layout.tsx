@@ -16,8 +16,6 @@ import { MaterialsTab } from '@/components/layout/MaterialsTab';
 import { AppToasterLazy } from '@/components/ui/LazyForms';
 import { Analytics } from '@/components/layout/Analytics';
 import { JsonLd } from '@/components/ui/JsonLd';
-import { cn } from '@/lib/utils';
-import { bodoni, inter, arabicPreloads } from '@/lib/fonts';
 
 
 /** Namespaces read by client components; server-only copy (meta, persona pages, legal…) stays on the server. */
@@ -82,12 +80,10 @@ export default async function LocaleLayout({ children, params: { locale } }: { c
   });
 
   return (
-    <html lang={locale} dir={dirOf(l)} className={cn(bodoni.variable, inter.variable)} suppressHydrationWarning>
+    <html lang={locale} dir={dirOf(l)} suppressHydrationWarning>
       <head>
         {/* Enables reveal-on-scroll hidden states only when JS runs; without JS everything stays visible. */}
         <script dangerouslySetInnerHTML={{ __html: "document.documentElement.classList.add('js')" }} />
-        {l === 'ar' &&
-          arabicPreloads.map((href) => <link key={href} rel="preload" href={href} as="font" type="font/woff2" crossOrigin="anonymous" />)}
       </head>
       <body>
         <NextIntlClientProvider locale={locale} messages={clientMessages}>

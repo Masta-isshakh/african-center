@@ -15,7 +15,7 @@ export function TrustRow({ dark, className, align = 'start' }: { dark?: boolean;
   return (
     <ul
       aria-label={t('label')}
-      className={cn('flex flex-wrap gap-x-5 gap-y-2 text-[13px] font-medium', align === 'center' && 'justify-center', dark ? 'text-white/75' : 'text-ink/70', className)}
+      className={cn('flex flex-wrap gap-x-5 gap-y-2 text-[calc(13px*var(--fs))] font-medium', align === 'center' && 'justify-center', dark ? 'text-white/75' : 'text-ink/70', className)}
     >
       {items.map(({ icon, text }) => (
         <li key={text} className="inline-flex items-center gap-1.5">

@@ -67,7 +67,7 @@ export function QatarMap({ points, label, className }: { points: MapPoint[]; lab
                 fillOpacity=".85"
                 fontSize="13"
                 fontWeight="600"
-                style={{ fontFamily: 'var(--font-body)' }}
+                style={{ fontFamily: 'var(--font-tnr)' }}
               >
                 {p.label}
               </text>

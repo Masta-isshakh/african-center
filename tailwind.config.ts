@@ -42,18 +42,25 @@ const config: Config = {
         error: '#C0392B',
         whatsapp: '#17784F', // success green darkened so white labels pass WCAG AA (≈5.3:1)
       },
+      // Times New Roman everywhere (Latin + Arabic). See --font-tnr in globals.css for the fallback chain.
       fontFamily: {
-        display: ['var(--font-display)', 'serif'],
-        body: ['var(--font-body)', 'system-ui', 'sans-serif'],
-        wordmark: ['var(--font-bodoni)', 'serif'],
-        'wordmark-sans': ['var(--font-inter)', 'sans-serif'],
-        'wordmark-ar': ['var(--font-cairo)', 'sans-serif'],
+        display: ['var(--font-tnr)'],
+        body: ['var(--font-tnr)'],
       },
+      // Body sizes scale by --fs: Times New Roman's Arabic glyphs are smaller than its Latin ones,
+      // so Arabic text is set ~12% larger without changing any spacing.
       fontSize: {
+        xs: ['calc(0.75rem * var(--fs))', { lineHeight: 'var(--lh-body)' }],
+        sm: ['calc(0.875rem * var(--fs))', { lineHeight: 'var(--lh-body)' }],
+        base: ['calc(1rem * var(--fs))', { lineHeight: 'var(--lh-body)' }],
+        lg: ['calc(1.125rem * var(--fs))', { lineHeight: 'var(--lh-body)' }],
+        xl: ['calc(1.25rem * var(--fs))', { lineHeight: 'var(--lh-snug)' }],
+        '2xl': ['calc(1.5rem * var(--fs))', { lineHeight: 'var(--lh-snug)' }],
+        '3xl': ['calc(1.875rem * var(--fs))', { lineHeight: 'var(--lh-snug)' }],
         'display-2xl': ['clamp(2.75rem, 6vw, 5.5rem)', { lineHeight: 'var(--lh-display)' }],
         'display-xl': ['clamp(2rem, 4vw, 3.5rem)', { lineHeight: 'var(--lh-display)' }],
         'display-lg': ['clamp(1.5rem, 2.5vw, 2.25rem)', { lineHeight: 'var(--lh-display)' }],
-        eyebrow: ['0.8125rem', { lineHeight: '1.2' }],
+        eyebrow: ['calc(0.8125rem * var(--fs))', { lineHeight: '1.2' }],
       },
       borderRadius: {
         sm: '8px',

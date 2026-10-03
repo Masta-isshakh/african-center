@@ -32,14 +32,14 @@ function FieldMessage({ id, error, hint, dark }: { id: string; error?: string; h
 
 const fieldBase = (error?: string, dark?: boolean) =>
   cn(
-    'peer block w-full rounded-md border bg-white px-4 pb-2 pt-6 text-[0.9375rem] text-ink outline-none transition-[border-color,box-shadow] duration-200 placeholder:text-transparent focus:border-gold-500 focus:ring-4 focus:ring-gold-500/15',
+    'peer block w-full rounded-md border bg-white px-4 pb-2 pt-6 text-[calc(0.9375rem*var(--fs))] text-ink outline-none transition-[border-color,box-shadow] duration-200 placeholder:text-transparent focus:border-gold-500 focus:ring-4 focus:ring-gold-500/15',
     error ? 'border-error' : 'border-mist hover:border-navy-200',
     dark && 'border-white/15 bg-white/5 text-white hover:border-white/30',
   );
 
 const floatingLabel = (dark?: boolean) =>
   cn(
-    'pointer-events-none absolute start-4 top-4 origin-[0] text-[0.9375rem] transition-all duration-200 rtl:origin-[100%]',
+    'pointer-events-none absolute start-4 top-4 origin-[0] text-[calc(0.9375rem*var(--fs))] transition-all duration-200 rtl:origin-[100%]',
     'peer-focus:top-2 peer-focus:text-xs peer-focus:font-semibold peer-[:not(:placeholder-shown)]:top-2 peer-[:not(:placeholder-shown)]:text-xs peer-[:not(:placeholder-shown)]:font-semibold',
     dark ? 'text-white/60 peer-focus:text-gold-300' : 'text-ink/65 peer-focus:text-gold-700',
   );

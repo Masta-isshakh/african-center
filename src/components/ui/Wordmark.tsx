@@ -33,16 +33,16 @@ export function Wordmark({ locale, tone = 'navy', variant = 'compact', className
   const sub = tone === 'light' ? 'text-gold-300' : 'text-gold-700';
 
   const arabic = (
-    <span lang="ar" dir="rtl" className={cn('block font-wordmark-ar font-extrabold leading-tight', main, variant === 'full' ? 'text-xl' : 'text-[0.8125rem] min-[400px]:text-[0.9rem] sm:text-[1.05rem]')}>
+    <span lang="ar" dir="rtl" className={cn('block font-display font-extrabold leading-tight', main, variant === 'full' ? 'text-xl' : 'text-[calc(0.8125rem*var(--fs))] min-[400px]:text-[calc(0.9rem*var(--fs))] sm:text-[calc(1.05rem*var(--fs))]')}>
       {brand.name.ar}
     </span>
   );
   const english = (
     <span lang="en" dir="ltr" className="block">
-      <span className={cn('block font-wordmark font-bold leading-none tracking-[0.02em]', main, variant === 'full' ? 'text-[1.6rem]' : 'text-[1.05rem] sm:text-[1.2rem]')}>
+      <span className={cn('block font-display font-bold leading-none tracking-[0.02em]', main, variant === 'full' ? 'text-[calc(1.6rem*var(--fs))]' : 'text-[calc(1.05rem*var(--fs))] sm:text-[calc(1.2rem*var(--fs))]')}>
         {brand.wordmark.line1}
       </span>
-      <span className={cn('mt-1 block font-wordmark-sans text-[9px] font-semibold uppercase tracking-[0.18em] sm:text-[11px]', variant === 'full' ? 'sm:text-[11px]' : 'sm:text-[9.5px]', sub)}>
+      <span className={cn('mt-1 block font-display text-[calc(9px*var(--fs))] font-semibold uppercase tracking-[0.18em] sm:text-[calc(11px*var(--fs))]', variant === 'full' ? 'sm:text-[calc(11px*var(--fs))]' : 'sm:text-[calc(9.5px*var(--fs))]', sub)}>
         {brand.wordmark.line2}
       </span>
     </span>
@@ -59,7 +59,7 @@ export function Wordmark({ locale, tone = 'navy', variant = 'compact', className
       ) : locale === 'ar' ? (
         <>
           {arabic}
-          <span className={cn('block font-wordmark-sans text-[9px] font-semibold uppercase tracking-[0.18em]', sub)} dir="ltr">
+          <span className={cn('block font-display text-[calc(9px*var(--fs))] font-semibold uppercase tracking-[0.18em]', sub)} dir="ltr">
             {brand.wordmark.line1}
           </span>
         </>

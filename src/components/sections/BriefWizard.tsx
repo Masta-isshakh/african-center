@@ -200,7 +200,7 @@ function BriefWizardInner() {
         <ol className="mt-4 grid grid-cols-3 gap-2 text-xs">
           {stepKeys.map((k, i) => (
             <li key={k} className={cn('flex items-center gap-2 font-semibold', i <= step ? 'text-navy-800' : 'text-ink/65')}>
-              <span className={cn('grid h-6 w-6 shrink-0 place-items-center rounded-full border text-[11px]', i < step ? 'border-gold-500 bg-gold-500 text-navy-950' : i === step ? 'border-gold-500 text-gold-700' : 'border-mist')}>
+              <span className={cn('grid h-6 w-6 shrink-0 place-items-center rounded-full border text-[calc(11px*var(--fs))]', i < step ? 'border-gold-500 bg-gold-500 text-navy-950' : i === step ? 'border-gold-500 text-gold-700' : 'border-mist')}>
                 <span className="num">{i + 1}</span>
               </span>
               {t(`steps.${k}`)}

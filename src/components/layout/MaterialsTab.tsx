@@ -117,7 +117,7 @@ export function MaterialsTab() {
                   <tr key={item.id}>
                     <th scope="row" className="py-2.5 text-start font-medium text-white/85">
                       {t(`items.${item.id}`)}
-                      <span className="block text-[11px] font-normal text-white/45">{t('perUnit', { unit: t(`units.${item.unit}`) })}</span>
+                      <span className="block text-[calc(11px*var(--fs))] font-normal text-white/45">{t('perUnit', { unit: t(`units.${item.unit}`) })}</span>
                     </th>
                     <td className="py-2.5 text-end font-semibold text-gold-300">
                       {item.price !== null ? <span className="num">{fmt(item.price)}</span> : <span className="text-xs font-medium text-white/45">{t('pending')}</span>}
@@ -130,8 +130,8 @@ export function MaterialsTab() {
               </tbody>
             </table>
             {!published && <p className="mt-4 rounded-lg bg-white/5 p-3 text-xs text-white/70">{t('pendingBody')}</p>}
-            {materials.sample && <p className="mt-3 text-[11px] text-gold-300/80">{tc('sampleNote')}</p>}
-            <p className="mt-4 text-[11px] text-white/50">
+            {materials.sample && <p className="mt-3 text-[calc(11px*var(--fs))] text-gold-300/80">{tc('sampleNote')}</p>}
+            <p className="mt-4 text-[calc(11px*var(--fs))] text-white/50">
               {t('source')} · {tc('currency')}
             </p>
             <Link href="/materials" className="mt-4 inline-flex items-center gap-2 text-sm font-semibold text-gold-400 hover:text-gold-300">

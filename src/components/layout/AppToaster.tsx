@@ -11,7 +11,7 @@ export function AppToaster() {
       position="top-center"
       richColors
       closeButton
-      toastOptions={{ className: 'font-body', style: { fontFamily: 'var(--font-body)' } }}
+      toastOptions={{ className: 'font-body', style: { fontFamily: 'var(--font-tnr)' } }}
     />
   );
 }

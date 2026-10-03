@@ -29,7 +29,7 @@ export function LanguageSwitcher({ className }: { className?: string }) {
       onClick={switchLocale}
       aria-label={t('languageLabel')}
       className={cn(
-        'group relative inline-flex h-9 items-center rounded-full border border-white/20 bg-white/5 p-1 text-xs font-bold tracking-wider text-white/80 transition-colors hover:border-gold-400/60',
+        'group relative inline-flex h-9 items-center rounded-full border border-white/20 bg-navy-950/85 p-1 text-xs font-bold tracking-wider text-white/80 transition-colors hover:border-gold-400/60',
         className,
       )}
     >
@@ -39,7 +39,7 @@ export function LanguageSwitcher({ className }: { className?: string }) {
           dir="ltr"
           aria-hidden="true"
           className={cn(
-            'grid h-7 min-w-[2.25rem] place-items-center rounded-full px-2 font-wordmark-sans transition-colors duration-300',
+            'grid h-7 min-w-[2.25rem] place-items-center rounded-full px-2 font-display transition-colors duration-300',
             l === locale ? 'bg-gold-500 text-navy-950' : 'group-hover:text-white',
           )}
         >

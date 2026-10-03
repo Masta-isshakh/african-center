@@ -6,7 +6,7 @@ import en from '../../messages/en.json';
 export default function RootNotFound() {
   return (
     <html lang="ar" dir="rtl">
-      <body style={{ margin: 0, minHeight: '100vh', display: 'grid', placeItems: 'center', background: '#101418', color: '#fff', fontFamily: 'system-ui, sans-serif', textAlign: 'center' }}>
+      <body style={{ margin: 0, minHeight: '100vh', display: 'grid', placeItems: 'center', background: '#101418', color: '#fff', fontFamily: "'Times New Roman', Times, Tinos, serif", textAlign: 'center' }}>
         <main>
           <p style={{ fontSize: '5rem', fontWeight: 800, color: '#C99A2E', margin: 0 }}>{ar.errors.notFound.code}</p>
           <h1 style={{ margin: '1rem 0 0.5rem' }}>{ar.errors.notFound.title}</h1>

@@ -18,10 +18,12 @@ interface Props {
   copyLinkLabel?: string;
   onCopied?: () => void;
   dark?: boolean;
+  /** Question heading level — h2 when the accordion sits directly under the page <h1>. */
+  headingLevel?: 'h2' | 'h3';
 }
 
 /** One-open accordion with smooth height and optional deep links. */
-export function Accordion({ items, copyLinkLabel, onCopied, dark }: Props) {
+export function Accordion({ items, copyLinkLabel, onCopied, dark, headingLevel: Heading = 'h3' }: Props) {
   const [open, setOpen] = useState<string | null>(null);
 
   useEffect(() => {
@@ -61,7 +63,7 @@ export function Accordion({ items, copyLinkLabel, onCopied, dark }: Props) {
         const panelId = `panel-${item.id}`;
         return (
           <li key={item.id} id={item.slug ? `q-${item.slug}` : undefined} className="scroll-mt-28">
-            <h3>
+            <Heading className="font-body text-base">
               <button
                 type="button"
                 aria-expanded={isOpen}
@@ -82,7 +84,7 @@ export function Accordion({ items, copyLinkLabel, onCopied, dark }: Props) {
                   <DirIcon icon={Plus} className="h-4 w-4" />
                 </span>
               </button>
-            </h3>
+            </Heading>
             {/* grid-template-rows 0fr → 1fr animates to the content's natural height in pure CSS */}
             <div
               id={panelId}

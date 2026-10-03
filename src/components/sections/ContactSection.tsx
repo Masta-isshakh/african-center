@@ -18,8 +18,8 @@ function InfoCard({ icon, title, children }: { icon: LucideIcon; title: string; 
         <DirIcon icon={icon} className="h-5 w-5" />
       </span>
       <div className="min-w-0">
-        <h3 className="text-sm text-ink/70">{title}</h3>
-        <div className="mt-1 text-[0.9375rem] font-medium text-navy-800">{children}</div>
+        <p className="text-sm text-ink/70">{title}</p>
+        <div className="mt-1 text-[calc(0.9375rem*var(--fs))] font-medium text-navy-800">{children}</div>
       </div>
     </div>
   );

@@ -73,7 +73,7 @@ export function FaqExplorer({ commission }: { commission: string }) {
 
       <div className="mt-3">
         {items.length ? (
-          <Accordion items={items.map(({ id, slug, q, a }) => ({ id, slug, q, a }))} copyLinkLabel={t('copyLink')} onCopied={() => toast.success(tt('linkCopied'))} />
+          <Accordion headingLevel="h2" items={items.map(({ id, slug, q, a }) => ({ id, slug, q, a }))} copyLinkLabel={t('copyLink')} onCopied={() => toast.success(tt('linkCopied'))} />
         ) : (
           <p className="rounded-xl border border-dashed border-mist bg-white p-10 text-center text-ink/70">{t('empty')}</p>
         )}

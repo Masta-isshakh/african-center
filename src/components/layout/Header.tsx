@@ -86,7 +86,7 @@ export function Header() {
                     href={item.href}
                     aria-current={isActive ? (item.section ? 'location' : 'page') : undefined}
                     className={cn(
-                      'relative block whitespace-nowrap px-2.5 py-2 text-[0.875rem] font-medium transition-colors 2xl:px-3.5',
+                      'relative block whitespace-nowrap px-2.5 py-2 text-[calc(0.875rem*var(--fs))] font-medium transition-colors 2xl:px-3.5',
                       isActive ? 'text-white' : 'text-white/70 hover:text-white',
                     )}
                   >

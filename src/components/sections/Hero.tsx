@@ -66,7 +66,7 @@ export function Hero() {
         </div>
       </div>
 
-      <a href="#trust" className="absolute bottom-6 start-1/2 z-10 hidden -translate-x-1/2 flex-col items-center gap-3 text-[11px] font-medium text-white/55 hover:text-white sm:flex rtl:translate-x-1/2">
+      <a href="#trust" className="absolute bottom-6 start-1/2 z-10 hidden -translate-x-1/2 flex-col items-center gap-3 text-[calc(11px*var(--fs))] font-medium text-white/55 hover:text-white sm:flex rtl:translate-x-1/2">
         <span>{t('hero.scroll')}</span>
         <span aria-hidden="true" className="block h-14 w-px overflow-hidden bg-white/10">
           <span className="block h-full w-full animate-scroll-line bg-gold-500" />

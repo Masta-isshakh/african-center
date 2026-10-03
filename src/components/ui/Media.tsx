@@ -42,10 +42,10 @@ export function MediaPlaceholder({ slot, aspect, fill, className, label, icon }:
         <span className="grid h-10 w-10 place-items-center rounded-full border border-gold-400/40 bg-navy-950/40 text-gold-300">
           <DirIcon icon={icon ?? kindIcon[spec.kind]} className="h-4 w-4" />
         </span>
-        <span className="font-wordmark-sans text-[11px] font-semibold uppercase tracking-[0.18em] text-white/70" dir="ltr">
+        <span className="font-display text-[calc(11px*var(--fs))] font-semibold uppercase tracking-[0.18em] text-white/70" dir="ltr">
           {label ?? slot}
         </span>
-        <span className="num font-wordmark-sans text-[10px] tracking-wider text-white/40">{spec.size}</span>
+        <span className="num font-display text-[calc(10px*var(--fs))] tracking-wider text-white/40">{spec.size}</span>
       </div>
     </div>
   );
