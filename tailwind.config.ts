@@ -74,9 +74,6 @@ const config: Config = {
         glow: '0 0 0 1px rgba(201,154,46,.4), 0 24px 48px -16px rgba(201,154,46,.25)',
         glass: '0 8px 32px -12px rgba(2,16,31,.55)',
       },
-      maxWidth: {
-        site: '80rem',
-      },
       keyframes: {
         marquee: {
           from: { transform: 'translateX(0)' },

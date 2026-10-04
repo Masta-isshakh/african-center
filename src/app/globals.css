@@ -11,7 +11,7 @@
     --sand: #f7f4ee;
     --ink: #1c2430;
     --mist: #e9edf2;
-    --header-h: 4.5rem;
+    --header-h: 5.5rem;
     --fs: 1;
     --lh-body: 1.6;
     --lh-snug: 1.35;
@@ -96,8 +96,9 @@
 
 /* ───────────────────────── Components ───────────────────────── */
 @layer components {
+  /* Content spans 95% of the viewport on every screen size (2.5% gutter each side). */
   .container-site {
-    @apply mx-auto w-full max-w-site px-4 sm:px-6 lg:px-8;
+    @apply mx-auto w-[95%];
   }
 
   /* Dark section: blueprint grid + radial navy glow + grain */

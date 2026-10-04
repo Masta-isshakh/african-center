@@ -86,7 +86,7 @@ export function MobileMenu({ open, onClose, active }: Props) {
             shown ? 'opacity-100' : 'opacity-0',
           )}
         >
-          <div className="container-site flex h-[var(--header-h)] shrink-0 items-center justify-between">
+          <div className="container-site flex h-[var(--header-h)] shrink-0 items-center justify-between pt-3">
             <Link href="/" onClick={onClose} aria-label={t('common.home')}>
               <Wordmark locale={locale} tone="light" label={t('common.media.logo')} />
             </Link>

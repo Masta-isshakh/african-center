@@ -52,7 +52,7 @@ export default function Designs360Carousel() {
         onPointerMove={onMove}
         onPointerUp={onUp}
         onPointerCancel={onUp}
-        className={`no-scrollbar -mx-4 flex gap-5 overflow-x-auto px-4 pb-2 sm:-mx-6 sm:px-6 lg:-mx-8 lg:px-8 ${dragging ? 'cursor-grabbing select-none' : 'cursor-grab snap-x snap-mandatory'}`}
+        className={`no-scrollbar -mx-[2.5vw] flex gap-5 overflow-x-auto px-[2.5vw] pb-2 ${dragging ? 'cursor-grabbing select-none' : 'cursor-grab snap-x snap-mandatory'}`}
       >
         {designs360.map((slot, i) => (
           <li key={slot} className="w-[82%] shrink-0 snap-start sm:w-[46%] lg:w-[31.5%]">

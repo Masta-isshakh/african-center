@@ -4,7 +4,7 @@ import { useTranslations } from 'next-intl';
 export default function Loading() {
   const t = useTranslations('common');
   return (
-    <section aria-busy="true" className="surface-dark pb-20 pt-[calc(var(--header-h)+2.5rem)]">
+    <section aria-busy="true" className="surface-dark pb-20 pt-[calc(var(--header-h)+4.5rem)]">
       <div className="container-site max-w-4xl space-y-6">
         <span className="sr-only">{t('loading')}</span>
         <div className="shimmer-panel h-4 w-40 rounded-full" />

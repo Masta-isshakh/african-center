@@ -60,7 +60,7 @@ interface PageHeroProps {
 /** Dark band that opens every inner page — keeps the transparent header legible and holds the page's single <h1>. */
 export function PageHero({ locale, crumbs, eyebrow, title, lead, children, aside, compact }: PageHeroProps) {
   return (
-    <section className={cn('surface-dark overflow-hidden pt-[calc(var(--header-h)+2.5rem)]', compact ? 'pb-14' : 'pb-20 lg:pb-24')}>
+    <section className={cn('surface-dark overflow-hidden pt-[calc(var(--header-h)+4.5rem)] lg:pt-[calc(var(--header-h)+5.5rem)]', compact ? 'pb-14' : 'pb-20 lg:pb-24')}>
       <div aria-hidden="true" className="grid-fade absolute inset-0" />
       <div className={cn('container-site relative', aside && 'grid items-center gap-12 lg:grid-cols-12')}>
         <div className={cn(aside ? 'lg:col-span-7' : 'max-w-4xl')}>

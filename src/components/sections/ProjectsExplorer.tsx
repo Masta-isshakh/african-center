@@ -30,7 +30,7 @@ function ProjectsExplorerInner() {
 
   return (
     <div>
-      <div role="group" aria-label={t('filtersLabel')} className="no-scrollbar -mx-4 flex gap-2 overflow-x-auto px-4">
+      <div role="group" aria-label={t('filtersLabel')} className="no-scrollbar -mx-[2.5vw] flex gap-2 overflow-x-auto px-[2.5vw]">
         {(['all', ...projectStatuses] as const).map((s) => (
           <button
             key={s}

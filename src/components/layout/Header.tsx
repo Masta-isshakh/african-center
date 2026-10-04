@@ -71,7 +71,7 @@ export function Header() {
         scrolled ? 'glass border-x-0 border-t-0' : 'border-b border-transparent bg-transparent',
       )}
     >
-      <div className="container-site flex h-[var(--header-h)] items-center gap-4">
+      <div className="container-site flex h-[var(--header-h)] items-center gap-4 pt-3">
         <Link href="/" className="min-w-0 shrink rounded-md" aria-label={t('common.home')}>
           <Wordmark locale={locale} tone="light" label={t('common.media.logo')} />
         </Link>

@@ -27,12 +27,12 @@ function SplitWords({ text }: { text: string }) {
 export function Hero() {
   const t = useTranslations();
   return (
-    <section id="top" aria-labelledby="hero-title" className="surface-dark relative flex min-h-[100svh] items-center overflow-hidden pb-20 pt-[calc(var(--header-h)+3rem)] sm:pb-24">
+    <section id="top" aria-labelledby="hero-title" className="surface-dark relative flex min-h-[100svh] items-center overflow-hidden pb-20 pt-[calc(var(--header-h)+5rem)] sm:pb-24 lg:pt-[calc(var(--header-h)+7rem)]">
       <HeroMedia alt={t('hero.posterAlt')} />
       <div aria-hidden="true" className="absolute inset-0 bg-gradient-to-t from-charcoal via-navy-950/45 to-navy-950/10" />
       <div aria-hidden="true" className="absolute inset-0 bg-gradient-to-r from-navy-950/85 via-navy-950/35 to-transparent rtl:bg-gradient-to-l" />
 
-      <div className="absolute end-4 top-[calc(var(--header-h)+1rem)] z-10 flex gap-2 sm:end-6 2xl:hidden">
+      <div className="absolute end-[2.5%] top-[calc(var(--header-h)+1.25rem)] z-10 flex gap-2 2xl:hidden">
         <Link href="/sign-in" className="rounded-full border border-white/20 bg-white/5 px-4 py-1.5 text-xs font-semibold text-white/85 backdrop-blur hover:border-gold-400/60">
           {t('common.signIn')}
         </Link>

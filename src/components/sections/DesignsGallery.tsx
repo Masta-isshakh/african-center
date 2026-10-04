@@ -34,7 +34,7 @@ function DesignsGalleryInner({ items, limit, showChips }: { items: GalleryItem[]
 
   return (
     <div>
-      <div role="group" aria-label={t('filtersLabel')} className="no-scrollbar -mx-4 flex gap-2 overflow-x-auto px-4 pb-1">
+      <div role="group" aria-label={t('filtersLabel')} className="no-scrollbar -mx-[2.5vw] flex gap-2 overflow-x-auto px-[2.5vw] pb-1">
         {designFilters.map((f) => (
           <button
             key={f}

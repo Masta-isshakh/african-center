@@ -49,7 +49,7 @@ export function FaqExplorer({ commission }: { commission: string }) {
         )}
       </div>
 
-      <div role="tablist" aria-label={t('categoriesLabel')} className="no-scrollbar -mx-4 mt-6 flex gap-2 overflow-x-auto px-4">
+      <div role="tablist" aria-label={t('categoriesLabel')} className="no-scrollbar -mx-[2.5vw] mt-6 flex gap-2 overflow-x-auto px-[2.5vw]">
         {(['all', ...faqCategories] as const).map((c) => (
           <button
             key={c}
