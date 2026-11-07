@@ -11,6 +11,15 @@ const nextConfig = {
   images: {
     formats: ['image/avif', 'image/webp'],
   },
+  async headers() {
+    return [
+      {
+        // Pre-generated, content-hashed project media (scripts/prepare-projects.mjs): safe to cache for a year.
+        source: '/media/projects/:path*',
+        headers: [{ key: 'Cache-Control', value: 'public, max-age=31536000, immutable' }],
+      },
+    ];
+  },
   experimental: {
     optimizePackageImports: ['lucide-react', 'framer-motion'],
     // Native/wasm packages used by the OG image renderer stay outside the server bundle.

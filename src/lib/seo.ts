@@ -4,6 +4,7 @@ import { brand, configuredSocials, filled } from './brand';
 import { siteUrl, type AppRoute } from './site';
 import { media } from './media';
 import type { Locale } from '@/i18n/routing';
+import type { Project } from '@/content/projects';
 
 export type MetaPage =
   | 'home'
@@ -70,6 +71,30 @@ export async function pageMetadata(locale: Locale, page: MetaPage): Promise<Meta
     alternates: { canonical: url, languages: languageAlternates(path) },
     openGraph: {
       type: 'website',
+      url,
+      title: fullTitle,
+      description,
+      siteName: brand.name[locale],
+      locale: locale === 'ar' ? 'ar_QA' : 'en_QA',
+      alternateLocale: locale === 'ar' ? ['en_QA'] : ['ar_QA'],
+    },
+    twitter: { card: 'summary_large_image', title: fullTitle, description },
+  };
+}
+
+/** Localised metadata for a portfolio project page (/designs/<slug>); the OG image comes from its opengraph-image route. */
+export function projectMetadata(locale: Locale, project: Project): Metadata {
+  const path = `/designs/${project.slug}`;
+  const url = localizedUrl(locale, path);
+  const title = project.title[locale];
+  const description = project.excerpt[locale];
+  const fullTitle = `${title} | ${titleSuffix(locale)}`;
+  return {
+    title,
+    description,
+    alternates: { canonical: url, languages: languageAlternates(path) },
+    openGraph: {
+      type: 'article',
       url,
       title: fullTitle,
       description,
@@ -180,5 +205,17 @@ export function itemListJsonLd(items: { name: string; url: string; image?: strin
       position: i + 1,
       item: { '@type': 'CreativeWork', name: item.name, url: item.url, ...(item.image ? { image: item.image } : {}) },
     })),
+  };
+}
+
+export function imageGalleryJsonLd({ name, description, url, images }: { name: string; description: string; url: string; images: { url: string; caption: string; width: number; height: number }[] }) {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'ImageGallery',
+    name,
+    description,
+    url,
+    provider: { '@id': orgId },
+    associatedMedia: images.map((i) => ({ '@type': 'ImageObject', contentUrl: i.url, caption: i.caption, width: i.width, height: i.height })),
   };
 }

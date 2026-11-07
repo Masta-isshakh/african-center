@@ -8,6 +8,7 @@ import { brand } from './brand';
 import { media } from './media';
 import type { MetaPage } from './seo';
 import type { Locale } from '@/i18n/routing';
+import { areas, projectBySlug } from '@/content/projects';
 
 export const ogSize = { width: 1200, height: 630 };
 
@@ -34,6 +35,12 @@ async function backdrop(): Promise<string | null> {
   const file = await readFile(path.join(process.cwd(), 'public', media.ogDefault));
   const ext = path.extname(media.ogDefault).slice(1).replace('jpg', 'jpeg');
   return `data:image/${ext};base64,${file.toString('base64')}`;
+}
+
+/** A public/ photo cropped to the card and inlined as a JPEG data URI (project covers). */
+async function publicPhoto(src: string): Promise<string> {
+  const buf = await sharp(path.join(process.cwd(), 'public', src)).resize(ogSize.width, ogSize.height, { fit: 'cover' }).jpeg({ quality: 78 }).toBuffer();
+  return `data:image/jpeg;base64,${buf.toString('base64')}`;
 }
 
 /** A public/ image (media manifest path) resized for satori and inlined as a data URI. */
@@ -74,21 +81,32 @@ async function arabicRun(text: string, sizePx: number, maxWidth: number, color =
   return { src: `data:image/png;base64,${data.toString('base64')}`, width: info.width, height: info.height };
 }
 
-/** Navy card, gold rule, localized page title, company logo at the bottom-start corner. */
-export async function renderOg(locale: Locale, page: MetaPage) {
-  const t = await getTranslations({ locale, namespace: 'meta' });
-  const title = t(`${page}.title`, { reg: brand.registration.number });
+interface OgCard {
+  title: string;
+  /** Small gold line under the rule (project pages: area · style) */
+  subtitle?: string;
+  /** Data URI drawn behind the gradient, or null for the plain navy card */
+  backdrop: string | null;
+  backdropOpacity: number;
+}
+
+/** Navy card, gold rule, title (and optional subtitle), company logo at the bottom-start corner. */
+async function renderCard(locale: Locale, card: OgCard) {
   const ar = locale === 'ar';
-  const [tinosBold, tinos, bg, arTitle, logo, arName] = await Promise.all([
+  const [tinosBold, tinos, arTitle, arSubtitle, logo, arName] = await Promise.all([
     font('tinos-700.ttf'),
     font('tinos-400.ttf'),
-    backdrop(),
-    ar ? arabicRun(title, 72, 1000) : null,
+    ar ? arabicRun(card.title, 72, 1000) : null,
+    ar && card.subtitle ? arabicRun(card.subtitle, 28, 1000, '#DFB95C') : null,
     // light-lettering lockup for the dark card; the typeset name is only the fallback
     publicImage(media.logoWhite, { height: 230 }),
     media.logoWhite ? null : arabicRun(brand.name.ar, 30, 900),
   ]);
   const align = ar ? 'flex-end' : 'flex-start';
+  // Keeps the title legible over photographic backdrops: darker at the reading-start edge.
+  const scrim = ar
+    ? 'linear-gradient(270deg, rgba(2,16,31,.9) 0%, rgba(2,16,31,.55) 55%, rgba(2,16,31,.2) 100%)'
+    : 'linear-gradient(90deg, rgba(2,16,31,.9) 0%, rgba(2,16,31,.55) 55%, rgba(2,16,31,.2) 100%)';
 
   return png(
     (
@@ -107,16 +125,24 @@ export async function renderOg(locale: Locale, page: MetaPage) {
         }}
       >
         {/* eslint-disable-next-line @next/next/no-img-element -- rendered by satori, not the browser */}
-        {bg && <img src={bg} width={1200} height={630} style={{ position: 'absolute', top: 0, left: 0, objectFit: 'cover', opacity: 0.25 }} alt="" />}
+        {card.backdrop && <img src={card.backdrop} width={1200} height={630} style={{ position: 'absolute', top: 0, left: 0, objectFit: 'cover', opacity: card.backdropOpacity }} alt="" />}
+        {card.backdrop && card.backdropOpacity > 0.3 && <div style={{ position: 'absolute', top: 0, left: 0, width: 1200, height: 630, background: scrim }} />}
         <div style={{ display: 'flex', flexDirection: 'column', alignItems: align }}>
           <div style={{ fontFamily: 'Tinos', fontSize: 22, letterSpacing: 6, color: '#DFB95C' }}>{brand.shortName}</div>
           {arTitle ? (
             /* eslint-disable-next-line @next/next/no-img-element -- rendered by satori, not the browser */
             <img src={arTitle.src} width={arTitle.width} height={arTitle.height} style={{ marginTop: 28 }} alt="" />
           ) : (
-            <div style={{ marginTop: 28, fontFamily: 'Tinos', fontWeight: 700, fontSize: title.length > 40 ? 64 : 76, lineHeight: 1.08, maxWidth: 1000 }}>{title}</div>
+            <div style={{ marginTop: 28, fontFamily: 'Tinos', fontWeight: 700, fontSize: card.title.length > 40 ? 64 : 76, lineHeight: 1.08, maxWidth: 1000 }}>{card.title}</div>
           )}
           <div style={{ marginTop: 36, width: 120, height: 3, background: 'linear-gradient(90deg, #C99A2E, #DFB95C)' }} />
+          {card.subtitle &&
+            (arSubtitle ? (
+              /* eslint-disable-next-line @next/next/no-img-element -- rendered by satori, not the browser */
+              <img src={arSubtitle.src} width={arSubtitle.width} height={arSubtitle.height} style={{ marginTop: 24 }} alt="" />
+            ) : (
+              <div style={{ marginTop: 24, fontFamily: 'Tinos', fontSize: 30, color: '#DFB95C' }}>{card.subtitle}</div>
+            ))}
         </div>
         {logo ? (
           /* eslint-disable-next-line @next/next/no-img-element -- rendered by satori, not the browser */
@@ -140,6 +166,26 @@ export async function renderOg(locale: Locale, page: MetaPage) {
       { name: 'Tinos', data: tinos, weight: 400, style: 'normal' },
     ],
   );
+}
+
+/** Localised page title on the navy card with the faint default backdrop. */
+export async function renderOg(locale: Locale, page: MetaPage) {
+  const t = await getTranslations({ locale, namespace: 'meta' });
+  const title = t(`${page}.title`, { reg: brand.registration.number });
+  return renderCard(locale, { title, backdrop: await backdrop(), backdropOpacity: 0.25 });
+}
+
+/** Project pages: the cover render behind the title, with the area and style as a subtitle. */
+export async function renderProjectOg(locale: Locale, slug: string) {
+  const project = projectBySlug(slug);
+  if (!project) return renderOg(locale, 'designs');
+  const t = await getTranslations({ locale, namespace: 'portfolio' });
+  return renderCard(locale, {
+    title: project.title[locale],
+    subtitle: `${areas[project.area].name[locale]} · ${t(`styles.${project.style}`)}`,
+    backdrop: await publicPhoto(project.cover.src),
+    backdropOpacity: 0.6,
+  });
 }
 
 /** Favicon / touch / install icon: the logo emblem on a navy tile (monogram until `media.logoMark` exists). */

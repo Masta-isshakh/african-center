@@ -30,15 +30,6 @@ const jobs = [
   ['about/office.jpg', 'Sunlit Engineering Office with Rolled Plans.png', 1200, 1500],
   ['about/team.jpg', 'Qatari Villa Portfolio Review-8.png', 1800, 1200],
 
-  ['designs/design-01-classic-villa.jpg', 'Sunrise Arabian Villa with Mashrabiya (1).png', 1280, 1600],
-  ['designs/design-02-modern-villa.jpg', 'Qatari villa_ Blueprint to completion.png', 1600, 1200],
-  ['designs/design-03-majlis.jpg', 'Elegant Qatari Majlis in Warm Gold-1.png', 1600, 1600],
-  ['designs/design-04-kitchen.jpg', 'Modern Qatari Villa Kitchen Panorama-4.png', 1600, 1200],
-  ['designs/design-05-staircase.jpg', 'Grand Limestone Staircase in Qatari Villa-5.png', 1280, 1600],
-  ['designs/design-06-living.jpg', 'Warm Contemporary Qatari Villa Interior-2.png', 1600, 1200],
-  ['designs/design-07-courtyard.jpg', 'Shaded Qatari Villa Courtyard-6.png', 1600, 1600],
-  ['designs/design-08-bedroom.jpg', 'Luxurious Qatari Villa Master Bedroom-3.png', 1200, 1600],
-
   ['360/majlis.jpg', 'Elegant Qatari Majlis in Warm Gold-1.png', 1774, 887],
   ['360/staircase.jpg', 'Grand Limestone Staircase in Qatari Villa-5.png', 1774, 887],
   ['360/bedroom.jpg', 'Luxurious Qatari Villa Master Bedroom-3.png', 1774, 887],

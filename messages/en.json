@@ -26,7 +26,7 @@
     },
     "designs": {
       "title": "Villa Designs in Qatar — Modern & Classic",
-      "description": "Villa designs in Qatar from a licensed engineering office: modern and classic villa facade designs and practical plans. Request a similar design."
+      "description": "Villa and majlis designs across Qatar from a licensed engineering office: modern, neo-classic and classic projects with renders, courtyards and interiors."
     },
     "projects": {
       "title": "Projects on the Platform",
@@ -348,50 +348,10 @@
   },
   "designs": {
     "eyebrow": "Our designs",
-    "title": "Villa designs drawn for your plot and your budget",
-    "lead": "Classic and modern facades with practical plans that respect the majlis, privacy and Municipality rules.",
-    "filtersLabel": "Filter designs",
-    "filters": {
-      "all": "All",
-      "classic": "Classic",
-      "modern": "Modern",
-      "villa": "Villas",
-      "commercial": "Commercial"
-    },
-    "styles": {
-      "classic": "classic style",
-      "modern": "modern style"
-    },
-    "types": {
-      "villa": "Residential villa",
-      "commercial": "Commercial building"
-    },
-    "chips": {
-      "area": "{value} m²",
-      "bedrooms": "{count, plural, one {# bedroom} other {# bedrooms}}"
-    },
-    "alt": "{type} design in {style} – no. {n}",
-    "open": "View design {n} larger",
-    "showMore": "Show more designs",
-    "requestSimilar": "Request a similar design",
-    "empty": "No designs in this category yet.",
-    "lightbox": {
-      "label": "Design viewer",
-      "prev": "Previous design",
-      "next": "Next design",
-      "close": "Close viewer",
-      "counter": "{current} of {total}"
-    },
-    "titles": {
-      "design01": "Classic villa facade with mashrabiya",
-      "design02": "Modern villa, from drawings to build",
-      "design03": "Classic-style majlis",
-      "design04": "Modern open-plan kitchen",
-      "design05": "Limestone staircase in the villa hall",
-      "design06": "Contemporary living area",
-      "design07": "Shaded inner courtyard",
-      "design08": "Master bedroom suite"
-    }
+    "title": "Villa designs drawn for real plots across Qatar",
+    "lead": "Modern, neo-classic and classic villas and majlis from our studio — each shown with its exterior renders, courtyards and details.",
+    "showMore": "Browse all designs",
+    "requestSimilar": "Request a similar design"
   },
   "designs360": {
     "eyebrow": "360° designs",
@@ -410,6 +370,100 @@
       "v4": "Kitchen",
       "v5": "Inner courtyard",
       "v6": "Living area"
+    }
+  },
+  "portfolio": {
+    "filtersLabel": "Filter by style",
+    "filters": {
+      "all": "All",
+      "modern": "Modern",
+      "neoClassic": "Neo-classic",
+      "classic": "Classic"
+    },
+    "styles": {
+      "modern": "Modern",
+      "neoClassic": "Neo-classic",
+      "classic": "Classic"
+    },
+    "types": {
+      "villa": "Villa",
+      "majlis": "Majlis"
+    },
+    "features": {
+      "ground": "Ground floor",
+      "first": "First floor",
+      "roof": "Roof floor",
+      "penthouse": "Penthouse",
+      "outdoorMajlis": "Outdoor majlis",
+      "majlis": "Majlis",
+      "driverRoom": "Driver's room",
+      "annex": "External annex",
+      "pool": "Swimming pool"
+    },
+    "imageCount": "{count, plural, one {# view} other {# views}}",
+    "hasVideo": "Video",
+    "viewProject": "View project",
+    "cardLabel": "{title} — {location}",
+    "empty": "No designs in this style yet.",
+    "stats": {
+      "projects": "{count, plural, one {# project} other {# projects}}",
+      "views": "{count, plural, one {# render} other {# renders}}",
+      "areas": "{count, plural, one {# area in Qatar} other {# areas in Qatar}}"
+    },
+    "facts": {
+      "location": "Location",
+      "style": "Style",
+      "type": "Type",
+      "programme": "Programme",
+      "views": "Views"
+    },
+    "gallery": {
+      "eyebrow": "Gallery",
+      "title": "Views of the project",
+      "filterLabel": "Filter views",
+      "open": "Open: {caption}",
+      "empty": "No views in this category."
+    },
+    "categories": {
+      "all": "All views",
+      "exterior": "Exterior",
+      "aerial": "Aerial",
+      "outdoor": "Courtyards & landscape",
+      "interior": "Interiors",
+      "detail": "Details"
+    },
+    "lightbox": {
+      "label": "Image viewer",
+      "prev": "Previous image",
+      "next": "Next image",
+      "close": "Close viewer",
+      "counter": "{current} of {total}"
+    },
+    "video": {
+      "eyebrow": "Walkthrough",
+      "title": "Walk around the villa",
+      "lead": "A short fly-through of the street front at dusk, straight from the 3D model.",
+      "play": "Play the walkthrough",
+      "duration": "{seconds} s",
+      "label": "{title} — walkthrough video",
+      "unsupported": "Your browser cannot play this video."
+    },
+    "nav": {
+      "label": "More designs",
+      "prev": "Previous design",
+      "next": "Next design",
+      "all": "All designs"
+    },
+    "map": {
+      "eyebrow": "Across Qatar",
+      "title": "Where these designs stand",
+      "lead": "Villas and majlis drawn for plots from Al Shamal in the north to Al Wukair in the south.",
+      "label": "Map of Qatar showing the project locations",
+      "count": "{count, plural, one {# design} other {# designs}}"
+    },
+    "cta": {
+      "title": "Like one of these? We’ll design it for your plot.",
+      "body": "Send your brief and an engineer will call you to arrange the first meeting — free for owners."
     }
   },
   "services": {
@@ -1232,7 +1286,7 @@
   "designsPage": {
     "eyebrow": "Our designs",
     "title": "Modern and classic villa designs in Qatar",
-    "lead": "Modern villa plans and considered facade designs that respect the majlis, privacy and Municipality rules. Pick the style closest to you and we'll design it for your plot."
+    "lead": "Recent villa and majlis designs — modern, neo-classic and classic — presented with their renders, courtyards and interiors. Choose the style closest to you and we’ll design it for your plot."
   },
   "contactPage": {
     "eyebrow": "Contact",

@@ -30,6 +30,8 @@ export interface MapPoint {
   label?: string;
   /** Label side relative to the dot */
   labelSide?: 'start' | 'end';
+  /** Vertical label nudge in SVG px, for neighbouring pins whose labels would overlap */
+  labelDy?: number;
   tone?: 'gold' | 'white';
   active?: boolean;
 }
@@ -61,7 +63,7 @@ export function QatarMap({ points, label, className }: { points: MapPoint[]; lab
             {p.label && (
               <text
                 x={end ? x + 10 : x - 10}
-                y={y + 4}
+                y={y + 4 + (p.labelDy ?? 0)}
                 textAnchor={end ? 'start' : 'end'}
                 fill="#FFFFFF"
                 fillOpacity=".85"

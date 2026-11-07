@@ -3,7 +3,7 @@
 import { useRef, useState, type PointerEvent } from 'react';
 import { useLocale, useTranslations } from 'next-intl';
 import { ChevronLeft, ChevronRight, Rotate3d } from 'lucide-react';
-import { designs360 } from '@/content/designs';
+import { designs360 } from '@/content/designs360';
 import { Media } from '@/components/ui/Media';
 import { DirIcon } from '@/components/ui/DirIcon';
 

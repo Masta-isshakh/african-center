@@ -8,7 +8,8 @@ import { Personas } from '@/components/sections/Personas';
 import { AboutStory } from '@/components/sections/AboutStory';
 import { Fields } from '@/components/sections/Fields';
 import { Process } from '@/components/sections/Process';
-import { DesignsSection, Designs360Section } from '@/components/sections/DesignsSection';
+import { PortfolioSection } from '@/components/portfolio/PortfolioSection';
+import { Designs360Section } from '@/components/sections/Designs360Section';
 import { FreeServices } from '@/components/sections/FreeServices';
 import { MaterialsTeaser } from '@/components/sections/MaterialsTeaser';
 import { MapTeaser } from '@/components/sections/MapTeaser';
@@ -32,7 +33,7 @@ export default function HomePage({ params: { locale } }: { params: { locale: Loc
       <Divider from="sand" to="charcoal" />
       <Process />
       <Divider from="charcoal" to="sand" shape="curve" />
-      <DesignsSection />
+      <PortfolioSection />
       <Divider from="sand" to="charcoal" />
       <Designs360Section />
       <Divider from="charcoal" to="white" shape="curve" />

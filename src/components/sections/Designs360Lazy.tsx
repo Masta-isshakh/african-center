@@ -1,7 +1,7 @@
 'use client';
 
 import dynamic from 'next/dynamic';
-import { designs360 } from '@/content/designs';
+import { designs360 } from '@/content/designs360';
 
 /** Skeleton that matches the final carousel box so nothing shifts when it hydrates. */
 function CarouselSkeleton() {

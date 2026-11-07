@@ -6,7 +6,8 @@ export type AnalyticsEvent =
   | 'brief_submitted'
   | 'contact_submitted'
   | 'materials_tab_opened'
-  | 'design_lightbox_opened'
+  | 'project_lightbox_opened'
+  | 'project_video_played'
   | 'language_switched';
 
 type Props = Record<string, string | number | boolean | undefined>;

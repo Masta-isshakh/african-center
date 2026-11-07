@@ -30,6 +30,7 @@ const clientNamespaces = [
   'testimonials',
   'designs',
   'designs360',
+  'portfolio',
   'start',
   'contact',
   'auth',
