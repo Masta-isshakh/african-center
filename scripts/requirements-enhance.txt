@@ -1,0 +1,7 @@
+# Python dependencies for scripts/enhance-renders.py (watermark removal + 4K upscaling), CPU only.
+# python -m venv .venv && .venv/Scripts/pip install -r scripts/requirements-enhance.txt
+torch>=2.9
+spandrel>=0.4
+opencv-python-headless>=4.10
+numpy>=2
+pillow>=10

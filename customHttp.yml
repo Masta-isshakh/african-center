@@ -1,0 +1,6 @@
+# Amplify Hosting custom headers (next.config.js headers() covers next start / other hosts).
+customHeaders:
+  - pattern: '/media/projects/**'
+    headers:
+      - key: 'Cache-Control'
+        value: 'public, max-age=31536000, immutable'
