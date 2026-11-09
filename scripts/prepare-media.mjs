@@ -10,7 +10,6 @@ const OUT = 'public/media';
 
 /** [output path, source file, width, height] — width/height define the slot aspect (and max size). */
 const jobs = [
-  ['hero/poster.jpg', 'Qatari villa_ Blueprint to completion.png', 1672, 941],
 
   ['steps/step-01-brief.jpg', 'Elegant title deed and plot plan-1.png', 800, 800],
   ['steps/step-02-budget.jpg', 'Engineer Annotating Villa Budget Plan-2.png', 800, 800],
@@ -22,20 +21,8 @@ const jobs = [
   ['steps/step-08-evaluation.jpg', 'Qatari Villa Portfolio Review-8.png', 800, 800],
   ['steps/step-09-contract.jpg', 'Handshake over a new villa contract-9.png', 800, 800],
 
-  ['personas/owner.jpg', 'Qatari Plot Awaiting Its Future Home.png', 1200, 900],
-  ['personas/contractor.jpg', 'Blueprints and Laser Level at Dusk.png', 1200, 900],
-  ['personas/supplier.jpg', 'Geometric Doha building materials yard.png', 1200, 900],
-  ['personas/consultant.jpg', 'Engineers Reviewing a Qatari Villa Model.png', 1200, 900],
-
   ['about/office.jpg', 'Sunlit Engineering Office with Rolled Plans.png', 1200, 1500],
   ['about/team.jpg', 'Qatari Villa Portfolio Review-8.png', 1800, 1200],
-
-  ['360/majlis.jpg', 'Elegant Qatari Majlis in Warm Gold-1.png', 1774, 887],
-  ['360/staircase.jpg', 'Grand Limestone Staircase in Qatari Villa-5.png', 1774, 887],
-  ['360/bedroom.jpg', 'Luxurious Qatari Villa Master Bedroom-3.png', 1774, 887],
-  ['360/kitchen.jpg', 'Modern Qatari Villa Kitchen Panorama-4.png', 1774, 887],
-  ['360/courtyard.jpg', 'Shaded Qatari Villa Courtyard-6.png', 1774, 887],
-  ['360/living.jpg', 'Warm Contemporary Qatari Villa Interior-2.png', 1774, 887],
 
   ['app/phone.jpg', 'Graphite smartphone with navy tender interface.png', 1024, 1536],
   ['misc/map-texture.jpg', 'Midnight Gold Qatar Coastline.png', 1600, 1200],

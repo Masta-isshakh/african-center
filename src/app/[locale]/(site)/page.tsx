@@ -9,7 +9,7 @@ import { AboutStory } from '@/components/sections/AboutStory';
 import { Fields } from '@/components/sections/Fields';
 import { Process } from '@/components/sections/Process';
 import { PortfolioSection } from '@/components/portfolio/PortfolioSection';
-import { Designs360Section } from '@/components/sections/Designs360Section';
+import { ShowcaseSection } from '@/components/sections/ShowcaseSection';
 import { FreeServices } from '@/components/sections/FreeServices';
 import { MaterialsTeaser } from '@/components/sections/MaterialsTeaser';
 import { MapTeaser } from '@/components/sections/MapTeaser';
@@ -35,7 +35,7 @@ export default function HomePage({ params: { locale } }: { params: { locale: Loc
       <Divider from="charcoal" to="sand" shape="curve" />
       <PortfolioSection />
       <Divider from="sand" to="charcoal" />
-      <Designs360Section />
+      <ShowcaseSection />
       <Divider from="charcoal" to="white" shape="curve" />
       <FreeServices />
       <MaterialsTeaser />

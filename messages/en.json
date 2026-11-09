@@ -29,8 +29,8 @@
       "description": "Villa and majlis designs across Qatar from a licensed engineering office: modern, neo-classic and classic projects with renders, courtyards and interiors."
     },
     "projects": {
-      "title": "Projects on the Platform",
-      "description": "Follow projects on the ACEC e-tendering platform across Qatar's municipalities, from design and tender to construction and completion."
+      "title": "Our Projects Across Qatar",
+      "description": "Villa and majlis projects by the African Center for Engineering Consultancy across Qatar, grouped by area, from design to tender and site supervision."
     },
     "materials": {
       "title": "Building Material Prices in Qatar",
@@ -154,7 +154,6 @@
     "subtitle": "From your plot and approved housing loan to handover — we design, tender, evaluate contractors and supervise. Free for the owner.",
     "ctaWatch": "See how it works",
     "scroll": "Scroll to explore",
-    "posterAlt": "Modern villa in Qatar designed by the African Center for Engineering Consultancy",
     "videoTitle": "How the tendering platform works"
   },
   "trust": {
@@ -198,8 +197,7 @@
       "b1": "Full design at no cost",
       "b2": "Competing bids from registered contractors",
       "b3": "A contract we draft and supervise",
-      "cta": "For owners",
-      "imageAlt": "Project owner reviewing villa drawings with an engineer"
+      "cta": "For owners"
     },
     "contractor": {
       "title": "Contractor",
@@ -207,8 +205,7 @@
       "b1": "Complete drawings, specifications and BOQ",
       "b2": "The same documents for every bidder",
       "b3": "Awards on published criteria",
-      "cta": "For contractors",
-      "imageAlt": "Contractor overseeing works on a villa site"
+      "cta": "For contractors"
     },
     "supplier": {
       "title": "Supplier",
@@ -216,8 +213,7 @@
       "b1": "Requests that match your product categories",
       "b2": "Compete on price, quality and delivery",
       "b3": "Deal directly with the contracting party",
-      "cta": "For suppliers",
-      "imageAlt": "Building materials ready for delivery to a project site"
+      "cta": "For suppliers"
     },
     "consultant": {
       "title": "Consultant",
@@ -225,8 +221,7 @@
       "b1": "Complete documents before construction starts",
       "b2": "Clear procedures for approving works",
       "b3": "Standard reports on one platform",
-      "cta": "For consultants",
-      "imageAlt": "Consulting engineer inspecting concrete works on site"
+      "cta": "For consultants"
     }
   },
   "about": {
@@ -353,24 +348,16 @@
     "showMore": "Browse all designs",
     "requestSimilar": "Request a similar design"
   },
-  "designs360": {
-    "eyebrow": "360° designs",
+  "showcase": {
+    "eyebrow": "3D visualisations",
     "title": "Walk through your villa before it is built",
-    "lead": "Full-angle 3D views help you decide before the drawings are approved.",
-    "badge": "360°",
-    "alt": "360° view — {name}",
+    "lead": "Photoreal views of courtyards, pools, entrances and majlis interiors from our projects — so you can decide before the drawings are approved.",
+    "badge": "3D",
     "prev": "Previous view",
     "next": "Next view",
-    "hint": "Drag to browse",
-    "regionLabel": "360° design gallery",
-    "views": {
-      "v1": "Majlis",
-      "v2": "Hall and staircase",
-      "v3": "Master bedroom",
-      "v4": "Kitchen",
-      "v5": "Inner courtyard",
-      "v6": "Living area"
-    }
+    "hint": "Drag or swipe to browse",
+    "regionLabel": "3D views from our projects",
+    "open": "Open {project}"
   },
   "portfolio": {
     "filtersLabel": "Filter by style",
@@ -871,7 +858,6 @@
       "eyebrow": "For owners",
       "title": "Build your villa with your housing loan — without signing blind",
       "lead": "Bring your plot and approved loan. We handle design, permit, tender, contractor evaluation and supervision until handover — free for you. You'll know what your villa will cost to build in Qatar before you sign.",
-      "imageAlt": "Villa owner in Qatar reviewing drawings with an ACEC engineer",
       "cta": "Start your project — free",
       "benefitsTitle": "Everything it takes to build a villa in Qatar, from one licensed office",
       "benefits": {
@@ -953,7 +939,6 @@
       "eyebrow": "For contractors",
       "title": "Real projects, transparent bids, awards on merit",
       "lead": "Register your company as a contractor in Qatar and receive designed, permitted construction tenders with clear BOQs. Bid online and be evaluated on published criteria.",
-      "imageAlt": "Contractor reviewing a BOQ on a villa construction site in Qatar",
       "cta": "Register as a contractor",
       "benefitsTitle": "Construction tenders ready to price, not drafts",
       "benefits": {
@@ -1035,7 +1020,6 @@
       "eyebrow": "For suppliers",
       "title": "Become the supplier for the projects we tender",
       "lead": "Register as a building material supplier in Qatar and receive supply tenders from live projects: steel, cement, gabbro, blocks, ready-mix concrete, MEP and finishes.",
-      "imageAlt": "Building material warehouse ready for delivery in Qatar",
       "cta": "Register as a supplier",
       "benefitsTitle": "Supply requests from live projects, not waiting lists",
       "benefits": {
@@ -1117,7 +1101,6 @@
       "eyebrow": "For consultants",
       "title": "Supervise our projects as an accredited consultant",
       "lead": "Register your office as a site supervision consultant in Qatar and supervise projects that run on complete documents and clear procedures from day one.",
-      "imageAlt": "Consulting engineer supervising works on a construction site",
       "cta": "Register as a consultant",
       "benefitsTitle": "Engineering supervision on organised projects",
       "benefits": {
@@ -1253,23 +1236,24 @@
   },
   "projectsPage": {
     "eyebrow": "Projects",
-    "title": "Projects on the platform",
-    "lead": "Follow projects through their stages: design, tender, construction and completion.",
-    "filtersLabel": "Filter by status",
-    "all": "All",
+    "title": "Our projects across Qatar",
+    "lead": "Villa and majlis projects from Al Shamal to Al Wukair, grouped by area. Every one starts with a complete design before it goes to tender and site supervision.",
+    "filtersLabel": "Filter by area",
+    "all": "All areas",
     "statuses": {
-      "design": "Design",
+      "design": "Design stage",
       "tender": "Open for tender",
       "construction": "Under construction",
       "completed": "Completed"
     },
-    "area": "{value} m²",
-    "emptyTitle": "Our first projects are being tendered",
-    "emptyBody": "Projects on the platform will appear here with their stage as soon as their owners agree to publication.",
-    "emptyCta": "Be one of the first owners",
-    "noMatch": "No projects in this status right now.",
+    "areaCount": "{count, plural, one {# project} other {# projects}}",
+    "noMatch": "No projects in this area yet.",
     "listLabel": "Project list",
-    "mapLabel": "Map of projects in Qatar"
+    "mapLabel": "Map of our projects in Qatar",
+    "cta": {
+      "title": "Have a plot and an approved loan? Your villa could be next.",
+      "body": "Send your brief and an engineer will call you to arrange the first meeting — free for owners."
+    }
   },
   "materialsPage": {
     "eyebrow": "Material prices",

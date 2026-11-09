@@ -14,12 +14,13 @@ export const projectMedia = {
           1080,
           1440,
           2048,
-          2560
+          2560,
+          3840
         ],
-        "src": "/media/projects/sumaysimah-neo-classic-villa/01-entrance-portal-f3a8e042-2560.webp",
-        "width": 2560,
-        "height": 1707,
-        "blur": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAAAQAgCdASoQAAsABIByJYgCdADw6MFusogAAP6/+1G9jT29YOjYEFJTngP5YjilhNt94Rg1+b0xScIXBUZFDccCbuTYXqNHAAA=",
+        "src": "/media/projects/sumaysimah-neo-classic-villa/01-entrance-portal-f3a8e042-3840.webp",
+        "width": 3840,
+        "height": 2560,
+        "blur": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAAAQAgCdASoQAAsABIByJYgCdADw6MFy5tIgAP6/+1G9jT29YOjYEFJTngP5YjilhNt94Rg1+b0xScEg9KAh5PNXqk0X+qnAAAA=",
         "category": "exterior",
         "caption": {
           "en": "Entrance portal with fluted pilasters at dusk",
@@ -35,12 +36,13 @@ export const projectMedia = {
           1080,
           1440,
           2048,
-          2560
+          2560,
+          3840
         ],
-        "src": "/media/projects/sumaysimah-neo-classic-villa/02-entrance-driveway-dc5f2451-2560.webp",
-        "width": 2560,
-        "height": 1707,
-        "blur": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAACQAQCdASoQAAsABIByJQAAQsEugngA/qWEBgsuzl+v+sZXdakVdPX9PGxYt9b2Q+mpsDZqa5xHmxLU/n3lPtZ8eAA=",
+        "src": "/media/projects/sumaysimah-neo-classic-villa/02-entrance-driveway-dc5f2451-3840.webp",
+        "width": 3840,
+        "height": 2560,
+        "blur": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAACwAQCdASoQAAsABIByJQAAQsHXPZGIAP6lfvj3xm4immAMWYOxVZ00+sHBJOaHomqQ0rbzWFLu+KwQlbux9HkTFQAAAA==",
         "category": "exterior",
         "caption": {
           "en": "Main entrance and driveway at dusk",
@@ -56,12 +58,13 @@ export const projectMedia = {
           1080,
           1440,
           2048,
-          2560
+          2560,
+          3840
         ],
-        "src": "/media/projects/sumaysimah-neo-classic-villa/03-street-corner-evening-4929708a-2560.webp",
-        "width": 2560,
-        "height": 1707,
-        "blur": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAADwAQCdASoQAAsABIByJYwCdAC9RgTuutAA/roaTr7U9io/9bpZ8U3r4/hZSCcizDli+PxcmdR4XWEYd5ej7YuhwPTgAA==",
+        "src": "/media/projects/sumaysimah-neo-classic-villa/03-street-corner-evening-4929708a-3840.webp",
+        "width": 3840,
+        "height": 2560,
+        "blur": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAADwAQCdASoQAAsABIByJYwCdAC9RgQOKUAA/roaTr7U9io/9bpZ8U3r4/hZSCcizDli+PxcmdPuH1ad2xkofvwpJ4AAAA==",
         "category": "exterior",
         "caption": {
           "en": "The villa from the street corner, evening",
@@ -99,12 +102,13 @@ export const projectMedia = {
           1080,
           1440,
           2048,
-          2560
+          2560,
+          3840
         ],
-        "src": "/media/projects/sumaysimah-neo-classic-villa/05-facade-boundary-wall-7155c321-2560.webp",
-        "width": 2560,
-        "height": 1357,
-        "blur": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAAAQAgCdASoQAAgABIByJZQCdAEDyW0uJzsAAP4drSQDaCuE+U6dGxdJnH3GwppnfggNOIY52D1OXvosLkUz82RJQhVrZ6HAAAA=",
+        "src": "/media/projects/sumaysimah-neo-classic-villa/05-facade-boundary-wall-7155c321-3840.webp",
+        "width": 3840,
+        "height": 2036,
+        "blur": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAADwAQCdASoQAAgABIByJZQCdAEDyW0uAEgA/h2tJANoK4T5Tp0bF0mcfcbCmmd+CA04hjnYPU5e+iwuRTP4L4ewRyQiLHwAAAA=",
         "category": "exterior",
         "caption": {
           "en": "Front façade and boundary wall",
@@ -120,12 +124,13 @@ export const projectMedia = {
           1080,
           1440,
           2048,
-          2560
+          2560,
+          3840
         ],
-        "src": "/media/projects/sumaysimah-neo-classic-villa/06-street-main-gate-e0b30408-2560.webp",
-        "width": 2560,
-        "height": 1472,
-        "blur": "data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAADQAQCdASoQAAkABIByJQBOgBnBIizwAAD+wLNuSqAAd7Az05zwpt/EcZIhF7NNl9jOqGPnS6X2gfzvVeiAAA==",
+        "src": "/media/projects/sumaysimah-neo-classic-villa/06-street-main-gate-e0b30408-3840.webp",
+        "width": 3840,
+        "height": 2208,
+        "blur": "data:image/webp;base64,UklGRkgAAABXRUJQVlA4IDwAAACwAQCdASoQAAkABIByJQBOgBnBB+AAAP7As25KoAB3sDPTnPCm38RxkiEXs02X2M6oY+cUW+ODRGV2PgA=",
         "category": "exterior",
         "caption": {
           "en": "Street view with the main gate",
@@ -141,12 +146,13 @@ export const projectMedia = {
           1080,
           1440,
           2048,
-          2560
+          2560,
+          3840
         ],
-        "src": "/media/projects/sumaysimah-neo-classic-villa/07-street-corner-dusk-beb7581d-2560.webp",
-        "width": 2560,
-        "height": 1721,
-        "blur": "data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAACQAQCdASoQAAsABIByJYgCdABZAAAA/j/8XWILMNR0Q9kSDL3u0s5eRYymwZl/AQxH5zPEqoyhsepHSwYAAA==",
+        "src": "/media/projects/sumaysimah-neo-classic-villa/07-street-corner-dusk-beb7581d-3840.webp",
+        "width": 3840,
+        "height": 2581,
+        "blur": "data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAABwAQCdASoQAAsABIByJQBOgApQAAD+P/xdYgsw1HRD2RIMve7Szl5FjKbBmX8BDEfpBaQ5ijrK8epHSwYAAA==",
         "category": "exterior",
         "caption": {
           "en": "Street corner at dusk",
@@ -162,12 +168,13 @@ export const projectMedia = {
           1080,
           1440,
           2048,
-          2560
+          2560,
+          3840
         ],
-        "src": "/media/projects/sumaysimah-neo-classic-villa/08-aerial-outdoor-majlis-22aedc1a-2560.webp",
-        "width": 2560,
-        "height": 1707,
-        "blur": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAADQAQCdASoQAAsABIByJQBdgBwvLNOmgAD+3LuX8uB0VUNwsQ7UUHwP37iHAbEcsixoL6+33dihhJqK01t39gwAAAA=",
+        "src": "/media/projects/sumaysimah-neo-classic-villa/08-aerial-outdoor-majlis-22aedc1a-3840.webp",
+        "width": 3840,
+        "height": 2560,
+        "blur": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAADQAQCdASoQAAsABIByJQBdgBwvLNOmgAD+3LuX8uB0VUHJDtRQfA/fuIcBsRyyLGgvr7fd2KGEmorTW3f2DAAA",
         "category": "aerial",
         "caption": {
           "en": "Aerial view with the outdoor majlis",
@@ -183,12 +190,13 @@ export const projectMedia = {
           1080,
           1440,
           2048,
-          2560
+          2560,
+          3840
         ],
-        "src": "/media/projects/sumaysimah-neo-classic-villa/09-aerial-corner-day-9f2ce807-2560.webp",
-        "width": 2560,
-        "height": 1705,
-        "blur": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAADQAQCdASoQAAsABIByJZQAAiFuvEIKAAD+Z7qVkBx8JWmuS+yHF6rZUM8ey6VAULNUTHUWNmZ/Y5qjbsED6znKOmKE0sAxlTiwTZ34AAA=",
+        "src": "/media/projects/sumaysimah-neo-classic-villa/09-aerial-corner-day-9f2ce807-3840.webp",
+        "width": 3840,
+        "height": 2557,
+        "blur": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAADQAQCdASoQAAsABIByJZQAAh+cmlTDgAD+Z7qVkBx8JWmuS+yHF6rZUM8ey6m3qVUQxIgcYff2OaoqCeDmI5SLKeHUfZe+hBZZd8+AAAA=",
         "category": "aerial",
         "caption": {
           "en": "Aerial corner view, daylight",
@@ -204,12 +212,13 @@ export const projectMedia = {
           1080,
           1440,
           2048,
-          2560
+          2560,
+          3840
         ],
-        "src": "/media/projects/sumaysimah-neo-classic-villa/10-inner-courtyard-1ab1b240-2560.webp",
-        "width": 2560,
-        "height": 1705,
-        "blur": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAAAQAgCdASoQAAsABIByJYwCdAD6cMMX9k2AAP6ithPaoD8tF3wOh2Ja2PwCeuXZ47Ej98n4Eff5QIyUHie37qgA",
+        "src": "/media/projects/sumaysimah-neo-classic-villa/10-inner-courtyard-1ab1b240-3840.webp",
+        "width": 3840,
+        "height": 2557,
+        "blur": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAAAQAgCdASoQAAsABIByJYwCdAD6cMMX9uuAAP6ithPaoD8tF3wOh2Ja2PwCeuXZ47Ej98n4Eff5QIyUHie37qgA",
         "category": "outdoor",
         "caption": {
           "en": "Inner courtyard garden",
@@ -225,12 +234,13 @@ export const projectMedia = {
           1080,
           1440,
           2048,
-          2560
+          2560,
+          3840
         ],
-        "src": "/media/projects/sumaysimah-neo-classic-villa/11-side-garden-walkway-09d20299-2560.webp",
-        "width": 2560,
-        "height": 1721,
-        "blur": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAADwAQCdASoQAAsABIByJQBOgB9gdcCrdIAA/RUMHqEBYm+MMOGVFiaw8r9peasE9vHl8AcdbETxzerLG1DvKV4Y2NSRAAAA",
+        "src": "/media/projects/sumaysimah-neo-classic-villa/11-side-garden-walkway-09d20299-3840.webp",
+        "width": 3840,
+        "height": 2581,
+        "blur": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAADwAQCdASoQAAsABIByJQBOgB9gdjeU8YAA/RUMHqEBYm+MMOGVFiaw8r9peasE2IqJqFMWwZVoLNIqZxI2c/DVBZyDAAAA",
         "category": "outdoor",
         "caption": {
           "en": "Side garden walkway",
@@ -246,12 +256,13 @@ export const projectMedia = {
           1080,
           1440,
           2048,
-          2560
+          2560,
+          3840
         ],
-        "src": "/media/projects/sumaysimah-neo-classic-villa/12-shaded-terrace-9f5ddc84-2560.webp",
-        "width": 2560,
-        "height": 1721,
-        "blur": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAADQAQCdASoQAAsABIByJYwAAht7R55KQAD+nybRufq6jDwU6CqGkUtH0L9xRDI0G9ieVo+EMWGt2MBuj68bgT6+UphAAA==",
+        "src": "/media/projects/sumaysimah-neo-classic-villa/12-shaded-terrace-9f5ddc84-3840.webp",
+        "width": 3840,
+        "height": 2581,
+        "blur": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAADQAQCdASoQAAsABIByJYwAAht7R55KQAD+nybRufq6jDwU6CqGkUtH0L9xRDI0G9ieVo+EMWGt2MBuj8DW4E+vlKYQAA==",
         "category": "outdoor",
         "caption": {
           "en": "Shaded terrace seating",
@@ -311,12 +322,13 @@ export const projectMedia = {
           1080,
           1440,
           2048,
-          2560
+          2560,
+          3840
         ],
-        "src": "/media/projects/sumaysimah-neo-classic-villa/15-corner-view-day-0cd50d2e-2560.webp",
-        "width": 2560,
-        "height": 1707,
-        "blur": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAADQAQCdASoQAAsABIByJQBdgBWkc27oAAD+w9cXYD86OXWmYaZ9r4+KgCUi/KdbGT2eHOe8pH0hjIw03ciW3SRaoAA=",
+        "src": "/media/projects/sumaysimah-neo-classic-villa/15-corner-view-day-0cd50d2e-3840.webp",
+        "width": 3840,
+        "height": 2560,
+        "blur": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAADQAQCdASoQAAsABIByJYwC7ACtIpmgAAD+w9cXYD86OXWmYcP+qbkAZTnhx7WB8ySjw5z3lI+kMZIAHdyJqqyxLe2CAAAA",
         "category": "exterior",
         "caption": {
           "en": "Corner view, daylight",
@@ -469,12 +481,13 @@ export const projectMedia = {
           1080,
           1440,
           2048,
-          2560
+          2560,
+          3840
         ],
-        "src": "/media/projects/al-shamal-modern-villa/07-pool-courtyard-living-2e88b04b-2560.webp",
-        "width": 2560,
-        "height": 1705,
-        "blur": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAADwAQCdASoQAAsABIByJQBOgB9PpeNdQ4AA/tJcwZxk9ZgKmQ9eFVd7MC6P2+BGhVdOMZsRkbOwxKCjSd4PbkRCRwaJL+AAAAA=",
+        "src": "/media/projects/al-shamal-modern-villa/07-pool-courtyard-living-2e88b04b-3840.webp",
+        "width": 3840,
+        "height": 2557,
+        "blur": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAADwAQCdASoQAAsABIByJQBOgB9PpekAEgAA/tJcwZxk9ZgKmQ9eFVd7MC6P2+BGhVdOL4cWrsrGxWwndVoQQRkWWJaEF4AA",
         "category": "outdoor",
         "caption": {
           "en": "Pool courtyard from the living area",
@@ -490,12 +503,13 @@ export const projectMedia = {
           1080,
           1440,
           2048,
-          2560
+          2560,
+          3840
         ],
-        "src": "/media/projects/al-shamal-modern-villa/08-garden-wall-seating-3ecdf9ed-2560.webp",
-        "width": 2560,
-        "height": 1707,
-        "blur": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAAAQAgCdASoQAAsABIByJZACdAEfB+NQafLgAP4es5TdOqu7QAQMFqVk0WWss2jHsUBTpPJF5uwiSSzHFuLByUxeM7j0j2nSdqVjTYfcnxAAAA==",
+        "src": "/media/projects/al-shamal-modern-villa/08-garden-wall-seating-3ecdf9ed-3840.webp",
+        "width": 3840,
+        "height": 2560,
+        "blur": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAAAwAgCdASoQAAsABIByJZgCdAEfB+NQYifIAAD+HrOU3Tqru0AEDBalZNFlrLNox7FAU6T6s6Nt1GAiSiymB0oZG85ST7QeYBsNNh9yfEAAAA==",
         "category": "outdoor",
         "caption": {
           "en": "Outdoor seating by the garden wall",
@@ -517,7 +531,7 @@ export const projectMedia = {
         "src": "/media/projects/al-shamal-modern-villa/09-aerial-pool-courtyard-323c20d0-3840.webp",
         "width": 3840,
         "height": 2560,
-        "blur": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAADQAQCdASoQAAsABIByJbACdAD7B3EKAAD+2oBteP1WzLcCS5FGtNzwUVXYQFVRGslFuD0O7i7Zn/Gbx6UTMlNcwo9SKy3e3fwAAA==",
+        "blur": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAADQAQCdASoQAAsABIByJbACdAD7B3NPwAD+2oBteP1WzLcCS5FGtNzwUVXYQFVRGslFuD0O7i7Zn/Gbx6UTMlOHGtZiDgibaYAAAA==",
         "category": "aerial",
         "caption": {
           "en": "Aerial view of the pool courtyard",
@@ -533,12 +547,13 @@ export const projectMedia = {
           1080,
           1440,
           2048,
-          2560
+          2560,
+          3840
         ],
-        "src": "/media/projects/al-shamal-modern-villa/10-aerial-entrance-parking-6a8cb731-2560.webp",
-        "width": 2560,
-        "height": 1707,
-        "blur": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAAAQAgCdASoQAAsABIByJQBOgCBvITrklf8AAP2olceWfGgHMOfh73IaRUI1YC3KcwTInEJtl6GudhGT36ip+r2VhenZ8ZOCkJ6cT6I+eOfmOI9KgAA=",
+        "src": "/media/projects/al-shamal-modern-villa/10-aerial-entrance-parking-6a8cb731-3840.webp",
+        "width": 3840,
+        "height": 2560,
+        "blur": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAAAQAgCdASoQAAsABIByJQBOgCBvITrklf8AAP2olceWfGgHMOfh73IaRUI1YC3KcwTInEJtl6GudhGT4IdQ58thYjxPCjeF7WNUQjmkOvCGzz5GQAA=",
         "category": "aerial",
         "caption": {
           "en": "Aerial view of the entrance and parking",
@@ -559,12 +574,13 @@ export const projectMedia = {
           1080,
           1440,
           2048,
-          2560
+          2560,
+          3840
         ],
-        "src": "/media/projects/al-wakrah-modern-villa/01-front-facade-pool-2ccd60d3-2560.webp",
-        "width": 2560,
-        "height": 1707,
-        "blur": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAAAQAgCdASoQAAsABIByJQBOgB4d7zbBdNkAAP7WKsjSP6YOF0OS/D0IaqJplLvwM+cgdrEwLHPGG3ib+1wiGpUDEPIqCUAA",
+        "src": "/media/projects/al-wakrah-modern-villa/01-front-facade-pool-2ccd60d3-3840.webp",
+        "width": 3840,
+        "height": 2560,
+        "blur": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAADwAQCdASoQAAsABIByJQBOgB4dUnqavEAA/tYqyNI/pg4XQ5L8PQhqofVsv2/CcSwX3ZHRADvsO7hkIwW42z3WQh5FQSgA",
         "category": "exterior",
         "caption": {
           "en": "Front façade with the pool forecourt",
@@ -580,12 +596,13 @@ export const projectMedia = {
           1080,
           1440,
           2048,
-          2560
+          2560,
+          3840
         ],
-        "src": "/media/projects/al-wakrah-modern-villa/02-corner-dusk-5c1480f9-2560.webp",
-        "width": 2560,
-        "height": 1707,
-        "blur": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAAAQAgCdASoQAAsABIByJbACdADiWMX0su7AAP5giDlZyhHmYfFU5KwaHj6umdPJzTmeX6xynz6AiNFbg613sSWpx7QAAA==",
+        "src": "/media/projects/al-wakrah-modern-villa/02-corner-dusk-5c1480f9-3840.webp",
+        "width": 3840,
+        "height": 2560,
+        "blur": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAAAwAgCdASoQAAsABIByJbACdADiWNPH4DoSAAD+YIg5WcoR5mHxVOSsGh4+rpnTyjq6v9Cscp8+zCIcZuDrXexJanHtAAAA",
         "category": "exterior",
         "caption": {
           "en": "Corner view at dusk",
@@ -601,12 +618,13 @@ export const projectMedia = {
           1080,
           1440,
           2048,
-          2560
+          2560,
+          3840
         ],
-        "src": "/media/projects/al-wakrah-modern-villa/03-side-facade-driveway-e8f511f5-2560.webp",
-        "width": 2560,
-        "height": 1707,
-        "blur": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAADQAQCdASoQAAsABIByJZgCdAC5Kz3LAAD3rRqnEGrzCHhgXQhzkDSRuFCWrgRIFMLtusqngs2m6uMyMCNG4OUq4AA=",
+        "src": "/media/projects/al-wakrah-modern-villa/03-side-facade-driveway-e8f511f5-3840.webp",
+        "width": 3840,
+        "height": 2560,
+        "blur": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAACwAQCdASoQAAsABIByJZgCdAC9c0iAAPetGqcQatxPk2zdpes8bTxU/Nq4AiuZKdT4TOSsfUZ8XMyMCNG4OUq4AAA=",
         "category": "exterior",
         "caption": {
           "en": "Side façade and driveway at dusk",
@@ -622,12 +640,13 @@ export const projectMedia = {
           1080,
           1440,
           2048,
-          2560
+          2560,
+          3840
         ],
-        "src": "/media/projects/al-wakrah-modern-villa/04-street-dusk-bfaefc45-2560.webp",
-        "width": 2560,
-        "height": 1707,
-        "blur": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAACQAQCdASoQAAsABIByJYgCdADxb4AA/sFm+QkI31ylgBIuNXX8ZEeTcMjazK6aIHqgFcn6uQQcTCsroQ/10ecAAAA=",
+        "src": "/media/projects/al-wakrah-modern-villa/04-street-dusk-bfaefc45-3840.webp",
+        "width": 3840,
+        "height": 2560,
+        "blur": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAADQAQCdASoQAAsABIByJQBOgB6JhFrhgAD+wWb5CQljZfRWuM46K6yxoGQ4lJj6e6Fr6g11Glk3S2zLDbxHNTIA",
         "category": "exterior",
         "caption": {
           "en": "Street view at dusk",
@@ -643,12 +662,13 @@ export const projectMedia = {
           1080,
           1440,
           2048,
-          2560
+          2560,
+          3840
         ],
-        "src": "/media/projects/al-wakrah-modern-villa/05-street-evening-f26f3599-2560.webp",
-        "width": 2560,
-        "height": 1705,
-        "blur": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAAAQAgCdASoQAAsABIByJYgCdAEC9+tfnBgAAP7VmseAN0bk2dRC7q9zw7Y8sgFNg4IvMJs/Hi0BRcB2rrKTZDZSAAA=",
+        "src": "/media/projects/al-wakrah-modern-villa/05-street-evening-f26f3599-3840.webp",
+        "width": 3840,
+        "height": 2557,
+        "blur": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAADwAQCdASoQAAsABIByJYgCdAEC9+tfooAA/tWax4A3RuTZ1ELur3PDtjyyAU2Dgi8wmz8i6CLbllqPauspNkNlIAA=",
         "category": "exterior",
         "caption": {
           "en": "The villa from the street, evening",
@@ -664,11 +684,12 @@ export const projectMedia = {
           1080,
           1440,
           2048,
-          2560
+          2560,
+          3840
         ],
-        "src": "/media/projects/al-wakrah-modern-villa/06-entrance-walkway-pool-4906650b-2560.webp",
-        "width": 2560,
-        "height": 1707,
+        "src": "/media/projects/al-wakrah-modern-villa/06-entrance-walkway-pool-4906650b-3840.webp",
+        "width": 3840,
+        "height": 2560,
         "blur": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAAAwAgCdASoQAAsABIByJZgCdH8AGB8WM4n2AAD+vZqb7FXTPe7hnkg5SSH9NB7iPgeSq3BScneGvKfJFng6PesNQGsVpf5K4AA=",
         "category": "outdoor",
         "caption": {
@@ -685,12 +706,13 @@ export const projectMedia = {
           1080,
           1440,
           2048,
-          2560
+          2560,
+          3840
         ],
-        "src": "/media/projects/al-wakrah-modern-villa/07-pool-terrace-night-079755c8-2560.webp",
-        "width": 2560,
-        "height": 1707,
-        "blur": "data:image/webp;base64,UklGRkgAAABXRUJQVlA4IDwAAADwAQCdASoQAAsABIByJQBOgB9Ta/DSuUAA+wGMyAE5fMtJWjOAMegJFlvBpS0GOJK2HsAQv4xUao06AAA=",
+        "src": "/media/projects/al-wakrah-modern-villa/07-pool-terrace-night-079755c8-3840.webp",
+        "width": 3840,
+        "height": 2560,
+        "blur": "data:image/webp;base64,UklGRkgAAABXRUJQVlA4IDwAAADQAQCdASoQAAsABIByJQBOgB9TZwjUwAD7AYy8CcvmWkrRnAGPQEiy3g0paDHEkGqgAEH5YLERIHwAAAA=",
         "category": "outdoor",
         "caption": {
           "en": "Pool terrace at night",
@@ -706,11 +728,12 @@ export const projectMedia = {
           1080,
           1440,
           2048,
-          2560
+          2560,
+          3840
         ],
-        "src": "/media/projects/al-wakrah-modern-villa/08-pool-courtyard-night-f194a604-2560.webp",
-        "width": 2560,
-        "height": 1705,
+        "src": "/media/projects/al-wakrah-modern-villa/08-pool-courtyard-night-f194a604-3840.webp",
+        "width": 3840,
+        "height": 2557,
         "blur": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAACQAQCdASoQAAsABIByJZACdAB/QHAA/gp7Dg+498TNq+lSuCSpSSV5V/I/lQtm02EqpYD9CIYMjUjFzxVL6Z8Ul5tySTTJEoEYAAAA",
         "category": "outdoor",
         "caption": {
@@ -727,12 +750,13 @@ export const projectMedia = {
           1080,
           1440,
           2048,
-          2560
+          2560,
+          3840
         ],
-        "src": "/media/projects/al-wakrah-modern-villa/09-aerial-roof-terrace-0ca8d041-2560.webp",
-        "width": 2560,
-        "height": 1707,
-        "blur": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAADQAQCdASoQAAsABIByJagCdADCUNbkQAD+nw1iPMMaqDA+A0+VGnxRCXkW27jAl7nRa8ONwsoiGp0FGpHi3EPz3+FAAA==",
+        "src": "/media/projects/al-wakrah-modern-villa/09-aerial-roof-terrace-0ca8d041-3840.webp",
+        "width": 3840,
+        "height": 2560,
+        "blur": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAAAQAgCdASoQAAsABIByJaACdADPZENEHdcAAP6fDWI8wxqoMD4DT5UsY4/5yyLbZKc9u7Hbbuo9I4IjZWwLJ51FjbTLIXTNAAA=",
         "category": "aerial",
         "caption": {
           "en": "Aerial view of the roof terrace and pool",
@@ -748,11 +772,12 @@ export const projectMedia = {
           1080,
           1440,
           2048,
-          2560
+          2560,
+          3840
         ],
-        "src": "/media/projects/al-wakrah-modern-villa/10-aerial-plot-pool-9cce86ba-2560.webp",
-        "width": 2560,
-        "height": 1705,
+        "src": "/media/projects/al-wakrah-modern-villa/10-aerial-plot-pool-9cce86ba-3840.webp",
+        "width": 3840,
+        "height": 2557,
         "blur": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAAAQAgCdASoQAAsABIByJZwAAlxDckZzsvAAAP5hapYdnXK9IRYgTke0AaAG+Me/u0sZwGh4lmDmF7TgduMt/Z6RSejEm4jdagIDUDUAAAA=",
         "category": "aerial",
         "caption": {
@@ -795,12 +820,14 @@ export const projectMedia = {
           768,
           1080,
           1440,
-          1537
+          2048,
+          2560,
+          3840
         ],
-        "src": "/media/projects/rawdat-al-jahhaniya-modern-villa/02-street-night-91798384-1537.webp",
-        "width": 1537,
-        "height": 1023,
-        "blur": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAADQAQCdASoQAAsABIByJZgCdAC5Ig/HAAD+3Z+f6SEeqkDEOy4yq3iS1OP5m9m9JUzRs4zw3d4u+71OEmDBUw0tRQZ9sU7Iz4AAAA==",
+        "src": "/media/projects/rawdat-al-jahhaniya-modern-villa/02-street-night-91798384-3840.webp",
+        "width": 3840,
+        "height": 2556,
+        "blur": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAADQAQCdASoQAAsABIByJZgCdADHayEIAAD+3Z+f6SEeqkDEOy4yq38Bd/2USvx0cZr9Krv9rTUrxxL9wGcwdS0XXMeMn2D8AAA=",
         "category": "exterior",
         "caption": {
           "en": "Street view at night",
@@ -815,12 +842,14 @@ export const projectMedia = {
           768,
           1080,
           1440,
-          1553
+          2048,
+          2560,
+          3840
         ],
-        "src": "/media/projects/rawdat-al-jahhaniya-modern-villa/03-facade-parking-night-4535acaa-1553.webp",
-        "width": 1553,
-        "height": 1013,
-        "blur": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAACwAQCdASoQAAoABIByJZACdAC5G4EAAP7AQ8YO/fH4VpUu3Gto3ffXW0usFxGkfcBbJBxZv+LvGbHzXhtOanMO33rQ4AAA",
+        "src": "/media/projects/rawdat-al-jahhaniya-modern-villa/03-facade-parking-night-4535acaa-3840.webp",
+        "width": 3840,
+        "height": 2505,
+        "blur": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAACwAQCdASoQAAoABIByJZACdABrYykAAP7Q0VN9bC6vhkWYRpmuSGVmqPUv+ACZGPYreOq/+cGOM2PmvDeHZ8IEGWegAA==",
         "category": "exterior",
         "caption": {
           "en": "Front façade and parking at night",
@@ -835,12 +864,14 @@ export const projectMedia = {
           768,
           1080,
           1440,
-          1536
+          2048,
+          2560,
+          3840
         ],
-        "src": "/media/projects/rawdat-al-jahhaniya-modern-villa/04-facade-night-f50c604d-1536.webp",
-        "width": 1536,
-        "height": 1024,
-        "blur": "data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAADQAQCdASoQAAsABIByJZACdADc9T4WAAD+6fgUzgUkIiK+1qYRbCqhWZOGv//S2U5R0jJBjH/B8nW4oeiAAA==",
+        "src": "/media/projects/rawdat-al-jahhaniya-modern-villa/04-facade-night-f50c604d-3840.webp",
+        "width": 3840,
+        "height": 2560,
+        "blur": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAADQAQCdASoQAAsABIByJZACdADc9T4WAAD+6fgUzgUkIiK+1qYRbCqhWZOGv//S2VLsM8yOu6DEziLwzZGvoAAA",
         "category": "exterior",
         "caption": {
           "en": "Front façade at night",
@@ -856,12 +887,13 @@ export const projectMedia = {
           1080,
           1440,
           2048,
-          2560
+          2560,
+          3840
         ],
-        "src": "/media/projects/rawdat-al-jahhaniya-modern-villa/05-canopy-day-98c80e05-2560.webp",
-        "width": 2560,
-        "height": 1707,
-        "blur": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAACQAQCdASoQAAsABIByJbACdACX+EAA/nEYb+J8qIYe/cXR0jWnDKZgn+CwQdQ0CeUFJ+ljxonDolW9etUdswAA",
+        "src": "/media/projects/rawdat-al-jahhaniya-modern-villa/05-canopy-day-98c80e05-3840.webp",
+        "width": 3840,
+        "height": 2560,
+        "blur": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAACwAQCdASoQAAsABIByJbACdACYIRkAAP5xGG/ifKiGHv3F0dI1pwymYJ1tNSawn2Iy2Wa/L5WSrDa4T+OEi3UAAAA=",
         "category": "exterior",
         "caption": {
           "en": "Entrance canopy, daylight",
@@ -877,12 +909,13 @@ export const projectMedia = {
           1080,
           1440,
           2048,
-          2560
+          2560,
+          3840
         ],
-        "src": "/media/projects/rawdat-al-jahhaniya-modern-villa/06-canopy-driveway-1faf7655-2560.webp",
-        "width": 2560,
-        "height": 1707,
-        "blur": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAADQAQCdASoQAAsABIByJaACdADV/+O0YAD+BrBuN/GuoXhtxLRB2pXONweSZWSNi8rsZqMX/qiAbFT28ocymvH9MYss8YPZ4H6wTWx+JNAAAA==",
+        "src": "/media/projects/rawdat-al-jahhaniya-modern-villa/06-canopy-driveway-1faf7655-3840.webp",
+        "width": 3840,
+        "height": 2560,
+        "blur": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAADwAQCdASoQAAsABIByJaACdADaGcQfpwAA/gawbjfxrqF4bcS0QdqVzjcJqYkncCoUHVeM5EXdkC0W+J8d+3f0b4qsm7lC+b1f3Ho5EAA=",
         "category": "exterior",
         "caption": {
           "en": "Entrance canopy from the driveway",
@@ -897,12 +930,14 @@ export const projectMedia = {
           768,
           1080,
           1440,
-          1536
+          2048,
+          2560,
+          3840
         ],
-        "src": "/media/projects/rawdat-al-jahhaniya-modern-villa/07-canopy-lighting-a0a71f32-1536.webp",
-        "width": 1536,
-        "height": 1024,
-        "blur": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAACQAQCdASoQAAsABIByJbACdACHo4AA/p7QvnIhRPwl6T/oz+bgiL4muHS3MdyusYqLMO0QxvlZKsEOzh3ZIVAAAAA=",
+        "src": "/media/projects/rawdat-al-jahhaniya-modern-villa/07-canopy-lighting-a0a71f32-3840.webp",
+        "width": 3840,
+        "height": 2560,
+        "blur": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAACQAQCdASoQAAsABIByJbACdACJYkAA/p7QvnIhRKJvcg2kNWFV0fPGeGVC4l/F8YqXCq1ZbYtXTWDM/jhIt1AA",
         "category": "detail",
         "caption": {
           "en": "Entrance canopy with integrated lighting",
@@ -917,12 +952,14 @@ export const projectMedia = {
           768,
           1080,
           1440,
-          1536
+          2048,
+          2560,
+          3840
         ],
-        "src": "/media/projects/rawdat-al-jahhaniya-modern-villa/08-arrival-court-a31ab6fb-1536.webp",
-        "width": 1536,
-        "height": 1024,
-        "blur": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAADwAQCdASoQAAsABIByJagCdAC4ic/MqEAA/rnf2Qt5hx8B59UI+F+2KcIl+I7CfZ6efkSywGRQp2ZId7mR/0rFjI5at+YbAAA=",
+        "src": "/media/projects/rawdat-al-jahhaniya-modern-villa/08-arrival-court-a31ab6fb-3840.webp",
+        "width": 3840,
+        "height": 2560,
+        "blur": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAADwAQCdASoQAAsABIByJagCdAC4LbDSEAAA/svnaqFdcrRYrPqhHwv2xTg/qp+FM8qLdKx1I+t3I7RwVmQ5A0oiNCO7OBmEoAAAAA==",
         "category": "detail",
         "caption": {
           "en": "Arrival court",
@@ -937,12 +974,14 @@ export const projectMedia = {
           768,
           1080,
           1440,
-          1536
+          2048,
+          2560,
+          3840
         ],
-        "src": "/media/projects/rawdat-al-jahhaniya-modern-villa/09-entrance-screen-26a0be13-1536.webp",
-        "width": 1536,
-        "height": 1024,
-        "blur": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAAAQAgCdASoQAAsABIByJZgCdAELzUy8mFDcAP5I7RVD4NJfdIjXVldrC0s9E+GdM6274lzgj+IGatmDBRc5SaoRns3pnAAA",
+        "src": "/media/projects/rawdat-al-jahhaniya-modern-villa/09-entrance-screen-26a0be13-3840.webp",
+        "width": 3840,
+        "height": 2560,
+        "blur": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAAAQAgCdASoQAAsABIByJZgCdAELyztalNPAAP5I7RVD4NJfdIjaGyu1kkex4EOEWT0GiC+WDQpj7JU/dOvwg1NQUvrJOAAA",
         "category": "detail",
         "caption": {
           "en": "Main entrance with the perforated screen",
@@ -957,12 +996,14 @@ export const projectMedia = {
           768,
           1080,
           1440,
-          1537
+          2048,
+          2560,
+          3840
         ],
-        "src": "/media/projects/rawdat-al-jahhaniya-modern-villa/10-screen-night-7cc681d2-1537.webp",
-        "width": 1537,
-        "height": 1023,
-        "blur": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAAAQAgCdASoQAAsABIByJZgCdADdSYdnbIAAAP7w3qVg9WC789aVp/qMxyuTCOR40sZiFRDSY6kHreHxs8PiyQxVklCAAA==",
+        "src": "/media/projects/rawdat-al-jahhaniya-modern-villa/10-screen-night-7cc681d2-3840.webp",
+        "width": 3840,
+        "height": 2556,
+        "blur": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAAAQAgCdASoQAAsABIByJZgCdADdqzkiO+IAAP7w3qVg9WC789aVpIlG58VXmJ+oyseLuqvXgwN7RDVxdeLUMW9YCfXrQAAA",
         "category": "detail",
         "caption": {
           "en": "Perforated screen lit at night",
@@ -976,12 +1017,15 @@ export const projectMedia = {
           480,
           768,
           1080,
-          1087
+          1440,
+          2048,
+          2560,
+          2885
         ],
-        "src": "/media/projects/rawdat-al-jahhaniya-modern-villa/11-entrance-night-cedc3c1a-1087.webp",
-        "width": 1087,
-        "height": 1447,
-        "blur": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAADwAQCdASoMABAABIByJbACdAD1eTBMUugA/h+saK9v8oulrONXSM5tYE+mSXeEkk9sQgICtb+hFaArUitXeA9UtwMRtowmknQ2UCeaAAA=",
+        "src": "/media/projects/rawdat-al-jahhaniya-modern-villa/11-entrance-night-cedc3c1a-2885.webp",
+        "width": 2885,
+        "height": 3840,
+        "blur": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAADwAQCdASoMABAABIByJbACdAD1eQMxD7AA/h+saK9v8oulrONXSM5tYE+Y0zHwz+x80FktSpRmW1E1O9/fmX+/zLi75Ya96IwmknQ2UCeaAAAA",
         "category": "detail",
         "caption": {
           "en": "Main entrance at night",
@@ -995,12 +1039,15 @@ export const projectMedia = {
           480,
           768,
           1080,
-          1087
+          1440,
+          2048,
+          2560,
+          2885
         ],
-        "src": "/media/projects/rawdat-al-jahhaniya-modern-villa/12-entrance-portal-night-4552eb53-1087.webp",
-        "width": 1087,
-        "height": 1447,
-        "blur": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAAAQAgCdASoMABAABIByJZgCdAEDdyod3ogAAP7xgIZXgd/JKmmFGCCwGGF97SZQaOkukUauuPh+wBBWozSkM2TvEAAAAA==",
+        "src": "/media/projects/rawdat-al-jahhaniya-modern-villa/12-entrance-portal-night-4552eb53-2885.webp",
+        "width": 2885,
+        "height": 3840,
+        "blur": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAAAQAgCdASoMABAABIByJaACdAEDdy0QwjAAAP7xgIZXgd/JKmmFGCCwGGF9wgQhS7yzXeVEX7Biy6dJJikm6i5AAAA=",
         "category": "detail",
         "caption": {
           "en": "Entrance portal at night",
@@ -1038,12 +1085,13 @@ export const projectMedia = {
           1080,
           1440,
           2048,
-          2560
+          2560,
+          3840
         ],
-        "src": "/media/projects/rawdat-al-jahhaniya-modern-villa/14-covered-parking-court-27abe8ed-2560.webp",
-        "width": 2560,
-        "height": 1707,
-        "blur": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAAAQAgCdASoQAAsABIByJZACdADp2U0lMwMgAP7XJLB/kfHSQi+PCA3cla+V1dwSxGAClrxkmJrgWauNfKFt70MFh2y7zMqjtc9bx6HHz18AAA==",
+        "src": "/media/projects/rawdat-al-jahhaniya-modern-villa/14-covered-parking-court-27abe8ed-3840.webp",
+        "width": 3840,
+        "height": 2560,
+        "blur": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAAAwAgCdASoQAAsABIByJZACdADp2U0ksoOwAAD+1ySwf5Hx0kIvjwgN3JWvldXcEsRgApa8ZJia4FmrjXyhtyTIyPdmbYG+Xz7xty2tcaqJggAA",
         "category": "exterior",
         "caption": {
           "en": "Covered parking court",
@@ -1064,12 +1112,13 @@ export const projectMedia = {
           1080,
           1440,
           2048,
-          2560
+          2560,
+          3840
         ],
-        "src": "/media/projects/al-gharrafa-modern-villa/01-front-facade-dusk-6389b0f6-2560.webp",
-        "width": 2560,
-        "height": 1707,
-        "blur": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAADQAQCdASoQAAsABIByJYwCdAERFB5gAADiefn2PKBIYKKklTTXDrxxEq/BpJReqwmQAEPcGgqt04RU7/nUQ6FMRDPhKL4lpexEAAAA",
+        "src": "/media/projects/al-gharrafa-modern-villa/01-front-facade-dusk-6389b0f6-3840.webp",
+        "width": 3840,
+        "height": 2560,
+        "blur": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAADQAQCdASoQAAsABIByJYwCdAEQ6QnzwADiefn2PKBIYKKklTTXAffbPyCNLzK6Faqusl6/4pMy+96ryqk+NcQoUwfgFTNfQx/GgAAA",
         "category": "exterior",
         "caption": {
           "en": "Front façade at dusk",
@@ -1085,11 +1134,12 @@ export const projectMedia = {
           1080,
           1440,
           2048,
-          2560
+          2560,
+          3840
         ],
-        "src": "/media/projects/al-gharrafa-modern-villa/02-front-facade-day-9e6121e3-2560.webp",
-        "width": 2560,
-        "height": 1707,
+        "src": "/media/projects/al-gharrafa-modern-villa/02-front-facade-day-9e6121e3-3840.webp",
+        "width": 3840,
+        "height": 2560,
         "blur": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAADQAQCdASoQAAsABIByJQBOgBww7Dz//ADOH1XHDzsOfYcIXgKkFE/tJENlayvy0s9BzMZV1P1S+D/urQL4hGqcHqliAAAA",
         "category": "exterior",
         "caption": {
@@ -1106,12 +1156,13 @@ export const projectMedia = {
           1080,
           1440,
           2048,
-          2560
+          2560,
+          3840
         ],
-        "src": "/media/projects/al-gharrafa-modern-villa/03-facade-driveway-df06ac17-2560.webp",
-        "width": 2560,
-        "height": 1707,
-        "blur": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAADwAQCdASoQAAsABIByJQBOgB6XZwboXiAA/u/XMGU+PwTKeuwtn3wnE/fhiSbDgUux0ZyHbEPYlR9bB9bg7ZzIfAZiPsNJsKy1g0AA",
+        "src": "/media/projects/al-gharrafa-modern-villa/03-facade-driveway-df06ac17-3840.webp",
+        "width": 3840,
+        "height": 2560,
+        "blur": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAABQAgCdASoQAAsABIByJQBOgMTtK50vIrAHGgAA/u/XMGU+bFOQeiyT6hPqTjvL4qdTxArt9fUphxafhPqY+o727dEbrSMmQIeTAAAA",
         "category": "exterior",
         "caption": {
           "en": "Front façade from the driveway",
@@ -1127,12 +1178,13 @@ export const projectMedia = {
           1080,
           1440,
           2048,
-          2560
+          2560,
+          3840
         ],
-        "src": "/media/projects/al-gharrafa-modern-villa/04-corner-dusk-67681f81-2560.webp",
-        "width": 2560,
-        "height": 1707,
-        "blur": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAACQAQCdASoQAAsABIByJQBOgCGDlpgA/u2NgXWps2/Q1tT3mGAbQAzY5EtbmVNF6JwdRoAhHyvHhxumjIbRkI1c4EWF/Qda2z2gAAAA",
+        "src": "/media/projects/al-gharrafa-modern-villa/04-corner-dusk-67681f81-3840.webp",
+        "width": 3840,
+        "height": 2560,
+        "blur": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAADwAQCdASoQAAsABIByJQBOgMW+39NzWQAA/u2M5vFPSBImUYRYhi7H6gYcJZQ/AN/2fpULnNjwb3ObpoPPr1zxllGtE1k9owxaAYAA",
         "category": "exterior",
         "caption": {
           "en": "Corner view at dusk",
@@ -1161,12 +1213,14 @@ export const projectMedia = {
           768,
           1080,
           1440,
-          1920
+          2048,
+          2560,
+          3840
         ],
-        "src": "/media/projects/al-gharrafa-modern-villa/walkthrough-poster-d264a78a-1920.webp",
-        "width": 1920,
-        "height": 1080,
-        "blur": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAADQAQCdASoQAAkABIByJQBOgMW5RYBXAAD8EhNEsi1TPCaXKqmD9q/iesCyKYczVx8fnDPDw47mM1I0GzEQAW/jpOuSwMYmBLAAAA==",
+        "src": "/media/projects/al-gharrafa-modern-villa/walkthrough-poster-d264a78a-3840.webp",
+        "width": 3840,
+        "height": 2160,
+        "blur": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAADQAQCdASoQAAkABIByJYwCdAYtyiuUAAD8EpeFbE8zW1KtN91DvW5vExDn16DqgRgJ5p3oLh9DtvDA4Sp4eBM53XygxFmYkKAAAA==",
         "category": "exterior",
         "caption": {
           "en": "Walkthrough video — the villa from the street at dusk",
@@ -1215,7 +1269,7 @@ export const projectMedia = {
         "src": "/media/projects/al-wukair-neo-classic-villa/02-front-elevation-symmetrical-abf1a4ad-3840.webp",
         "width": 3840,
         "height": 2161,
-        "blur": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAADwAQCdASoQAAkABIByJZACdAEVQm+eCoAA/eNjyWCZ6sZHUEgmXiYYQhWzS/cIRBcdqDIEZ20HkF8jxJ+OLc2ZrKA2ndjJndRO3SNgAAA=",
+        "blur": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAAAQAgCdASoQAAkABIByJZACdAEVS05RJu4AAP3jY8lgmerGR1BIJl4mGEIVs0v3FuObKl+0CpClHYKIevWo5t8l+hB/AWB2cmcgAA==",
         "category": "exterior",
         "caption": {
           "en": "Symmetrical front elevation",
@@ -1252,12 +1306,14 @@ export const projectMedia = {
           768,
           1080,
           1440,
-          1610
+          2048,
+          2560,
+          3840
         ],
-        "src": "/media/projects/al-wukair-neo-classic-villa/04-street-elevation-dusk-c6ec164b-1610.webp",
-        "width": 1610,
-        "height": 977,
-        "blur": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAADwAQCdASoQAAoABIByJQBOgCIaQ0MMQTQA/PJnUk4hy3emfXAo8D85LkaUkrlnq+I0ji/UUTlhMVkp33tQQhLUwvZBeVAWRACuXqmr0AA=",
+        "src": "/media/projects/al-wukair-neo-classic-villa/04-street-elevation-dusk-c6ec164b-3840.webp",
+        "width": 3840,
+        "height": 2330,
+        "blur": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAADwAQCdASoQAAoABIByJQBOgCIZPfpfwQAA/PJnUk4hy3emfW9wPhyVfEXp9flgx1RJ6sE1pnBGwWswhM6+avWM5aJuFIyTQKEW4+7aAAA=",
         "category": "exterior",
         "caption": {
           "en": "Street elevation at dusk",
@@ -1273,12 +1329,13 @@ export const projectMedia = {
           1080,
           1440,
           2048,
-          2468
+          2560,
+          3840
         ],
-        "src": "/media/projects/al-wukair-neo-classic-villa/05-entrance-facade-pilasters-41786db1-2468.webp",
-        "width": 2468,
-        "height": 1632,
-        "blur": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAACwAQCdASoQAAsABIByJYwCdABWijYAAPsC5UykKxBSzpYAVtYM5dVk+/vr8ePoGiS+VFzy3bkYPoZiG52hY9TzMZ6atIyS6NAAAA==",
+        "src": "/media/projects/al-wukair-neo-classic-villa/05-entrance-facade-pilasters-41786db1-3840.webp",
+        "width": 3840,
+        "height": 2539,
+        "blur": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAACwAQCdASoQAAsABIByJYwCdAB/4eugAPsC5UykKxBSzpYAVtYM5dVk+/vrjx9A0SXyoueW7cjBnb7KCmkSYxKfY5Xjm4DYVQAAAA==",
         "category": "exterior",
         "caption": {
           "en": "Entrance façade with illuminated pilasters",
@@ -1294,12 +1351,13 @@ export const projectMedia = {
           1080,
           1440,
           2048,
-          2560
+          2560,
+          3840
         ],
-        "src": "/media/projects/al-wukair-neo-classic-villa/06-driveway-entrance-dusk-d5fc9847-2560.webp",
-        "width": 2560,
-        "height": 1429,
-        "blur": "data:image/webp;base64,UklGRkYAAABXRUJQVlA4IDoAAACQAQCdASoQAAkABIByJYwAAY6WQ5gA/tuleuYhArCPB2C0fb9I9LKAVGHf9cYsRfDBjDzH2ZlbBA4A",
+        "src": "/media/projects/al-wukair-neo-classic-villa/06-driveway-entrance-dusk-d5fc9847-3840.webp",
+        "width": 3840,
+        "height": 2143,
+        "blur": "data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAACQAQCdASoQAAkABIByJYwAAY6UQPgA/tuleuYhArCPB2C0fb9I9LKAVGHf9cYsRfDBjDzSBTDkIOQytgAAAA==",
         "category": "exterior",
         "caption": {
           "en": "Driveway and entrance at dusk",
@@ -1315,12 +1373,13 @@ export const projectMedia = {
           1080,
           1440,
           2048,
-          2560
+          2560,
+          3840
         ],
-        "src": "/media/projects/al-wukair-neo-classic-villa/07-facade-forecourt-0c80ccd1-2560.webp",
-        "width": 2560,
-        "height": 1592,
-        "blur": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAAAQAgCdASoQAAoABIByJQBOgCLY0MlZx/M4AP5Kp+1vYQ9Lq1ktgwjUJaJhIEeqL1y/KU0/Ly6VVQlVmzUM0sEjigWlRAPkAAA=",
+        "src": "/media/projects/al-wukair-neo-classic-villa/07-facade-forecourt-0c80ccd1-3840.webp",
+        "width": 3840,
+        "height": 2388,
+        "blur": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAAAQAgCdASoQAAoABIByJQBOgCLIc0fr/ssgAP5Kp+1vYQ9Lq1ktgwjUJaJhIEeqLoWcGXMuyKaLlMuoh8ebFAu5abhE2NvMgAA=",
         "category": "exterior",
         "caption": {
           "en": "Front façade from the forecourt",
@@ -1357,12 +1416,14 @@ export const projectMedia = {
           768,
           1080,
           1440,
-          1536
+          2048,
+          2560,
+          3840
         ],
-        "src": "/media/projects/al-wukair-neo-classic-villa/09-main-gate-night-75beefd2-1536.webp",
-        "width": 1536,
-        "height": 1024,
-        "blur": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAADQAQCdASoQAAsABIByJagCdACgZ18bgAD9eMQeQuEDaFHAi+dv8G/o8s5PDT1wU101J52Ie8a0ZczfwUWd3xyNX03DgTupTdo3AsYSPrZIOAAA",
+        "src": "/media/projects/al-wukair-neo-classic-villa/09-main-gate-night-75beefd2-3840.webp",
+        "width": 3840,
+        "height": 2560,
+        "blur": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAADwAQCdASoQAAsABIByJagCdADR3OWBKygA/XjEHkLhA2hRwIvnb/Bv6PLOTw09aioGYfXKCIGNF5ddGifP/Zm70pTJDYEtmt9J8DGEj62Q0AAA",
         "category": "detail",
         "caption": {
           "en": "Main gate at night",
@@ -1383,8 +1444,8 @@ export const projectMedia = {
         ],
         "src": "/media/projects/al-wukair-neo-classic-villa/10-pedestrian-gate-6f0d2d13-3840.webp",
         "width": 3840,
-        "height": 2566,
-        "blur": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAADwAQCdASoQAAsABIByJQBdgBuNCHD9aAAA/eOREmpHXb4gcZtZlHW6aCbKjOvJawgFzicSyw+WCJgJwJ6O+rQExDgjnhHavdE8jQAA",
+        "height": 2569,
+        "blur": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAAAwAgCdASoQAAsABIByJYwC7AE01/KtcBJnAAD945ESQjb3PjMREbGQs0llFkPR7YYX19kV+J5OFRADCg04R7QAymsq4Y3ZjL7YPYAA",
         "category": "detail",
         "caption": {
           "en": "Pedestrian gate and boundary wall",
@@ -1398,12 +1459,15 @@ export const projectMedia = {
           480,
           768,
           1080,
-          1197
+          1440,
+          2048,
+          2560,
+          3840
         ],
-        "src": "/media/projects/al-wukair-neo-classic-villa/11-boundary-wall-detail-93902fab-1197.webp",
-        "width": 1197,
-        "height": 800,
-        "blur": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAAAQAgCdASoQAAsABIByJQBdgB0mq4CTYkAAAP7l/9tYZ9LvzKjH45xMgBLKEczN07/4DRzf3quOimSNZjAGw0AA",
+        "src": "/media/projects/al-wukair-neo-classic-villa/11-boundary-wall-detail-93902fab-3840.webp",
+        "width": 3840,
+        "height": 2571,
+        "blur": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAADwAQCdASoQAAsABIByJQBdgB0mq24W0QAA/uYAEfwympDbWX93qCsYvn8rcbA882bgF/9KxDNH8zdAovdJhHaAAAA=",
         "category": "detail",
         "caption": {
           "en": "Boundary wall detail at dusk",
@@ -1424,12 +1488,13 @@ export const projectMedia = {
           1080,
           1440,
           2048,
-          2560
+          2560,
+          3840
         ],
-        "src": "/media/projects/al-wakrah-classic-villa/01-entrance-facade-columns-b5f980cb-2560.webp",
-        "width": 2560,
-        "height": 1707,
-        "blur": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAADwAQCdASoQAAsABIByJYwAAqHYtTYHVRAA/uCrffQiklklR7AjLtazXkVvrlmdIo6auOB+IJDKbZbjnslji6n+NskbVm8CzNt+JiXFU9DIEGXp3YAAAA==",
+        "src": "/media/projects/al-wakrah-classic-villa/01-entrance-facade-columns-b5f980cb-3840.webp",
+        "width": 3840,
+        "height": 2560,
+        "blur": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAADwAQCdASoQAAsABIByJYwAAqHYtTYHVRAA/uCrffQiklklR7AjJmOhn3CTeoDTetW6gkiypMjKHTMj9q1pcSv+NskdNUT/lAVQlAubeA6evlp3YAA=",
         "category": "exterior",
         "caption": {
           "en": "Entrance façade with classical columns",
@@ -1445,12 +1510,13 @@ export const projectMedia = {
           1080,
           1440,
           2048,
-          2560
+          2560,
+          3840
         ],
-        "src": "/media/projects/al-wakrah-classic-villa/02-front-elevation-3c6c9301-2560.webp",
-        "width": 2560,
-        "height": 1440,
-        "blur": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAACQAQCdASoQAAkABIByJZwAAgUCknQA/pgk5z1Bemt4/UDePDS1PpAkoLGA1Tn3VqbXiys8C1kcTaujshj7E+ADbCmAAA==",
+        "src": "/media/projects/al-wakrah-classic-villa/02-front-elevation-3c6c9301-3840.webp",
+        "width": 3840,
+        "height": 2160,
+        "blur": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAACwAQCdASoQAAkABIByJZwAAgXaXEwAAP6YJOc9QXpreP1A3jw0sf19mPpKi44DrKtByNWIrvLNtaTlZDqOA2wpgAA=",
         "category": "exterior",
         "caption": {
           "en": "Front elevation",
@@ -1466,12 +1532,13 @@ export const projectMedia = {
           1080,
           1440,
           2048,
-          2560
+          2560,
+          3840
         ],
-        "src": "/media/projects/al-wakrah-classic-villa/03-corner-street-019c2d65-2560.webp",
-        "width": 2560,
-        "height": 1707,
-        "blur": "data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAADQAQCdASoQAAsABIByJZwAAqyOzWrZmAD+1KIuj77xI1fRbC7GHyTzZ6/8XmhBcFHRok3E3lT18VhA0ggAAA==",
+        "src": "/media/projects/al-wakrah-classic-villa/03-corner-street-019c2d65-3840.webp",
+        "width": 3840,
+        "height": 2560,
+        "blur": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAADwAQCdASoQAAsABIByJZwAAqyOzg5orAAA/tSiLo++8SNX0Wwuxh8k82ev/F5oQXBR0aJNxNgoS990wSisgAAA",
         "category": "exterior",
         "caption": {
           "en": "Corner view from the street",
@@ -1487,11 +1554,12 @@ export const projectMedia = {
           1080,
           1440,
           2048,
-          2560
+          2560,
+          3840
         ],
-        "src": "/media/projects/al-wakrah-classic-villa/04-street-boundary-wall-c3223ba7-2560.webp",
-        "width": 2560,
-        "height": 1440,
+        "src": "/media/projects/al-wakrah-classic-villa/04-street-boundary-wall-c3223ba7-3840.webp",
+        "width": 3840,
+        "height": 2160,
         "blur": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAADwAQCdASoQAAkABIByJZQCdAEf6JzbLZgA/tbZTaheraWNrFbzzOeZhlrSbEiIXnojfBwnA0yu+SB2bhpgQRfphIOAAA==",
         "category": "exterior",
         "caption": {
@@ -1512,12 +1580,14 @@ export const projectMedia = {
           768,
           1080,
           1440,
-          1536
+          2048,
+          2560,
+          3840
         ],
-        "src": "/media/projects/al-shahaniya-majlis/01-facade-arched-entrance-28ce69bd-1536.webp",
-        "width": 1536,
-        "height": 1024,
-        "blur": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAADQAQCdASoQAAsABIByJYwCdADbfK+FgAD9sroGe+Br4SNu6harxdT1PmWq+rBUYm/wtqN0BRlEqgf4b9LRuYOrZD5TEF60AYAAAA==",
+        "src": "/media/projects/al-shahaniya-majlis/01-facade-arched-entrance-28ce69bd-3840.webp",
+        "width": 3840,
+        "height": 2560,
+        "blur": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAAAQAgCdASoQAAsABIByJYwCdADbjeBlpYaAAP2yugZ74GvhI27qFqvF1PU+ZaW7We7r+DkyTJNTnN4fqsfHk3+hK6Ch5yU4SYAAAA==",
         "category": "exterior",
         "caption": {
           "en": "Exterior façade with the arched entrance",
@@ -1551,12 +1621,17 @@ export const projectMedia = {
         "base": "/media/projects/al-shahaniya-majlis/03-perspective-arched-windows-3bf60327",
         "widths": [
           480,
-          647
+          768,
+          1080,
+          1440,
+          2048,
+          2560,
+          3840
         ],
-        "src": "/media/projects/al-shahaniya-majlis/03-perspective-arched-windows-3bf60327-647.webp",
-        "width": 647,
-        "height": 404,
-        "blur": "data:image/webp;base64,UklGRkgAAABXRUJQVlA4IDwAAACwAQCdASoQAAoABIByJZQAAsUhiB2gAP7rCu5W6enWA5DUd2ooPuq4QQCdb700MphxAOJVPSG9Rmf4AAA=",
+        "src": "/media/projects/al-shahaniya-majlis/03-perspective-arched-windows-3bf60327-3840.webp",
+        "width": 3840,
+        "height": 2398,
+        "blur": "data:image/webp;base64,UklGRkgAAABXRUJQVlA4IDwAAACwAQCdASoQAAoABIByJZwAAsP6h+w4AP7rLGWocsJSn8vv2rVZtRv9HH5qqrSlBqfk3oWWHGuZrC/gIAA=",
         "category": "exterior",
         "caption": {
           "en": "Exterior perspective, arched windows",
@@ -1568,12 +1643,17 @@ export const projectMedia = {
         "base": "/media/projects/al-shahaniya-majlis/04-perspective-morning-bd132484",
         "widths": [
           480,
-          647
+          768,
+          1080,
+          1440,
+          2048,
+          2560,
+          3840
         ],
-        "src": "/media/projects/al-shahaniya-majlis/04-perspective-morning-bd132484-647.webp",
-        "width": 647,
-        "height": 404,
-        "blur": "data:image/webp;base64,UklGRkYAAABXRUJQVlA4IDoAAACQAQCdASoQAAoABIByJZQAAosYLXIA/uqR2PySMioBoill4913iPCpU3rEovwZHZCIvF4xFQuGAgAA",
+        "src": "/media/projects/al-shahaniya-majlis/04-perspective-morning-bd132484-3840.webp",
+        "width": 3840,
+        "height": 2398,
+        "blur": "data:image/webp;base64,UklGRkgAAABXRUJQVlA4IDwAAACQAQCdASoQAAoABIByJZwAAsdUuAAA/utT7EIKP20sg+RzGFvrjnyVCEDPh+DI7IRF7cZnAd63XtqQgAA=",
         "category": "exterior",
         "caption": {
           "en": "Exterior perspective, morning light",
@@ -1585,12 +1665,17 @@ export const projectMedia = {
         "base": "/media/projects/al-shahaniya-majlis/05-perspective-street-ff6c3277",
         "widths": [
           480,
-          647
+          768,
+          1080,
+          1440,
+          2048,
+          2560,
+          3840
         ],
-        "src": "/media/projects/al-shahaniya-majlis/05-perspective-street-ff6c3277-647.webp",
-        "width": 647,
-        "height": 404,
-        "blur": "data:image/webp;base64,UklGRkYAAABXRUJQVlA4IDoAAACQAQCdASoQAAoABIByJZQAAf/rlFgA/uB9rhzHHKQiYLqiQsO8e1x1vHHrEb6RyKpXbpde7fI7O/AA",
+        "src": "/media/projects/al-shahaniya-majlis/05-perspective-street-ff6c3277-3840.webp",
+        "width": 3840,
+        "height": 2398,
+        "blur": "data:image/webp;base64,UklGRkYAAABXRUJQVlA4IDoAAACwAQCdASoQAAoABIByJZwAAgAYsowAAP7gfa4cxxykImC6okLDvHtcdbxx62jQ5zAGb/gACwOekBQA",
         "category": "exterior",
         "caption": {
           "en": "Exterior perspective from the street",
@@ -1602,12 +1687,17 @@ export const projectMedia = {
         "base": "/media/projects/al-shahaniya-majlis/06-perspective-colonnade-c86f6329",
         "widths": [
           480,
-          647
+          768,
+          1080,
+          1440,
+          2048,
+          2560,
+          3840
         ],
-        "src": "/media/projects/al-shahaniya-majlis/06-perspective-colonnade-c86f6329-647.webp",
-        "width": 647,
-        "height": 404,
-        "blur": "data:image/webp;base64,UklGRkgAAABXRUJQVlA4IDwAAACwAQCdASoQAAoABIByJZwAAux5vyIAAP7G9j+O46xKUb75RNcsezkFt+zvzT5tep5JFPdAYSXjY4UAAAA=",
+        "src": "/media/projects/al-shahaniya-majlis/06-perspective-colonnade-c86f6329-3840.webp",
+        "width": 3840,
+        "height": 2398,
+        "blur": "data:image/webp;base64,UklGRkgAAABXRUJQVlA4IDwAAACwAQCdASoQAAoABIByJZwAAuyXnsAAAP7G9j+O46xKUb75O0wx+FpCUE1HqBBeLBW6Hr7n/Xlx1mEAAAA=",
         "category": "exterior",
         "caption": {
           "en": "Exterior perspective, colonnade",
@@ -1619,12 +1709,17 @@ export const projectMedia = {
         "base": "/media/projects/al-shahaniya-majlis/07-front-elevation-study-b0599eb3",
         "widths": [
           480,
-          646
+          768,
+          1080,
+          1440,
+          2048,
+          2560,
+          3840
         ],
-        "src": "/media/projects/al-shahaniya-majlis/07-front-elevation-study-b0599eb3-646.webp",
-        "width": 646,
-        "height": 404,
-        "blur": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAADwAQCdASoQAAoABIByJZQAAvp3OYkNoAAA9rvlVzK17C0nzPT+q6QgngxOii2YNOS7tXvz2V1EhrNKKCaEIAAA",
+        "src": "/media/projects/al-shahaniya-majlis/07-front-elevation-study-b0599eb3-3840.webp",
+        "width": 3840,
+        "height": 2401,
+        "blur": "data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAADQAQCdASoQAAoABIByJZQAAvo1ai9YAAD2u+VXMrXsLSfM9P6rqHs6YRQQ5hlNxWUzcToW42zK4ta0E0IQAA==",
         "category": "exterior",
         "caption": {
           "en": "Front elevation study",
@@ -1639,12 +1734,14 @@ export const projectMedia = {
           768,
           1080,
           1440,
-          1536
+          2048,
+          2560,
+          3840
         ],
-        "src": "/media/projects/al-shahaniya-majlis/08-majlis-guests-41c682c0-1536.webp",
-        "width": 1536,
-        "height": 1024,
-        "blur": "data:image/webp;base64,UklGRmgAAABXRUJQVlA4IFwAAADQAQCdASoQAAsABIByJQBOgBkjWlXdAAD+wO9su5GFNZTcIdWiArkLCEOzKvIRdzNFtJRwji9eEyDT+ImFkRzMse/MLtSvuo/MtBw1dznhs4u78TIi5/2PLoAAAA==",
+        "src": "/media/projects/al-shahaniya-majlis/08-majlis-guests-41c682c0-3840.webp",
+        "width": 3840,
+        "height": 2560,
+        "blur": "data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAADwAQCdASoQAAsABIByJQBOgBcNVPPDmwAA/r5ROBz1s3/OYHSL/Jc6yi8VswsqoFt9AN3WMKwof8sWbsX8VVXmZZqcAo8bpz28HhOoFXZFactkjluTl4mWUAA=",
         "category": "interior",
         "caption": {
           "en": "Majlis interior with guests",
@@ -1659,12 +1756,14 @@ export const projectMedia = {
           768,
           1080,
           1440,
-          1536
+          2048,
+          2560,
+          3840
         ],
-        "src": "/media/projects/al-shahaniya-majlis/09-majlis-timber-mashrabiya-1d5b8509-1536.webp",
-        "width": 1536,
-        "height": 1024,
-        "blur": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAADwAQCdASoQAAsABIByJQBOgMX6dxzongAA/qrfnwwD7XZl98vpbvrMLXmRS2PbbexRoR9mqxNQK3nqOTNmjFt81jkv7cEVllu0VU0WnJY1cRc/7Hl0AA==",
+        "src": "/media/projects/al-shahaniya-majlis/09-majlis-timber-mashrabiya-1d5b8509-3840.webp",
+        "width": 3840,
+        "height": 2560,
+        "blur": "data:image/webp;base64,UklGRmQAAABXRUJQVlA4IFgAAADwAQCdASoQAAsABIByJQBOgMX/dzqtnEAA/qZjsqlGgmaRCmBJriR43ZtMmXjXj2q5l2GgSoLVWJaqBmbRO3kF0krl6y/UTIidDdfLAO78WQi5/2PLoAAA",
         "category": "interior",
         "caption": {
           "en": "Majlis interior, timber and mashrabiya ceiling",
@@ -1679,12 +1778,14 @@ export const projectMedia = {
           768,
           1080,
           1440,
-          1536
+          2048,
+          2560,
+          3840
         ],
-        "src": "/media/projects/al-shahaniya-majlis/10-majlis-seating-b07aed0b-1536.webp",
-        "width": 1536,
-        "height": 1024,
-        "blur": "data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAABQAgCdASoQAAsABIByJQBOgMXN7NGUWbf6yoAA/k9TKIw63jEEH3gQ/0OOeiQRfyrY0jFzdQGU0om0YGCmlmUx/JwwzNNhWOgaXP9Uaj88EBqHbeJJMnYYAAA=",
+        "src": "/media/projects/al-shahaniya-majlis/10-majlis-seating-b07aed0b-3840.webp",
+        "width": 3840,
+        "height": 2560,
+        "blur": "data:image/webp;base64,UklGRmQAAABXRUJQVlA4IFgAAABQAgCdASoQAAsABIByJQBOgMV47Q1nOw4yhgAA/k9TKMvRcYyofaRvchxWAVa7fvoTeaulRiRy++qGCdH5Qt+dVqgzNkDOMvoWyJoq3Jw5XZeGn5JunAAA",
         "category": "interior",
         "caption": {
           "en": "Majlis seating area",
@@ -1699,12 +1800,14 @@ export const projectMedia = {
           768,
           1080,
           1440,
-          1537
+          2048,
+          2560,
+          3840
         ],
-        "src": "/media/projects/al-shahaniya-majlis/11-majlis-media-wall-ed6ceabd-1537.webp",
-        "width": 1537,
-        "height": 1023,
-        "blur": "data:image/webp;base64,UklGRmQAAABXRUJQVlA4IFgAAADwAQCdASoQAAsABIByJYgCdAEemabznAAA/tDZwiBCGHhC892ysZmr4VCjt4aArIpdhXnpvIFPjl+1CKrNRFpFhm+zbbzy8YUnjjS97DWsHN4OVir++aAA",
+        "src": "/media/projects/al-shahaniya-majlis/11-majlis-media-wall-ed6ceabd-3840.webp",
+        "width": 3840,
+        "height": 2556,
+        "blur": "data:image/webp;base64,UklGRmQAAABXRUJQVlA4IFgAAAAQAgCdASoQAAsABIByJYgCdAEefP3ywzAAAP7Q2cIgQhh4QvPdsrGZnHuqP4G6F8rcrtDUZWM/iVuebc10SPOFXgP99oMEJ89oB8aDYmrD0NGn4BaiSUAA",
         "category": "interior",
         "caption": {
           "en": "Majlis with media wall",
@@ -1719,12 +1822,14 @@ export const projectMedia = {
           768,
           1080,
           1440,
-          1536
+          2048,
+          2560,
+          3840
         ],
-        "src": "/media/projects/al-shahaniya-majlis/12-classic-majlis-chandelier-3228c887-1536.webp",
-        "width": 1536,
-        "height": 1024,
-        "blur": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAAAwAgCdASoQAAsABIByJQBOgCPURkSbWD3TYAD+JAHGp6JF68gzGoMW/KF3dErdCcyoLoxSIGxSvT+gqx044oH6J3k3TgAA",
+        "src": "/media/projects/al-shahaniya-majlis/12-classic-majlis-chandelier-3228c887-3840.webp",
+        "width": 3840,
+        "height": 2560,
+        "blur": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAAAwAgCdASoQAAsABIByJQBOgCLIf5lu1tlcAAD+JAHGpjENNKH3aTECP0/NlFscoKSk9OrjgqPRtIsWlyXxuH6WJzMtDbAA",
         "category": "interior",
         "caption": {
           "en": "Classic majlis with chandelier",
@@ -1739,12 +1844,14 @@ export const projectMedia = {
           768,
           1080,
           1440,
-          1537
+          2048,
+          2560,
+          3840
         ],
-        "src": "/media/projects/al-shahaniya-majlis/13-classic-majlis-seating-1bd1dfd6-1537.webp",
-        "width": 1537,
-        "height": 1023,
-        "blur": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAADQAQCdASoQAAsABIByJQBOgB0+6XsSAAD6eLNLJE6jBVfTTGtNFYALnoi9gsGqzX8zMaM51bbSyIdy+pui6UqwAAA=",
+        "src": "/media/projects/al-shahaniya-majlis/13-classic-majlis-seating-1bd1dfd6-3840.webp",
+        "width": 3840,
+        "height": 2556,
+        "blur": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAAAQAgCdASoQAAsABIByJQBOgB0+6oygTmgAAPp4s0skTqMFV9NLrnoQeDi3LkA94L40p/VPYzQ/FJ5Vkx1DtNh2GAA=",
         "category": "interior",
         "caption": {
           "en": "Classic majlis seating",
@@ -1785,12 +1892,15 @@ export const projectMedia = {
           480,
           768,
           1080,
-          1261
+          1440,
+          2048,
+          2560,
+          3840
         ],
-        "src": "/media/projects/al-shahaniya-neo-classic-villa/02-street-dusk-b7340809-1261.webp",
-        "width": 1261,
-        "height": 840,
-        "blur": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAACwAQCdASoQAAsABIByJQBOgBLpU7cAAP7oZ0m5M4mIiosG8h7IJ6uTn8dAEN2PN79d3SiAUNi5nscQ66uCw9X0yaAAAA==",
+        "src": "/media/projects/al-shahaniya-neo-classic-villa/02-street-dusk-b7340809-3840.webp",
+        "width": 3840,
+        "height": 2558,
+        "blur": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAACwAQCdASoQAAsABIByJQBOgBLq9JGAAP7oZ0m5Nm98RUWDeQ9kE+g8fVxX6ia1/RjmDsph+wQFKSKXZA550A9gg7MEAA==",
         "category": "exterior",
         "caption": {
           "en": "Street view at dusk",
@@ -1806,12 +1916,13 @@ export const projectMedia = {
           1080,
           1440,
           2048,
-          2560
+          2560,
+          3840
         ],
-        "src": "/media/projects/al-shahaniya-neo-classic-villa/03-aerial-dusk-a473bf76-2560.webp",
-        "width": 2560,
-        "height": 1705,
-        "blur": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAAAQAgCdASoQAAsABIByJQBWACPgdVe/EYIAAP7a1MeKLpNXweFBQ1NI6wYJW9RYRpZ7evFsshY1SeCJch0CjudEAAA=",
+        "src": "/media/projects/al-shahaniya-neo-classic-villa/03-aerial-dusk-a473bf76-3840.webp",
+        "width": 3840,
+        "height": 2557,
+        "blur": "data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAAAwAgCdASoQAAsABIByJQBdgCPQZ9q2Rjg9AAD+2tTHii60w1PqnK08EJwSTdnS5HZayVFwpolFovH3cTbAAA==",
         "category": "aerial",
         "caption": {
           "en": "Aerial view at dusk",
@@ -1827,12 +1938,13 @@ export const projectMedia = {
           1080,
           1440,
           2048,
-          2560
+          2560,
+          3840
         ],
-        "src": "/media/projects/al-shahaniya-neo-classic-villa/04-entrance-planting-cf4c4021-2560.webp",
-        "width": 2560,
-        "height": 1705,
-        "blur": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAADwAQCdASoQAAsABIByJbACdACpXDfGbQAA+6ufZx86L0GHyQqhd2+Ey+tOVvTrp6S6y/HZPzt2BoeOmbFpDGl+JzapjTpfDvwhgZMOgAA=",
+        "src": "/media/projects/al-shahaniya-neo-classic-villa/04-entrance-planting-cf4c4021-3840.webp",
+        "width": 3840,
+        "height": 2557,
+        "blur": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAADwAQCdASoQAAsABIByJbACdACpXDfGbQAA+6ufZx86L0GHyQqhd2+Ey+tOVvTrp6S6y/HZPzt2BoeOmbFpDGl+JzapjTpfDvwhgZbEaXgAAA==",
         "category": "detail",
         "caption": {
           "en": "Entrance planting and façade lighting",
@@ -1848,12 +1960,13 @@ export const projectMedia = {
           1080,
           1440,
           2048,
-          2560
+          2560,
+          3840
         ],
-        "src": "/media/projects/al-shahaniya-neo-classic-villa/05-facade-low-angle-b686bf27-2560.webp",
-        "width": 2560,
-        "height": 1705,
-        "blur": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAADQAQCdASoQAAsABIByJaACdEf/gPMAAADMbp+ZRPvl1TlsscTDlTwX2EQrOVu1eCbjiGpMaZGoICUbahEKrm2gqrvacAAA",
+        "src": "/media/projects/al-shahaniya-neo-classic-villa/05-facade-low-angle-b686bf27-3840.webp",
+        "width": 3840,
+        "height": 2557,
+        "blur": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAACwAQCdASoQAAsABIByJaACdACHYIAAAMxun5lE++XVOWyxxMOVPBfYRCs5W+YD2pWSbyOPzNZs1ObIhYYv4fiolgAAAA==",
         "category": "detail",
         "caption": {
           "en": "Façade detail, low angle",
@@ -1869,12 +1982,13 @@ export const projectMedia = {
           1080,
           1440,
           2048,
-          2560
+          2560,
+          3840
         ],
-        "src": "/media/projects/al-shahaniya-neo-classic-villa/06-pilasters-glazing-01c8a3f5-2560.webp",
-        "width": 2560,
-        "height": 1705,
-        "blur": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAAAwAgCdASoQAAsABIByJbACdH8GJ/gSESJkAADvME1/3JAaLuL2LWQg2QDN6evQm1LcLT09tXLHAc5FD0MuVViRD0Ju/SnFF4mmehW/gAA=",
+        "src": "/media/projects/al-shahaniya-neo-classic-villa/06-pilasters-glazing-01c8a3f5-3840.webp",
+        "width": 3840,
+        "height": 2557,
+        "blur": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAAAwAgCdASoQAAsABIByJbACdH8GJ/gSJVEdgADvME1/3JAaLuL2LWQg2KGeKtyGvxU8WIFBCldYBh5iKoC/TmcENXit9yvMx83Ds8sfwAA=",
         "category": "detail",
         "caption": {
           "en": "Pilasters and glazing, low angle",

@@ -59,6 +59,29 @@ def luminance(rgb: np.ndarray) -> np.ndarray:
 
 # ───────────────────────────── watermark geometry ─────────────────────────────
 
+def trim_border_lines(rgb: np.ndarray, max_px: int = 4) -> np.ndarray:
+    """Drops up to `max_px` edge rows/columns that are near-uniform (or very bright) and differ strongly from the
+    image interior — export artefacts that would otherwise become a visible hairline after upscaling. Each
+    candidate line is compared with the line `max_px + 1` further in, so several stacked white lines all go."""
+    lum = luminance(rgb)
+    h, w = lum.shape
+    def is_line(a: np.ndarray, interior: np.ndarray) -> bool:
+        gap = abs(float(a.mean()) - float(interior.mean()))
+        return gap > 60 and (float(a.std()) < 40 or float(a.mean()) > 150)
+    top = bottom = left = right = 0
+    while top < max_px and is_line(lum[top], lum[max_px + 1]):
+        top += 1
+    while bottom < max_px and is_line(lum[h - 1 - bottom], lum[h - 2 - max_px]):
+        bottom += 1
+    while left < max_px and is_line(lum[:, left], lum[:, max_px + 1]):
+        left += 1
+    while right < max_px and is_line(lum[:, w - 1 - right], lum[:, w - 2 - max_px]):
+        right += 1
+    if not (top or bottom or left or right):
+        return rgb
+    return rgb[top:h - bottom, left:w - right]
+
+
 def line_center(lum: np.ndarray) -> int | None:
     """Centre row of the white line: consecutive rows in the bottom 20 % where ≈ every pixel beats its context."""
     h, w = lum.shape
@@ -68,7 +91,7 @@ def line_center(lum: np.ndarray) -> int | None:
         if len(ctx) == 0:
             continue
         d = lum[y] - np.median(ctx, axis=0)
-        if float((d > 12).mean()) >= 0.97 and float(d.mean()) > 60:
+        if float((d > 12).mean()) >= 0.90 and float(d.mean()) > 60:  # a few columns may already be white
             rows.append(y)
     if not rows:
         return None
@@ -121,7 +144,7 @@ def watermark_mask(rgb: np.ndarray) -> tuple[np.ndarray | None, dict]:
 
     boxes = {
         'badge': (0, max(0, c - round(0.105 * w)), round(0.13 * w), min(h, c + round(0.02 * w))),
-        'text': (round(0.66 * w), max(0, c - round(0.03 * w)), round(0.99 * w), max(0, c - round(0.002 * w))),
+        'text': (round(0.66 * w), max(0, c - round(0.03 * w)), w, max(0, c - round(0.002 * w))),  # the text can touch the right edge
     }
     # the ring is gold: on light stone it has little top-hat contrast, so match it by colour inside the badge box
     r, g, b = (rgb[..., i].astype(np.int16) for i in range(3))
@@ -131,6 +154,9 @@ def watermark_mask(rgb: np.ndarray) -> tuple[np.ndarray | None, dict]:
         region = strokes[y0:y1, x0:x1]
         if name == 'badge':
             region = region | gold[y0:y1, x0:x1]
+        else:
+            # white text over a near-white glow has no contrast to detect; masking the glow itself is harmless
+            region = region | (lum[y0:y1, x0:x1] > 228)
         mask[y0:y1, x0:x1][region] = 255
     # the badge: a two-tone (gold / dark teal) circle over a translucent fill — mask the whole disc
     cx, cy, r = badge_disc(rgb, c)
@@ -138,7 +164,7 @@ def watermark_mask(rgb: np.ndarray) -> tuple[np.ndarray | None, dict]:
     # white line plus the thin gold line a few pixels above it, full width
     mask[max(0, c - round(0.0045 * w) - 2):min(h, c + round(0.0028 * w) + 3), :] = 255
 
-    k = max(2, round(w / 1100))
+    k = max(3, round(w / 800))  # generous: ESRGAN would sharpen any anti-aliased ghost left at the mask edge
     mask = cv2.dilate(mask, cv2.getStructuringElement(cv2.MORPH_ELLIPSE, (2 * k + 1, 2 * k + 1)))
     mask = cv2.morphologyEx(mask, cv2.MORPH_CLOSE, cv2.getStructuringElement(cv2.MORPH_ELLIPSE, (2 * k + 1, 2 * k + 1)))
     return mask, {'line': c, 'mask_px': int((mask > 0).sum()), 'badge': [cx, cy, r]}
@@ -237,6 +263,10 @@ def main() -> int:
         t0 = time.time()
         rgb = load_rgb(Path(job['src']))
         notes = []
+        trimmed = trim_border_lines(rgb)
+        if trimmed.shape != rgb.shape:
+            notes.append(f"trimmed border {rgb.shape[1]}x{rgb.shape[0]} -> {trimmed.shape[1]}x{trimmed.shape[0]}")
+            rgb = trimmed
         if job['watermark']:
             mask, info = watermark_mask(rgb)
             if mask is None:

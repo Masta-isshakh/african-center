@@ -1,4 +1,4 @@
-import { useTranslations } from 'next-intl';
+import { useLocale, useTranslations } from 'next-intl';
 import { ArrowRight } from 'lucide-react';
 import { Link } from '@/i18n/navigation';
 import { ButtonLink } from '@/components/ui/Button';
@@ -6,6 +6,8 @@ import { VideoButton } from '@/components/ui/VideoButton';
 import { DirIcon } from '@/components/ui/DirIcon';
 import { TrustRow } from '@/components/ui/TrustRow';
 import { HeroMedia } from './HeroMedia';
+import type { Locale } from '@/i18n/routing';
+import { heroShowcase, showcaseAlt } from '@/content/showcase';
 
 /** Splits on whitespace so Arabic words stay intact; each word rises in 60ms after the previous one. */
 function SplitWords({ text }: { text: string }) {
@@ -26,9 +28,11 @@ function SplitWords({ text }: { text: string }) {
 
 export function Hero() {
   const t = useTranslations();
+  const locale = useLocale() as Locale;
+  const hero = heroShowcase.image;
   return (
     <section id="top" aria-labelledby="hero-title" className="surface-dark relative flex min-h-[100svh] items-center overflow-hidden pb-20 pt-[calc(var(--header-h)+5rem)] sm:pb-24 lg:pt-[calc(var(--header-h)+7rem)]">
-      <HeroMedia alt={t('hero.posterAlt')} />
+      <HeroMedia image={{ base: hero.base, widths: hero.widths, blur: hero.blur }} alt={showcaseAlt(heroShowcase, locale)} />
       <div aria-hidden="true" className="absolute inset-0 bg-gradient-to-t from-charcoal via-navy-950/45 to-navy-950/10" />
       <div aria-hidden="true" className="absolute inset-0 bg-gradient-to-r from-navy-950/85 via-navy-950/35 to-transparent rtl:bg-gradient-to-l" />
 

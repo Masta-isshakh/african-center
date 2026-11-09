@@ -1,18 +1,22 @@
 'use client';
 
-import { useEffect, useRef, useState } from 'react';
-import Image from 'next/image';
-import { media, mediaSpecs } from '@/lib/media';
-import { BlueprintVilla } from '@/components/ui/BlueprintVilla';
+import { useEffect, useRef } from 'react';
+import type { VariantSet } from '@/content/projects.types';
+import { ProjectImage } from '@/components/portfolio/ProjectImage';
+
+interface Props {
+  /** One of the company's project renders (see content/showcase.ts) */
+  image: VariantSet & { blur: string };
+  alt: string;
+}
 
 /**
- * Hero background: priority poster with an 18s Ken Burns and 12px scroll parallax (plain rAF, no
- * animation library); the video loads only after the page has finished loading, on larger screens
- * with a good connection. Falls back to the blueprint motif.
+ * Hero background: a priority project render with an 18s Ken Burns and 12px scroll parallax
+ * (plain rAF, no animation library). Served from the static, content-hashed WebP set, so the
+ * LCP image never waits for an image optimiser.
  */
-export function HeroMedia({ alt }: { alt: string }) {
+export function HeroMedia({ image, alt }: Props) {
   const layerRef = useRef<HTMLDivElement>(null);
-  const [loadVideo, setLoadVideo] = useState(false);
 
   useEffect(() => {
     const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
@@ -33,38 +37,9 @@ export function HeroMedia({ alt }: { alt: string }) {
     };
   }, []);
 
-  useEffect(() => {
-    // The loop is decorative: skip it on phones, data-saver and slow connections (the poster stays).
-    const conn = (navigator as Navigator & { connection?: { saveData?: boolean; effectiveType?: string } }).connection;
-    const constrained = conn?.saveData || (conn?.effectiveType && conn.effectiveType !== '4g');
-    const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-    if (!media.heroVideo || reduce || constrained || !window.matchMedia('(min-width: 768px)').matches) return;
-    const start = () => setLoadVideo(true);
-    if (document.readyState === 'complete') {
-      const id = window.setTimeout(start, 400);
-      return () => window.clearTimeout(id);
-    }
-    window.addEventListener('load', start, { once: true });
-    return () => window.removeEventListener('load', start);
-  }, []);
-
-  if (!media.heroPoster && !media.heroVideo) {
-    return (
-      <div className="absolute inset-0 overflow-hidden" aria-hidden="true">
-        <BlueprintVilla className="absolute -bottom-6 end-[-8%] w-[min(1100px,120%)] opacity-[.22] sm:end-[-4%] lg:end-0 lg:w-[62%] lg:opacity-30" />
-        <span className="absolute bottom-6 end-4 hidden rounded-full border border-white/10 bg-navy-950/50 px-3 py-1 font-display text-[calc(10px*var(--fs))] uppercase tracking-[0.18em] text-white/35 lg:block" dir="ltr">
-          heroPoster · {mediaSpecs.heroPoster.size}
-        </span>
-      </div>
-    );
-  }
-
   return (
-    <div ref={layerRef} className="absolute -inset-y-4 inset-x-0 overflow-hidden will-change-transform" aria-hidden={media.heroPoster ? undefined : true}>
-      {media.heroPoster && <Image src={media.heroPoster} alt={alt} fill priority sizes="100vw" className="animate-ken-burns object-cover" />}
-      {media.heroVideo && loadVideo && (
-        <video src={media.heroVideo} muted loop playsInline autoPlay preload="none" className="absolute inset-0 h-full w-full object-cover" />
-      )}
+    <div ref={layerRef} className="absolute -inset-y-4 inset-x-0 overflow-hidden will-change-transform">
+      <ProjectImage image={image} maxWidth={2560} alt={alt} fill priority sizes="100vw" placeholder="blur" blurDataURL={image.blur} className="animate-ken-burns object-cover" />
     </div>
   );
 }

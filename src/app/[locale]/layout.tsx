@@ -29,7 +29,7 @@ const clientNamespaces = [
   'toasts',
   'testimonials',
   'designs',
-  'designs360',
+  'showcase',
   'portfolio',
   'start',
   'contact',

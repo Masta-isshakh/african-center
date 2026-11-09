@@ -1,15 +1,14 @@
 import { getTranslations, setRequestLocale } from 'next-intl/server';
-import { ArrowRight, Hourglass } from 'lucide-react';
-import { pageMetadata } from '@/lib/seo';
-import { showSampleContent } from '@/lib/utils';
+import { Building2, MapPin } from 'lucide-react';
+import { pageMetadata, itemListJsonLd, localizedUrl } from '@/lib/seo';
+import { siteUrl } from '@/lib/site';
+import { portfolioAreas, portfolioStats, projects, toCardData } from '@/content/projects';
 import type { Locale } from '@/i18n/routing';
 import { PageHero } from '@/components/ui/PageHero';
-import { QatarMap } from '@/components/ui/QatarMap';
-import { ButtonLink } from '@/components/ui/Button';
+import { CtaBand } from '@/components/ui/CtaBand';
 import { DirIcon } from '@/components/ui/DirIcon';
-import { TrustRow } from '@/components/ui/TrustRow';
-import { ProjectsExplorer } from '@/components/sections/ProjectsExplorer';
-import { serviceCities } from '@/components/sections/MapTeaser';
+import { JsonLd } from '@/components/ui/JsonLd';
+import { ProjectsByArea } from '@/components/portfolio/ProjectsByArea';
 
 export async function generateMetadata({ params: { locale } }: { params: { locale: Locale } }) {
   return pageMetadata(locale, 'projects');
@@ -18,37 +17,46 @@ export async function generateMetadata({ params: { locale } }: { params: { local
 export default async function ProjectsPage({ params: { locale } }: { params: { locale: Locale } }) {
   setRequestLocale(locale);
   const t = await getTranslations({ locale, namespace: 'projectsPage' });
-  const tm = await getTranslations({ locale, namespace: 'map' });
+  const tp = await getTranslations({ locale, namespace: 'portfolio' });
+  const tc = await getTranslations({ locale, namespace: 'common' });
+
+  const items = projects.map((p) => ({ ...toCardData(p, locale), area: p.area }));
+  const areas = [...portfolioAreas].sort((a, b) => b.lat - a.lat).map((a) => ({ id: a.id, name: a.name[locale], count: a.count, lat: a.lat, lng: a.lng, labelSide: a.labelSide, labelDy: a.labelDy }));
+  const stats = [
+    { icon: Building2, text: tp('stats.projects', { count: portfolioStats.projects }) },
+    { icon: MapPin, text: tp('stats.areas', { count: portfolioStats.areas }) },
+  ];
 
   return (
     <>
-      <PageHero locale={locale} crumbs={[{ name: t('eyebrow'), path: '/projects' }]} eyebrow={t('eyebrow')} title={t('title')} lead={t('lead')} />
+      <PageHero locale={locale} crumbs={[{ name: t('eyebrow'), path: '/projects' }]} eyebrow={t('eyebrow')} title={t('title')} lead={t('lead')}>
+        <ul className="flex flex-wrap gap-x-8 gap-y-3 text-sm font-medium text-white/80">
+          {stats.map((s) => (
+            <li key={s.text} className="inline-flex items-center gap-2">
+              <DirIcon icon={s.icon} className="h-4 w-4 text-gold-400" />
+              {s.text}
+            </li>
+          ))}
+        </ul>
+      </PageHero>
+
       <section className="surface-topo py-16 sm:py-20">
         <div className="container-site">
-          {showSampleContent ? (
-            <ProjectsExplorer />
-          ) : (
-            <div className="grid items-center gap-10 lg:grid-cols-12">
-              <div className="rounded-xl border border-dashed border-gold-500/40 bg-white p-8 sm:p-10 lg:col-span-7">
-                <span className="grid h-14 w-14 place-items-center rounded-full bg-navy-700 text-gold-300">
-                  <DirIcon icon={Hourglass} className="h-6 w-6" />
-                </span>
-                <h2 className="mt-6 text-display-lg font-bold text-navy-800">{t('emptyTitle')}</h2>
-                <p className="mt-3 max-w-xl text-ink/70">{t('emptyBody')}</p>
-                <ButtonLink href="/start" className="mt-8" trackEvent="cta_start_project" trackProps={{ placement: 'projects_empty' }}>
-                  {t('emptyCta')}
-                  <DirIcon icon={ArrowRight} flip className="h-4 w-4" />
-                </ButtonLink>
-                <TrustRow className="mt-6" />
-              </div>
-              <div className="surface-dark rounded-xl p-8 lg:col-span-5">
-                <QatarMap label={tm('mapLabel')} className="mx-auto max-w-xs" points={serviceCities.map((c) => ({ ...c, label: tm(`cities.${c.id}`) }))} />
-                <p className="mt-4 text-center text-sm text-white/65">{tm('lead')}</p>
-              </div>
-            </div>
-          )}
+          <ProjectsByArea items={items} areas={areas} stage={t('statuses.design')} />
         </div>
       </section>
+
+      <CtaBand title={t('cta.title')} body={t('cta.body')} cta={tc('ctaStart')} href="/start" trackProps={{ placement: 'projects_page' }} />
+
+      <JsonLd
+        data={itemListJsonLd(
+          projects.map((p) => ({
+            name: p.title[locale],
+            url: localizedUrl(locale, `/designs/${p.slug}`),
+            image: `${siteUrl}${p.cover.src}`,
+          })),
+        )}
+      />
     </>
   );
 }

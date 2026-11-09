@@ -7,7 +7,7 @@ import { pad2 } from '@/lib/utils';
 import { commissionPhrase } from '@/lib/commission';
 import { PageHero } from '@/components/ui/PageHero';
 import { Section, SectionHeading, Eyebrow } from '@/components/ui/Section';
-import { Media } from '@/components/ui/Media';
+import { ProjectImage } from '@/components/portfolio/ProjectImage';
 import { ButtonLink } from '@/components/ui/Button';
 import { VideoButton } from '@/components/ui/VideoButton';
 import { DirIcon } from '@/components/ui/DirIcon';
@@ -16,7 +16,7 @@ import { CtaBand } from '@/components/ui/CtaBand';
 import { Accordion } from '@/components/ui/Accordion';
 import { TrustRow } from '@/components/ui/TrustRow';
 import { Reveal, RevealItem } from '@/components/motion/Reveal';
-import { personaCardSlot } from './Personas';
+import { personaShowcase, showcaseAlt } from '@/content/showcase';
 import { InterestFormLazy } from '@/components/ui/LazyForms';
 
 export const personaMetaPage: Record<Persona, MetaPage> = {
@@ -45,6 +45,7 @@ export async function PersonaPage({ persona, locale }: { persona: Persona; local
   const isOwner = persona === 'owner';
   const ctaEvent = isOwner ? 'cta_start_project' : 'cta_register_persona';
   const page = personaMetaPage[persona];
+  const showcase = personaShowcase[persona];
 
   const faq = faqKeys.map((k) => ({ id: k, q: t(`faq.${k}.q`), a: t(`faq.${k}.a`, { commission }) }));
 
@@ -58,7 +59,19 @@ export async function PersonaPage({ persona, locale }: { persona: Persona; local
         lead={t('lead')}
         aside={
           <div className="relative">
-            <Media slot={personaCardSlot[persona]} alt={t('imageAlt')} priority className="rounded-xl border border-white/10" sizes="(min-width:1024px) 40vw, 100vw" />
+            <div className="relative aspect-[4/3] overflow-hidden rounded-xl border border-white/10 bg-navy-900">
+              <ProjectImage
+                image={showcase.image}
+                maxWidth={1440}
+                alt={showcaseAlt(showcase, locale)}
+                fill
+                priority
+                sizes="(min-width:1024px) 40vw, 100vw"
+                placeholder="blur"
+                blurDataURL={showcase.image.blur}
+                className="object-cover"
+              />
+            </div>
             <div aria-hidden="true" className="absolute -bottom-3 -end-3 -z-10 h-full w-full rounded-xl border border-gold-500/30" />
           </div>
         }

@@ -78,29 +78,6 @@ export const sampleTestimonials: Testimonial[] = [
   },
 ];
 
-export type ProjectStatus = 'design' | 'tender' | 'construction' | 'completed';
-export const projectStatuses: ProjectStatus[] = ['design', 'tender', 'construction', 'completed'];
-
-export interface SampleProject {
-  sample: true;
-  id: string;
-  name: Bilingual;
-  municipality: 'alRayyan' | 'doha' | 'alWakrah' | 'ummSalal' | 'alKhor' | 'alDaayen' | 'alShamal' | 'alShahaniya';
-  area: number;
-  status: ProjectStatus;
-  lat: number;
-  lng: number;
-}
-
-export const sampleProjects: SampleProject[] = [
-  { sample: true, id: 'p1', name: { ar: 'فيلا سكنية بقرض الإسكان', en: 'Housing-loan villa' }, municipality: 'alRayyan', area: 620, status: 'construction', lat: 25.29, lng: 51.42 },
-  { sample: true, id: 'p2', name: { ar: 'فيلا بطابقين وملحق', en: 'Two-storey villa with annex' }, municipality: 'doha', area: 540, status: 'tender', lat: 25.31, lng: 51.5 },
-  { sample: true, id: 'p3', name: { ar: 'فيلا حديثة بمجلس خارجي', en: 'Modern villa with outdoor majlis' }, municipality: 'alWakrah', area: 700, status: 'design', lat: 25.17, lng: 51.6 },
-  { sample: true, id: 'p4', name: { ar: 'ترميم وإضافة طابق', en: 'Renovation and added floor' }, municipality: 'alDaayen', area: 450, status: 'completed', lat: 25.42, lng: 51.5 },
-  { sample: true, id: 'p5', name: { ar: 'فيلا بطراز كلاسيكي', en: 'Classic villa' }, municipality: 'alKhor', area: 800, status: 'tender', lat: 25.68, lng: 51.5 },
-  { sample: true, id: 'p6', name: { ar: 'مبنى تجاري صغير', en: 'Small commercial building' }, municipality: 'ummSalal', area: 900, status: 'design', lat: 25.41, lng: 51.4 },
-];
-
 export const sampleMaterials: MaterialsBulletin = {
   sample: true,
   updatedAt: '2026-09-28',
